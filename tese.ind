@@ -1,0 +1,76 @@
+\begin{theindex}
+{\bfseries B}\nopagebreak
+
+  \item biblatex, \hyperpage{16}
+  \item bibtex, \hyperpage{15}
+
+  \indexspace
+{\bfseries C}\nopagebreak
+
+  \item Captions, \hyperindexformat{\see{Legendas}}{x}
+  \item Código-fonte, \hyperindexformat{\see{Floats}}{x}
+
+  \indexspace
+{\bfseries E}\nopagebreak
+
+  \item Equações, \hyperindexformat{\see{Modo Matemático}}{x}
+
+  \indexspace
+{\bfseries F}\nopagebreak
+
+  \item Figuras, \hyperindexformat{\see{Floats}}{x}
+  \item Floats
+    \subitem Algoritmo, \hyperindexformat{\see{Floats, Ordem}}{x}
+  \item Fórmulas, \hyperindexformat{\see{Modo Matemático}}{x}
+
+  \indexspace
+{\bfseries I}\nopagebreak
+
+  \item Inglês, \hyperindexformat{\see{Língua estrangeira}}{x}
+
+  \indexspace
+{\bfseries L}\nopagebreak
+
+  \item Legendas, \hyperpage{16}
+
+  \indexspace
+{\bfseries M}\nopagebreak
+
+  \item Mendeley, \hyperpage{16}
+
+  \indexspace
+{\bfseries P}\nopagebreak
+
+  \item Palavras estrangeiras, 
+		\hyperindexformat{\see{Língua estrangeira}}{x}
+
+  \indexspace
+{\bfseries R}\nopagebreak
+
+  \item Rodapé, notas, \hyperindexformat{\see{Notas de rodapé}}{x}
+
+  \indexspace
+{\bfseries S}\nopagebreak
+
+  \item Subcaptions, \hyperindexformat{\see{Subfiguras}}{x}
+  \item Sublegendas, \hyperindexformat{\see{Subfiguras}}{x}
+
+  \indexspace
+{\bfseries T}\nopagebreak
+
+  \item Tabelas, \hyperindexformat{\see{Floats}}{x}
+
+  \indexspace
+{\bfseries V}\nopagebreak
+
+  \item Versão corrigida, 
+		\hyperindexformat{\see{Tese/Dissertação, versões}}{x}
+  \item Versão original, 
+		\hyperindexformat{\see{Tese/Dissertação, versões}}{x}
+
+  \indexspace
+{\bfseries Z}\nopagebreak
+
+  \item Zotero, \hyperpage{16}
+
+\end{theindex}

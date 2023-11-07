@@ -1,0 +1,1343 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Abbagnano2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=243d6d396165127362076425ae49f406}{%
+           family={Abbagnano},
+           familyi={A\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{243d6d396165127362076425ae49f406}
+      \strng{fullhash}{243d6d396165127362076425ae49f406}
+      \strng{bibnamehash}{243d6d396165127362076425ae49f406}
+      \strng{authorbibnamehash}{243d6d396165127362076425ae49f406}
+      \strng{authornamehash}{243d6d396165127362076425ae49f406}
+      \strng{authorfullhash}{243d6d396165127362076425ae49f406}
+      \field{labelalpha}{Abb12}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Dicionário de filosofia}
+      \field{year}{2012}
+    \endentry
+    \entry{mec:1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3078a91dfa12606678dec6b1580a4fa0}{%
+           family={Acesso\bibnamedelimb ao\bibnamedelimb Ensino\bibnamedelima Superior},
+           familyi={A\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Portal\bibnamedelima Único},
+           giveni={P\bibinitperiod\bibinitdelim Ú\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=0be948e8bd02c8999d52a23209e34a47}{%
+           family={MEC},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0be948e8bd02c8999d52a23209e34a47}
+      \strng{fullhash}{3078a91dfa12606678dec6b1580a4fa0}
+      \strng{bibnamehash}{0be948e8bd02c8999d52a23209e34a47}
+      \strng{authorbibnamehash}{3078a91dfa12606678dec6b1580a4fa0}
+      \strng{authornamehash}{3078a91dfa12606678dec6b1580a4fa0}
+      \strng{authorfullhash}{3078a91dfa12606678dec6b1580a4fa0}
+      \strng{shortauthorbibnamehash}{0be948e8bd02c8999d52a23209e34a47}
+      \strng{shortauthornamehash}{0be948e8bd02c8999d52a23209e34a47}
+      \strng{shortauthorfullhash}{0be948e8bd02c8999d52a23209e34a47}
+      \field{labelalpha}{MEC23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{SISU}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://acessounico.mec.gov.br/sisu
+      \endverb
+      \verb{url}
+      \verb https://acessounico.mec.gov.br/sisu
+      \endverb
+    \endentry
+    \entry{AkosahTwumasi2018}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f3776a1b1e36725badefe80a645cca33}{%
+           family={Akosah-Twumasi},
+           familyi={A\bibinithyphendelim T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=570808107ff5c295d928d6dab31edc56}{%
+           family={Emeto},
+           familyi={E\bibinitperiod},
+           given={Theophilus\bibnamedelima I.},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e33286eb6d0e4ec2c1427e9396b06293}{%
+           family={Lindsay},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c9506cd36c67d04948bb9fd5938dfdd}{%
+           family={Tsey},
+           familyi={T\bibinitperiod},
+           given={Komla},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c040fd523078ae983b75edda7c538b5c}{%
+           family={Malau-Aduli},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={Bunmi\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media {SA}}%
+      }
+      \strng{namehash}{3a57a7c3e1f2615b8064f421c4e8ee5a}
+      \strng{fullhash}{a065c0b1544aa65f0d741186048f6a31}
+      \strng{bibnamehash}{a065c0b1544aa65f0d741186048f6a31}
+      \strng{authorbibnamehash}{a065c0b1544aa65f0d741186048f6a31}
+      \strng{authornamehash}{3a57a7c3e1f2615b8064f421c4e8ee5a}
+      \strng{authorfullhash}{a065c0b1544aa65f0d741186048f6a31}
+      \field{labelalpha}{Ako+18}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Education}
+      \field{month}{7}
+      \field{title}{A Systematic Review of Factors That Influence Youths Career Choices{—}the Role of Culture}
+      \field{volume}{3}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.3389/feduc.2018.00058
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3389/feduc.2018.00058
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3389/feduc.2018.00058
+      \endverb
+    \endentry
+    \entry{Bjorkenstam993}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=acccbc1bbcf2cd131ac71df93d055fab}{%
+           family={Björkenstam},
+           familyi={B\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce332b4e6b233515651bbba5ee9a2014}{%
+           family={Weitoft},
+           familyi={W\bibinitperiod},
+           given={Gunilla\bibnamedelima Ringbäck},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9218d9ea0889bc87b381f3321bee41c1}{%
+           family={Hjern},
+           familyi={H\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5491f31a371ebf3980d73423f5fb259b}{%
+           family={Nordström},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cac72ecabac11b89f8779cc65ca28ba6}{%
+           family={Hallqvist},
+           familyi={H\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b011a63d0bd5000ed44654bec31880d1}{%
+           family={Ljung},
+           familyi={L\bibinitperiod},
+           given={Rickard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BMJ Publishing Group Ltd}%
+      }
+      \strng{namehash}{40d94a022e4fc0d3f5a4c52d82128d61}
+      \strng{fullhash}{00568a17d67ba2aeba123b9bcc03edd2}
+      \strng{bibnamehash}{40d94a022e4fc0d3f5a4c52d82128d61}
+      \strng{authorbibnamehash}{40d94a022e4fc0d3f5a4c52d82128d61}
+      \strng{authornamehash}{40d94a022e4fc0d3f5a4c52d82128d61}
+      \strng{authorfullhash}{00568a17d67ba2aeba123b9bcc03edd2}
+      \field{labelalpha}{Bjö+11}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0143-005X}
+      \field{journaltitle}{Journal of Epidemiology \& Community Health}
+      \field{number}{11}
+      \field{title}{School grades, parental education and suicide{—}a national register-based cohort study}
+      \field{volume}{65}
+      \field{year}{2011}
+      \field{pages}{993\bibrangedash 998}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1136/jech.2010.117226
+      \endverb
+      \verb{eprint}
+      \verb https://jech.bmj.com/content/65/11/993.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://jech.bmj.com/content/65/11/993
+      \endverb
+      \verb{url}
+      \verb https://jech.bmj.com/content/65/11/993
+      \endverb
+    \endentry
+    \entry{Borchert2001}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f8c64f39f91187f5c64cf8063daa9e8}{%
+           family={Borchert},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \strng{fullhash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \strng{bibnamehash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \strng{authorbibnamehash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \strng{authornamehash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \strng{authorfullhash}{6f8c64f39f91187f5c64cf8063daa9e8}
+      \field{labelalpha}{Bor01}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Career choice factors}
+      \field{month}{11}
+      \field{title}{Career choice factors of high school students}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://minds.wisconsin.edu/bitstream/handle/1793/40311/2002borchertm.pdf?sequence=1
+      \endverb
+      \verb{url}
+      \verb https://minds.wisconsin.edu/bitstream/handle/1793/40311/2002borchertm.pdf?sequence=1
+      \endverb
+    \endentry
+    \entry{Brene2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7515c80a18a7b843295f31573f719a77}{%
+           family={Brenøe},
+           familyi={B\bibinitperiod},
+           given={Anne\bibnamedelima Ardila},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ed69c284c555d965fb68d911859c42b}{%
+           family={Zölitz},
+           familyi={Z\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{744fd13e8dcc20f63888beea14e4b31c}
+      \strng{fullhash}{744fd13e8dcc20f63888beea14e4b31c}
+      \strng{bibnamehash}{744fd13e8dcc20f63888beea14e4b31c}
+      \strng{authorbibnamehash}{744fd13e8dcc20f63888beea14e4b31c}
+      \strng{authornamehash}{744fd13e8dcc20f63888beea14e4b31c}
+      \strng{authorfullhash}{744fd13e8dcc20f63888beea14e4b31c}
+      \field{labelalpha}{BZ20}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Labor Economics}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Exposure to More Female Peers Widens the Gender Gap in {STEM} Participation}
+      \field{volume}{38}
+      \field{year}{2020}
+      \field{pages}{1009\bibrangedash 1054}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1086/706646
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1086/706646
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086/706646
+      \endverb
+    \endentry
+    \entry{Cabrera2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=60fff916de2f3d1b5b5f446307963409}{%
+           family={Cabrera},
+           familyi={C\bibinitperiod},
+           given={Alberto\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a372c4f5ac7b39a7aa8e9c79338559c5}{%
+           family={Nasa},
+           familyi={N\bibinitperiod},
+           given={Steven\bibnamedelimb M.\bibnamedelimi La},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{81b4f3b56fe13a4983d11be64208858b}
+      \strng{fullhash}{81b4f3b56fe13a4983d11be64208858b}
+      \strng{bibnamehash}{81b4f3b56fe13a4983d11be64208858b}
+      \strng{authorbibnamehash}{81b4f3b56fe13a4983d11be64208858b}
+      \strng{authornamehash}{81b4f3b56fe13a4983d11be64208858b}
+      \strng{authorfullhash}{81b4f3b56fe13a4983d11be64208858b}
+      \field{labelalpha}{CN00}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Directions for Institutional Research}
+      \field{number}{107}
+      \field{title}{Understanding the College-Choice Process}
+      \field{volume}{2000}
+      \field{year}{2000}
+      \field{pages}{5\bibrangedash 22}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/ir.10701
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/ir.10701
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/ir.10701
+      \endverb
+    \endentry
+    \entry{Caruana2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bf5653cdfc3f4faf8e73f5d219e7db21}{%
+           family={Caruana},
+           familyi={C\bibinitperiod},
+           given={Edward\bibnamedelima Joseph},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=551977718ff47e01d9406c9d4dcd6269}{%
+           family={Roman},
+           familyi={R\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=defaad39a1d702e3ded2a896fb080c82}{%
+           family={Hernández-Sánchez},
+           familyi={H\bibinithyphendelim S\bibinitperiod},
+           given={Jules},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6a74247eeb2f6ac56831bb27127cef4}{%
+           family={Solli},
+           familyi={S\bibinitperiod},
+           given={Piergiorgio},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{194b6b7b6182cc0f3804fa1df4f8467a}
+      \strng{fullhash}{918c4ad7158d8c1b8f8518f2afcf0199}
+      \strng{bibnamehash}{918c4ad7158d8c1b8f8518f2afcf0199}
+      \strng{authorbibnamehash}{918c4ad7158d8c1b8f8518f2afcf0199}
+      \strng{authornamehash}{194b6b7b6182cc0f3804fa1df4f8467a}
+      \strng{authorfullhash}{918c4ad7158d8c1b8f8518f2afcf0199}
+      \field{labelalpha}{Car+15}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2077-6624}
+      \field{journaltitle}{Journal of Thoracic Disease}
+      \field{number}{11}
+      \field{title}{Longitudinal studies}
+      \field{volume}{7}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://jtd.amegroups.org/article/view/5822
+      \endverb
+      \verb{url}
+      \verb https://jtd.amegroups.org/article/view/5822
+      \endverb
+    \endentry
+    \entry{Ensminger1992}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df4307352f788a0fe7cee5eb1b2fa0e7}{%
+           family={Ensminger},
+           familyi={E\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fe2810f32268d6f8393f9ca620b41f2}{%
+           family={Slusarcick},
+           familyi={S\bibinitperiod},
+           given={Anita\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{d6b6b58486ab5b0eff882630c5b38515}
+      \strng{fullhash}{d6b6b58486ab5b0eff882630c5b38515}
+      \strng{bibnamehash}{d6b6b58486ab5b0eff882630c5b38515}
+      \strng{authorbibnamehash}{d6b6b58486ab5b0eff882630c5b38515}
+      \strng{authornamehash}{d6b6b58486ab5b0eff882630c5b38515}
+      \strng{authorfullhash}{d6b6b58486ab5b0eff882630c5b38515}
+      \field{labelalpha}{ES92}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sociology of Education}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Paths to High School Graduation or Dropout: A Longitudinal Study of a First-Grade Cohort}
+      \field{volume}{65}
+      \field{year}{1992}
+      \field{pages}{95}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2112677
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2307%2F2112677
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2307%2F2112677
+      \endverb
+    \endentry
+    \entry{inep:2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fadc13845be9016d06f204354bbf1cff}{%
+           family={Estudos\bibnamedelimb e\bibnamedelimb Pesquisas\bibnamedelimb Educacionais\bibnamedelimb Anísio\bibnamedelima Teixeira},
+           familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Instituto\bibnamedelima Nacional},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=37d055a823db76a765603a2cc3124359}{%
+           family={Inep},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{37d055a823db76a765603a2cc3124359}
+      \strng{fullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{bibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{authorbibnamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authornamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authorfullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
+      \field{extraname}{1}
+      \field{labelalpha}{Ine23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{Enem}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
+      \endverb
+    \endentry
+    \entry{inep:1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fadc13845be9016d06f204354bbf1cff}{%
+           family={Estudos\bibnamedelimb e\bibnamedelimb Pesquisas\bibnamedelimb Educacionais\bibnamedelimb Anísio\bibnamedelima Teixeira},
+           familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Instituto\bibnamedelima Nacional},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=37d055a823db76a765603a2cc3124359}{%
+           family={Inep},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{37d055a823db76a765603a2cc3124359}
+      \strng{fullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{bibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{authorbibnamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authornamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authorfullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
+      \field{extraname}{2}
+      \field{labelalpha}{Ine23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{Exame Nacional do Ensino Médio (Enem)}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem
+      \endverb
+    \endentry
+    \entry{inep:3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fadc13845be9016d06f204354bbf1cff}{%
+           family={Estudos\bibnamedelimb e\bibnamedelimb Pesquisas\bibnamedelimb Educacionais\bibnamedelimb Anísio\bibnamedelima Teixeira},
+           familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Instituto\bibnamedelima Nacional},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=37d055a823db76a765603a2cc3124359}{%
+           family={Inep},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{37d055a823db76a765603a2cc3124359}
+      \strng{fullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{bibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{authorbibnamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authornamehash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{authorfullhash}{fadc13845be9016d06f204354bbf1cff}
+      \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
+      \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
+      \field{extraname}{3}
+      \field{labelalpha}{Ine23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{Tratamento de Dados Pessoais}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais
+      \endverb
+    \endentry
+    \entry{Gati2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=585729096cb5e8192a03d0f51647d907}{%
+           family={Gati},
+           familyi={G\bibinitperiod},
+           given={Itamar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6ac48c70114559a13c522e7a2748cc3}{%
+           family={Saka},
+           familyi={S\bibinitperiod},
+           given={Noa},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{3f882c3e04b29a38e486277b1279853b}
+      \strng{fullhash}{3f882c3e04b29a38e486277b1279853b}
+      \strng{bibnamehash}{3f882c3e04b29a38e486277b1279853b}
+      \strng{authorbibnamehash}{3f882c3e04b29a38e486277b1279853b}
+      \strng{authornamehash}{3f882c3e04b29a38e486277b1279853b}
+      \strng{authorfullhash}{3f882c3e04b29a38e486277b1279853b}
+      \field{labelalpha}{GS01}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Counseling \& Development}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{High School Students' Career-Related Decision-Making Difficulties}
+      \field{volume}{79}
+      \field{year}{2001}
+      \field{pages}{331\bibrangedash 340}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1002/j.1556-6676.2001.tb01978.x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/j.1556-6676.2001.tb01978.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/j.1556-6676.2001.tb01978.x
+      \endverb
+    \endentry
+    \entry{Hoxby-2000}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06cd1bd319102890ef85091bca46c6fb}{%
+           family={Hoxby},
+           familyi={H\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{06cd1bd319102890ef85091bca46c6fb}
+      \strng{fullhash}{06cd1bd319102890ef85091bca46c6fb}
+      \strng{bibnamehash}{06cd1bd319102890ef85091bca46c6fb}
+      \strng{authorbibnamehash}{06cd1bd319102890ef85091bca46c6fb}
+      \strng{authornamehash}{06cd1bd319102890ef85091bca46c6fb}
+      \strng{authorfullhash}{06cd1bd319102890ef85091bca46c6fb}
+      \field{labelalpha}{Hox00}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Peer Effects in the Classroom: Learning from Gender and Race Variation}
+      \field{type}{techreport}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.3386/w7867
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3386%2Fw7867
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3386%2Fw7867
+      \endverb
+    \endentry
+    \entry{Lavy2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c0b275458848c41e8da821625f9a27c1}{%
+           family={Lavy},
+           familyi={L\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b02194b0a8b3f3159ecf93edd23c303}{%
+           family={Schlosser},
+           familyi={S\bibinitperiod},
+           given={Analía},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{e02590991cfc154e5d0f9efb540a89fc}
+      \strng{fullhash}{e02590991cfc154e5d0f9efb540a89fc}
+      \strng{bibnamehash}{e02590991cfc154e5d0f9efb540a89fc}
+      \strng{authorbibnamehash}{e02590991cfc154e5d0f9efb540a89fc}
+      \strng{authornamehash}{e02590991cfc154e5d0f9efb540a89fc}
+      \strng{authorfullhash}{e02590991cfc154e5d0f9efb540a89fc}
+      \field{labelalpha}{LS11}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Mechanisms and Impacts of Gender Peer Effects at School}
+      \field{volume}{3}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1257/app.3.2.1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257/app.3.2.1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257/app.3.2.1
+      \endverb
+    \endentry
+    \entry{Manski1993}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af7d401f5054eb76507756b744b21667}{%
+           family={Manski},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, Review of Economic Studies, Ltd.]}%
+      }
+      \strng{namehash}{af7d401f5054eb76507756b744b21667}
+      \strng{fullhash}{af7d401f5054eb76507756b744b21667}
+      \strng{bibnamehash}{af7d401f5054eb76507756b744b21667}
+      \strng{authorbibnamehash}{af7d401f5054eb76507756b744b21667}
+      \strng{authornamehash}{af7d401f5054eb76507756b744b21667}
+      \strng{authorfullhash}{af7d401f5054eb76507756b744b21667}
+      \field{labelalpha}{Man93}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00346527, 1467937X}
+      \field{journaltitle}{The Review of Economic Studies}
+      \field{number}{3}
+      \field{title}{Identification of Endogenous Social Effects: The Reflection Problem}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{60}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{531\bibrangedash 542}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2298123
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2298123
+      \endverb
+    \endentry
+    \entry{Meister1991}{incollection}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=a71b4895295bfc41433eebd2fb4ad592}{%
+           family={Meister},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a71b4895295bfc41433eebd2fb4ad592}
+      \strng{fullhash}{a71b4895295bfc41433eebd2fb4ad592}
+      \strng{bibnamehash}{a71b4895295bfc41433eebd2fb4ad592}
+      \strng{editorbibnamehash}{a71b4895295bfc41433eebd2fb4ad592}
+      \strng{editornamehash}{a71b4895295bfc41433eebd2fb4ad592}
+      \strng{editorfullhash}{a71b4895295bfc41433eebd2fb4ad592}
+      \field{labelalpha}{Mei91}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Psychology of System Design}
+      \field{issn}{0921-2647}
+      \field{series}{Advances in Human Factors/Ergonomics}
+      \field{title}{CHAPTER 6 - Idiosyncratic Variables}
+      \field{volume}{17}
+      \field{year}{1991}
+      \field{pages}{245\bibrangedash 265}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-444-88378-0.50011-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780444883780500114
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780444883780500114
+      \endverb
+    \endentry
+    \entry{Sacerdote2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b63a3bb309e0eae784951d5611ff7224}{%
+           family={Sacerdote},
+           familyi={S\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{b63a3bb309e0eae784951d5611ff7224}
+      \strng{fullhash}{b63a3bb309e0eae784951d5611ff7224}
+      \strng{bibnamehash}{b63a3bb309e0eae784951d5611ff7224}
+      \strng{authorbibnamehash}{b63a3bb309e0eae784951d5611ff7224}
+      \strng{authornamehash}{b63a3bb309e0eae784951d5611ff7224}
+      \strng{authorfullhash}{b63a3bb309e0eae784951d5611ff7224}
+      \field{labelalpha}{Sac14}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Economics}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Experimental and Quasi-Experimental Analysis of Peer Effects: Two Steps Forward?}
+      \field{volume}{6}
+      \field{year}{2014}
+      \field{pages}{253\bibrangedash 272}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev-economics-071813-104217
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev-economics-071813-104217
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev-economics-071813-104217
+      \endverb
+    \endentry
+    \entry{Schneeweis2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c6f7bb6b14d4e9c2ee1658a656e4c2d}{%
+           family={Schneeweis},
+           familyi={S\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aad021431be6f6cd63276a140991f9e5}{%
+           family={Zweimüller},
+           familyi={Z\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{47f04015789bc24ddad9303d9fcf118f}
+      \strng{fullhash}{47f04015789bc24ddad9303d9fcf118f}
+      \strng{bibnamehash}{47f04015789bc24ddad9303d9fcf118f}
+      \strng{authorbibnamehash}{47f04015789bc24ddad9303d9fcf118f}
+      \strng{authornamehash}{47f04015789bc24ddad9303d9fcf118f}
+      \strng{authorfullhash}{47f04015789bc24ddad9303d9fcf118f}
+      \field{labelalpha}{SZ12}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economics of Education Review}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Girls, girls, girls: Gender composition and female school choice}
+      \field{volume}{31}
+      \field{year}{2012}
+      \field{pages}{482\bibrangedash 500}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.econedurev.2011.11.002
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.econedurev.2011.11.002
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.econedurev.2011.11.002
+      \endverb
+    \endentry
+    \entry{Schne2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ecc2388a39326c43f2e3d9af91b87f16}{%
+           family={Schøne},
+           familyi={S\bibinitperiod},
+           given={Pål},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e32684d163e3218f0f67d13b7b2fc981}{%
+           family={Simson},
+           familyi={S\bibinitperiod},
+           given={Kristine},
+           giveni={K\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=4c56468d062f99b6b290ca0343625750}{%
+           family={Strøm},
+           familyi={S\bibinitperiod},
+           given={Marte},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{c0d698489ed104d139889a877adcd4b3}
+      \strng{fullhash}{d5f580027eca64362b804b0ec2f8ad26}
+      \strng{bibnamehash}{d5f580027eca64362b804b0ec2f8ad26}
+      \strng{authorbibnamehash}{d5f580027eca64362b804b0ec2f8ad26}
+      \strng{authornamehash}{c0d698489ed104d139889a877adcd4b3}
+      \strng{authorfullhash}{d5f580027eca64362b804b0ec2f8ad26}
+      \field{labelalpha}{SSS19}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Empirical Economics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Peer gender and educational choices}
+      \field{volume}{59}
+      \field{year}{2019}
+      \field{pages}{1763\bibrangedash 1797}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/s00181-019-01697-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00181-019-01697-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00181-019-01697-2
+      \endverb
+    \endentry
+    \entry{Kazi2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9edd56de5e4ed8f7648a6aab7f35f3fa}{%
+           family={Shahid\bibnamedelima Kazi},
+           familyi={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f5d694059572163cf189b3c8d10ae7e}{%
+           family={Akhlaq},
+           familyi={A\bibinitperiod},
+           given={Abeeda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \strng{fullhash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \strng{bibnamehash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \strng{authorbibnamehash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \strng{authornamehash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \strng{authorfullhash}{343e2bdacca0096ef0ded403ce79fa7f}
+      \field{labelalpha}{SA17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Research and Reflections in Education}
+      \field{month}{12}
+      \field{title}{Factors Affecting Students' Career Choice}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{187\bibrangedash 196}
+      \range{pages}{10}
+    \endentry
+    \entry{Borges2021}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b16d8226f3eccd117f3d429f02ab3327}{%
+           family={Silva\bibnamedelima Borges},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Bruna\bibnamedelima Pugialli},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade de Sao Paulo, Agencia {USP} de Gestao da Informacao Academica ({AGUIA})}%
+      }
+      \strng{namehash}{b16d8226f3eccd117f3d429f02ab3327}
+      \strng{fullhash}{b16d8226f3eccd117f3d429f02ab3327}
+      \strng{bibnamehash}{b16d8226f3eccd117f3d429f02ab3327}
+      \strng{authorbibnamehash}{b16d8226f3eccd117f3d429f02ab3327}
+      \strng{authornamehash}{b16d8226f3eccd117f3d429f02ab3327}
+      \strng{authorfullhash}{b16d8226f3eccd117f3d429f02ab3327}
+      \field{labelalpha}{Sil21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gender in higher education}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.11606/t.12.2021.tde-27052021-215611
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.11606/t.12.2021.tde-27052021-215611
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.11606/t.12.2021.tde-27052021-215611
+      \endverb
+    \endentry
+    \entry{Song2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ddd37c2eea6d69aadeb70a7633771a41}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jae\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60f59ad22dfbac40a5a78adea069f77c}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Ovid Technologies (Wolters Kluwer Health)}%
+      }
+      \strng{namehash}{3343beb49ef45b94f97e01cae82185b7}
+      \strng{fullhash}{3343beb49ef45b94f97e01cae82185b7}
+      \strng{bibnamehash}{3343beb49ef45b94f97e01cae82185b7}
+      \strng{authorbibnamehash}{3343beb49ef45b94f97e01cae82185b7}
+      \strng{authornamehash}{3343beb49ef45b94f97e01cae82185b7}
+      \strng{authorfullhash}{3343beb49ef45b94f97e01cae82185b7}
+      \field{labelalpha}{SC10}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plastic and Reconstructive Surgery}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Observational Studies: Cohort and Case-Control Studies}
+      \field{volume}{126}
+      \field{year}{2010}
+      \field{pages}{2234\bibrangedash 2242}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1097/prs.0b013e3181f44abc
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1097%2Fprs.0b013e3181f44abc
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1097%2Fprs.0b013e3181f44abc
+      \endverb
+    \endentry
+    \entry{Tang2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=53e8305282e6db9559a7a26277b4ca8b}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=188e0b0486b277245804f98bce4641f9}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75b4ef3bf53e5d6bd643ddede0b7309d}{%
+           family={Newmeyer},
+           familyi={N\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{SAGE} Publications}%
+      }
+      \strng{namehash}{736244a3dd081454af39eb043d88a767}
+      \strng{fullhash}{2548a2a2ccf6c7ae7eafc836a49af887}
+      \strng{bibnamehash}{2548a2a2ccf6c7ae7eafc836a49af887}
+      \strng{authorbibnamehash}{2548a2a2ccf6c7ae7eafc836a49af887}
+      \strng{authornamehash}{736244a3dd081454af39eb043d88a767}
+      \strng{authorfullhash}{2548a2a2ccf6c7ae7eafc836a49af887}
+      \field{labelalpha}{TPN08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Professional School Counseling}
+      \field{month}{6}
+      \field{number}{5}
+      \field{title}{Factors Influencing High School Students' Career Aspirations}
+      \field{volume}{11}
+      \field{year}{2008}
+      \field{pages}{2156759X0801100}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/2156759x0801100502
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2156759x0801100502
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2156759x0801100502
+      \endverb
+    \endentry
+    \entry{Unesco2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24a0ef0a6269be289db4de9570763de3}{%
+           family={UNESCO},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \strng{namehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{bibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorbibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authornamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhash}{24a0ef0a6269be289db4de9570763de3}
+      \field{labelalpha}{UNE06}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Juventude e contemporaneidade: possibilidades e limites}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000154569
+      \endverb
+      \verb{url}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000154569
+      \endverb
+    \endentry
+    \entry{Venezia2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a280a8861195c0c1288f96cea36ee514}{%
+           family={Venezia},
+           familyi={V\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b68d21f35e2efe6cd672883eacf89743}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University}%
+      }
+      \strng{namehash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \strng{fullhash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \strng{bibnamehash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \strng{authorbibnamehash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \strng{authornamehash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \strng{authorfullhash}{c60d0922df8eb2f7d22e5cf9a22f0147}
+      \field{labelalpha}{VJ13}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10548289, 15501558}
+      \field{journaltitle}{The Future of Children}
+      \field{number}{1}
+      \field{title}{Transitions from High School to College}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{117\bibrangedash 136}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/23409491
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/23409491
+      \endverb
+    \endentry
+    \entry{Zangirolami-Raimundo2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fdf74f71fb8d31be5d36f4a080593f57}{%
+           family={Zangirolami-Raimundo},
+           familyi={Z\bibinithyphendelim R\bibinitperiod},
+           given={Juliana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c9b479a9d1fd8499508df5a506e13d}{%
+           family={Echeimberg},
+           familyi={E\bibinitperiod},
+           given={Jorge\bibnamedelimb De\bibnamedelima Oliveira},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f00bc8d73fb724975cadd6459b46aab}{%
+           family={Leone},
+           familyi={L\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Faculdade de Filosofia e Ciências}%
+      }
+      \strng{namehash}{6b3468a9befa4a5ca2a769464d975d7f}
+      \strng{fullhash}{23093788b3d9afb43150bf317852ea99}
+      \strng{bibnamehash}{23093788b3d9afb43150bf317852ea99}
+      \strng{authorbibnamehash}{23093788b3d9afb43150bf317852ea99}
+      \strng{authornamehash}{6b3468a9befa4a5ca2a769464d975d7f}
+      \strng{authorfullhash}{23093788b3d9afb43150bf317852ea99}
+      \field{labelalpha}{ZEL18}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Human Growth and Development}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{Research methodology topics: Cross-sectional studies}
+      \field{volume}{28}
+      \field{year}{2018}
+      \field{pages}{356\bibrangedash 360}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.7322/jhgd.152198
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.7322%2Fjhgd.152198
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.7322%2Fjhgd.152198
+      \endverb
+    \endentry
+    \entry{Zimmerman2003}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d489d9f0544792d2676beef97950732}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{MIT} Press - Journals}%
+      }
+      \strng{namehash}{2d489d9f0544792d2676beef97950732}
+      \strng{fullhash}{2d489d9f0544792d2676beef97950732}
+      \strng{bibnamehash}{2d489d9f0544792d2676beef97950732}
+      \strng{authorbibnamehash}{2d489d9f0544792d2676beef97950732}
+      \strng{authornamehash}{2d489d9f0544792d2676beef97950732}
+      \strng{authorfullhash}{2d489d9f0544792d2676beef97950732}
+      \field{labelalpha}{Zim03}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Peer Effects in Academic Outcomes: Evidence from a Natural Experiment}
+      \field{volume}{85}
+      \field{year}{2003}
+      \field{pages}{9\bibrangedash 23}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1162/003465303762687677
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/003465303762687677
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/003465303762687677
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

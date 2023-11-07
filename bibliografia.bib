@@ -1,0 +1,645 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% INSERINDO COMENTÁRIOS EM ARQUIVOS .bib %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 1. Como em outros arquivos LaTeX, comentários são iniciados por "%" e,
+%    portanto, é preciso usar "\%" para imprimir o caractere "%". Esquecer
+%    disso pode gerar erros difíceis de encontrar!
+%
+% 2. Não é possível inserir comentários dentro de uma entrada, apenas fora.
+%
+% 3. Não é possível incluir o caractere arroba em um comentário.
+%
+% 4. Se quiser desabilitar temporariamente um campo ("comentar" o campo),
+%    troque seu nome para algum nome inválido, como "author-disable".
+%    Se quiser fazer alguma observação permanente dentro de uma entrada,
+%    você também pode usar algum nome de campo inválido, como "lembrete",
+%    ou usar o campo "annotation", que normalmente é ignorado.
+%
+% 5. Se quiser desabilitar temporariamente uma entrada inteira ("comentar" a
+%    entrada), não basta colocar "%" nas linhas correspondentes por causa do
+%    caractere arroba; também é preciso remover a arroba.
+%
+% 6. Na verdade, as regras não são bem essas, mas segui-las é uma boa ideia:
+%    https://tex.stackexchange.com/a/262282
+
+
+% Esta entrada está comentada, ou seja, não tem efeito: se houvesse uma
+% referência a ela no texto, a referência ficaria inválida. Observe que,
+% para isso, o caractere arroba foi apagado!
+%Book{JW82,
+% author    = {Richard A. Johnson and Dean W. Wichern},
+% title     = {Applied Multivariate Statistical Analysis},
+% publisher = {Prentice-Hall},
+% year      = {1983}
+%}
+
+% Esta entrada não está em uso em tese.tex, apenas em
+% apresentacao.tex, mas isso não é um problema: você pode
+% ter um banco de dados com todos os papers que são de seu
+% interesse e, em um dado texto, citar apenas alguns deles.
+@Manual{CORBA:spec,
+ title       = {{CORBA} v3.0 Specification},
+ author      = {{Object Management Group}},
+ shortauthor = {OMG},
+ month       = Jul,
+ year        = {2002},
+ note        = {OMG Document 02-06-33}
+}
+
+@Book{eco:09,
+ author   = {Umberto Eco},
+ title    = {Como se Faz uma Tese},
+ edition  = 22,
+ publisher= {Perspectiva},
+ note     = {Tradução Gilson Cesar Cardoso de Souza},
+ year     = {2009},
+}
+
+@Book{zobel:04,
+ author   = {Justin Zobel},
+ title    = {Writing for Computer Science: The Art of Effective Communication},
+ publisher= {Springer},
+ edition  = 2,
+ year     = {2004},
+}
+
+@Book{waz:09,
+ author   = {Raul S. Wazlawick},
+ title    = {Metodologia de Pesquisa em Ciência da Computação},
+ publisher= {Campus},
+ edition  = 1,
+ year     = {2009},
+}
+
+@Book{Higham:98,
+ author   = {Nicholas J. Higham},
+ title    = {Handbook of Writing for the Mathematical Sciences},
+ edition  = 2,
+ publisher= {SIAM: Society for Industrial and Applied Mathematics},
+ month    = Aug,
+ year     = {1998},
+}
+
+@book{Knuth:96,
+ author   = {Donald E. Knuth and Tracy Larrabee and Paul M. Roberts},
+ title    = {Mathematical Writing},
+ publisher= {The Mathematical Association of America},
+ month    = Sep,
+ year     = {1996}
+}
+
+@InProceedings{alves03:simi,
+ author   = {Carlos E. R. Alves and Edson N. Cáceres and Frank Dehne and Siang W. Song},
+ title    = {A Parallel Wavefront Algorithm for Efficient Biological Sequence Comparison},
+ booktitle= {ICCSA'03: The 2003 International Conference on Computational Science and its Applications},
+ year     = {2003},
+ pages    = {249-258},
+ month    = May,
+ publisher= {Springer-Verlag}
+}
+
+@Article{MenaChalco08,
+ author   = {Jesús P. Mena-Chalco and Helaine Carrer and Yossi Zana and Roberto M. Cesar-Jr.},
+ title    = {Identification of Protein Coding Regions Using the Modified {G}abor-Wavelet Transform},
+ journal  = {IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+ volume   = {5},
+ pages    = {198-207},
+ year     = {2008},
+}
+
+@Article{floats2014,
+ author    = {Frank Mittelbach},
+ title     = {How to influence the position of float environments like figure and table in {\LaTeX}?},
+ journal   = {{TUGboat}},
+ journalsubtitle = {Communications of the \TeX\ Users Group},
+ volume    = {35},
+ number    = {3},
+ year      = 2014,
+ url       = {tug.org/TUGboat/tb35-3/tb111mitt-float.pdf},
+ urldate   = {2020-01-09},
+ publisher = {\TeX\ {Users} {Group}},
+ address   = {Portland ({OR}), {USA}},
+}
+
+@Techreport{alvisi99:analysisCIC,
+ author      = {Lorenzo Alvisi and Elmootazbellah Elnozahy and Sriram S. Rao and Syed A. Husain and Asanka Del Mel},
+ title       = {An Analysis of Comunication-Induced Checkpointing},
+ institution = {Department of Computer Science, University of Texas at Austin},
+ year        = {1999},
+ number      = {TR-99-01},
+ address     = {Austin, USA}
+}
+
+@Misc{gridftp,
+ author   = {William Allcock},
+ title    = {{GridFTP} Protocol Specification. {Global Grid Forum} Recommendation ({GFD}.20)},
+ year     = {2003}
+}
+
+% A entrada "year" eh usada por bibtex;
+% biblatex pode usar "year" ou "date"
+@Manual{natbib,
+ title       = "Reference sheet for \texttt{natbib} usage",
+ author      = "Patrick W. Daly",
+ year        = {2010},
+ date        = {2010-09-13},
+ urldate     = {2018-12-20},
+ url         = {mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf},
+}
+
+@Manual{biblatex,
+ title       = "The \texttt{biblatex} Package",
+ author      = "Philipp Lehman and Philip Kime and Moritz Wemheuer and Audrey Boruvka and Joseph Wright",
+ year        = 2018,
+ date        = {2018-10-30},
+ urldate     = {2018-12-20},
+ url         = {mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf},
+}
+
+@PhdThesis{garcia01:PhD,
+ author   = {Islene C. Garcia},
+ title    = {Visões Progressivas de Computações Distribuídas},
+ school   = {Instituto de Computação, Universidade de Campinas},
+ address  = {Campinas, Brasil},
+ year     = {2001},
+ month    = Dec
+}
+
+@Conference{bronevetsky02,
+ author     = {Greg Bronevetsky and Daniel Marques and Keshav Pingali and Paul Stodghill},
+ title      = {Automated Application-Level Checkpointing of {MPI} Programs},
+ booktitle  = {PPoPP'03: Proceedings of the 9th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+ year       = {2003},
+ pages      = {84-89},
+ eventdate  = {2003-06-11/2003-06-13},
+ venue      = {San Diego, California}
+}
+
+@InCollection{bobaoglu93:concepts,
+ author   = {Ozalp Babaoglu and Keith Marzullo},
+ title    = {Consistent Global States of Distributed Systems: Fundamental Concepts and Mechanisms},
+ editor   = {Sape Mullender},
+ booktitle= {Distributed Systems},
+ edition  = 2,
+ year     = {1993},
+ pages    = {55-96}
+}
+
+@MastersThesis{schmidt03:MSc,
+ author   = {Rodrigo M. Schmidt},
+ title    = {Coleta de Lixo para Protocolos de \emph{Checkpointing}},
+ school   = {Instituto de Computação, Universidade de Campinas},
+ address  = {Campinas, Brasil},
+ year     = {2003},
+ month    = Oct
+}
+
+@online{fowler04:designDead,
+ author   = {Martin Fowler},
+ title    = {Is Design Dead?},
+ year     = {2004},
+ month    = May,
+ urldate  = {2010-01-30},
+ url      = {martinfowler.com/articles/designDead.html},
+}
+
+@online{FSF:GNU-GPL,
+ author      = {{Free Software Foundation}},
+ shortauthor = {FSF},
+ title       = {{GNU} General Public License},
+ year        = 2007,
+ urldate     = {2010-01-30},
+ url         = {www.gnu.org/copyleft/gpl.html},
+}
+
+@article{alon09:how,
+ author   = {Uri Alon},
+ title    = {How To Choose a Good Scientific Problem},
+ journal  = {Molecular Cell},
+ year     = {2009},
+ volume   = {35},
+ number   = {6},
+ pages    = {726--728},
+ publisher= {Cell Press},
+ month    = sep,
+ doi      = {10.1016/j.molcel.2009.09.013},
+}
+
+@book{tufte01:visualDisplay,
+ author   = {Edward Tufte},
+ title    = {The Visual Display of Quantitative Information},
+ year     = {2001},
+ edition  = 2,
+ publisher= {Graphics Press},
+ month    = may,
+}
+
+@Manual{usp:guidelines,
+ author      = {{Universidade de São Paulo --- Sistema Integrado de Bibliotecas}},
+ shortauthor = {SIBiUSP},
+ title       = {Diretrizes para Apresentação de
+	        Dissertações e Teses da {USP}:
+	        Documento Eletrônico e Impresso},
+ year        = 2009,
+ url         = {www.teses.usp.br/index.php?option=com_content&view=article&id=52&Itemid=67},
+ urldate     = {2017-11-10},
+}
+
+@online{inep:1,
+ author  = {Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira},
+ shortauthor = {Inep},
+ title   = {Exame Nacional do Ensino Médio (Enem)},
+ year    = 2023,
+ url     = {https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem},
+ urldate = {2023-10-13},
+}
+
+@online{inep:2,
+ author  = {Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira},
+ shortauthor = {Inep},
+ title   = {Enem},
+ year    = 2023,
+ url     = {https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem},
+ urldate = {2023-10-13},
+}
+
+@online{inep:3,
+ author  = {Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira},
+ shortauthor = {Inep},
+ title   = {Tratamento de Dados Pessoais},
+ year    = 2023,
+ url     = {https://www.gov.br/inep/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais},
+ urldate = {2023-10-13},
+}
+
+@online{mec:1,
+ author  = {Portal Único de Acesso ao Ensino Superior},
+ shortauthor = {MEC},
+ title   = {SISU},
+ year    = 2023,
+ url     = {https://acessounico.mec.gov.br/sisu},
+ urldate = {2023-10-13},
+}
+
+@online{mec:1,
+ author  = {Ministério da Educação},
+ shortauthor = {MEC},
+ title   = {Portal de Dados Abertos do Ministério da Educação},
+ year    = 2023,
+ url     = {https://dadosabertos.mec.gov.br/},
+ urldate = {2023-10-13},
+}
+
+@article{Garcia2016,
+  doi = {10.1186/s41044-016-0014-0},
+  url = {https://doi.org/10.1186/s41044-016-0014-0},
+  year = {2016},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {1},
+  number = {1},
+  author = {Salvador García and Sergio Ramírez-Gallego and Julián Luengo and José Manuel Benítez and Francisco Herrera},
+  title = {Big data preprocessing: methods and prospects},
+  journal = {Big Data Analytics}
+}
+
+@article{AkosahTwumasi2018,
+  doi = {10.3389/feduc.2018.00058},
+  url = {https://doi.org/10.3389/feduc.2018.00058},
+  year = {2018},
+  month = jul,
+  publisher = {Frontiers Media {SA}},
+  volume = {3},
+  author = {Peter Akosah-Twumasi and Theophilus I. Emeto and Daniel Lindsay and Komla Tsey and Bunmi S. Malau-Aduli},
+  title = {A Systematic Review of Factors That Influence Youths Career Choices{\textemdash}the Role of Culture},
+  journal = {Frontiers in Education}
+}
+
+@article{Kazi2017,
+author = {Shahid Kazi, Asma and Akhlaq, Abeeda},
+year = {2017},
+month = {12},
+pages = {187-196},
+title = {Factors Affecting Students' Career Choice},
+volume = {11},
+journal = {Journal of Research and Reflections in Education}
+}
+
+@BOOK{Unesco2006,
+  title    = "Juventude e contemporaneidade: possibilidades e limites",
+  author   = "UNESCO",
+  year     =  2006,
+  language = "pt",
+  url = "https://unesdoc.unesco.org/ark:/48223/pf0000154569"
+}
+
+@article{Gati2001,
+  doi = {10.1002/j.1556-6676.2001.tb01978.x},
+  url = {https://doi.org/10.1002/j.1556-6676.2001.tb01978.x},
+  year = {2001},
+  month = jul,
+  publisher = {Wiley},
+  volume = {79},
+  number = {3},
+  pages = {331--340},
+  author = {Itamar Gati and Noa Saka},
+  title = {High School Students' Career-Related Decision-Making Difficulties},
+  journal = {Journal of Counseling \& Development}
+}
+
+@article{Sawyer2018,
+  doi = {10.1016/s2352-4642(18)30022-1},
+  url = {https://doi.org/10.1016/s2352-4642(18)30022-1},
+  year = {2018},
+  month = mar,
+  publisher = {Elsevier {BV}},
+  volume = {2},
+  number = {3},
+  pages = {223--228},
+  author = {Susan M Sawyer and Peter S Azzopardi and Dakshitha Wickremarathne and George C Patton},
+  title = {The age of adolescence},
+  journal = {The Lancet Child \& Adolescent Health}
+}
+
+@article{Venezia2013,
+ ISSN = {10548289, 15501558},
+ URL = {http://www.jstor.org/stable/23409491},
+ author = {Andrea Venezia and Laura Jaeger},
+ journal = {The Future of Children},
+ number = {1},
+ pages = {117--136},
+ publisher = {Princeton University},
+ title = {Transitions from High School to College},
+ urldate = {2023-10-20},
+ volume = {23},
+ year = {2013}
+}
+
+@article{Cabrera2000,
+  doi = {10.1002/ir.10701},
+  url = {https://doi.org/10.1002/ir.10701},
+  year = {2000},
+  publisher = {Wiley},
+  volume = {2000},
+  number = {107},
+  pages = {5--22},
+  author = {Alberto F. Cabrera and Steven M. La Nasa},
+  title = {Understanding the College-Choice Process},
+  journal = {New Directions for Institutional Research}
+}
+
+@article{Borchert2001,
+author = {Borchert, Michael},
+year = {2001},
+month = {11},
+pages = {},
+title = {Career choice factors of high school students},
+journal = {Career choice factors},
+url = {https://minds.wisconsin.edu/bitstream/handle/1793/40311/2002borchertm.pdf?sequence=1}
+}
+
+@BOOK{Abbagnano2012,
+  title    = "Dicionário de filosofia",
+  author   = "Abbagnano, Nicola",
+  month    =  {3},
+  year     =  {2012}
+}
+
+
+
+@article{Caruana2015,
+	author = {Edward Joseph Caruana and Marius Roman and Jules Hernández-Sánchez and Piergiorgio Solli},
+	title = {Longitudinal studies},
+	journal = {Journal of Thoracic Disease},
+	volume = {7},
+	number = {11},
+	year = {2015},
+	keywords = {},
+	issn = {2077-6624},	url = {https://jtd.amegroups.org/article/view/5822}
+}
+
+@article{Song2010,
+	doi = {10.1097/prs.0b013e3181f44abc},
+	url = {https://doi.org/10.1097%2Fprs.0b013e3181f44abc},
+	year = 2010,
+	month = {dec},
+	publisher = {Ovid Technologies (Wolters Kluwer Health)},
+	volume = {126},
+	number = {6},
+	pages = {2234--2242},
+	author = {Jae W. Song and Kevin C. Chung},
+	title = {Observational Studies: Cohort and Case-Control Studies},
+	journal = {Plastic and Reconstructive Surgery}
+}
+
+@article{Zangirolami-Raimundo2018,
+	doi = {10.7322/jhgd.152198},
+	url = {https://doi.org/10.7322%2Fjhgd.152198},
+	year = 2018,
+	month = {nov},
+	publisher = {Faculdade de Filosofia e Ciências},
+	volume = {28},
+	number = {3},
+	pages = {356--360},
+	author = {Juliana Zangirolami-Raimundo and Jorge De Oliveira Echeimberg and Claudio Leone},
+	title = {Research methodology topics: Cross-sectional studies},
+	journal = {Journal of Human Growth and Development}
+}
+
+@article {Bjorkenstam993,
+	author = {Charlotte Björkenstam and  Gunilla Ringbäck Weitoft and Anders Hjern and Peter Nordström and Johan Hallqvist and Rickard Ljung},
+	title = {School grades, parental education and suicide{\textemdash}a national register-based cohort study},
+	volume = {65},
+	number = {11},
+	pages = {993--998},
+	year = {2011},
+	doi = {10.1136/jech.2010.117226},
+	publisher = {BMJ Publishing Group Ltd},
+	issn = {0143-005X},
+	URL = {https://jech.bmj.com/content/65/11/993},
+	eprint = {https://jech.bmj.com/content/65/11/993.full.pdf},
+	journal = {Journal of Epidemiology \& Community Health}
+}
+
+@article{Ensminger1992,
+	doi = {10.2307/2112677},
+	url = {https://doi.org/10.2307%2F2112677},
+	year = 1992,
+	month = {apr},
+	publisher = {{JSTOR}},
+	volume = {65},
+	number = {2},
+	pages = {95},
+	author = {Margaret E. Ensminger and Anita L. Slusarcick},
+	title = {Paths to High School Graduation or Dropout: A Longitudinal Study of a First-Grade Cohort},
+	journal = {Sociology of Education}
+}
+
+@incollection{Meister1991,
+title = {CHAPTER 6 - Idiosyncratic Variables},
+editor = {David Meister},
+series = {Advances in Human Factors/Ergonomics},
+publisher = {Elsevier},
+volume = {17},
+pages = {245-265},
+year = {1991},
+booktitle = {Psychology of System Design},
+issn = {0921-2647},
+doi = {https://doi.org/10.1016/B978-0-444-88378-0.50011-4},
+url = {https://www.sciencedirect.com/science/article/pii/B9780444883780500114},
+}
+
+@article{Tang2008,
+  doi = {10.1177/2156759x0801100502},
+  url = {https://doi.org/10.1177/2156759x0801100502},
+  year = {2008},
+  month = jun,
+  publisher = {{SAGE} Publications},
+  volume = {11},
+  number = {5},
+  pages = {2156759X0801100},
+  author = {Mei Tang and Wei Pan and Mark D. Newmeyer},
+  title = {Factors Influencing High School Students' Career Aspirations},
+  journal = {Professional School Counseling}
+}
+
+@article{Manski1993,
+ ISSN = {00346527, 1467937X},
+ URL = {http://www.jstor.org/stable/2298123},
+ author = {Charles F. Manski},
+ journal = {The Review of Economic Studies},
+ number = {3},
+ pages = {531--542},
+ publisher = {[Oxford University Press, Review of Economic Studies, Ltd.]},
+ title = {Identification of Endogenous Social Effects: The Reflection Problem},
+ urldate = {2023-10-24},
+ volume = {60},
+ year = {1993}
+}
+
+@article{Sacerdote2014,
+  doi = {10.1146/annurev-economics-071813-104217},
+  url = {https://doi.org/10.1146/annurev-economics-071813-104217},
+  year = {2014},
+  month = aug,
+  publisher = {Annual Reviews},
+  volume = {6},
+  number = {1},
+  pages = {253--272},
+  author = {Bruce Sacerdote},
+  title = {Experimental and Quasi-Experimental Analysis of Peer Effects: Two Steps Forward?},
+  journal = {Annual Review of Economics}
+}
+
+@article{Zimmerman2003,
+  doi = {10.1162/003465303762687677},
+  url = {https://doi.org/10.1162/003465303762687677},
+  year = {2003},
+  month = feb,
+  publisher = {{MIT} Press - Journals},
+  volume = {85},
+  number = {1},
+  pages = {9--23},
+  author = {David J. Zimmerman},
+  title = {Peer Effects in Academic Outcomes: Evidence from a Natural Experiment},
+  journal = {Review of Economics and Statistics}
+}
+
+@techreport{Hoxby-2000,
+	doi = {10.3386/w7867},
+	url = {https://doi.org/10.3386%2Fw7867},
+	year = 2000,
+	month = {aug},
+	publisher = {National Bureau of Economic Research},
+	author = {Caroline Hoxby},
+	title = {Peer Effects in the Classroom: Learning from Gender and Race Variation}
+}
+
+@article{Schne2019,
+  doi = {10.1007/s00181-019-01697-2},
+  url = {https://doi.org/10.1007/s00181-019-01697-2},
+  year = {2019},
+  month = apr,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {59},
+  number = {4},
+  pages = {1763--1797},
+  author = {Pål Schøne and Kristine von Simson and Marte Strøm},
+  title = {Peer gender and educational choices},
+  journal = {Empirical Economics}
+}
+@article{Lavy2011,
+  doi = {10.1257/app.3.2.1},
+  url = {https://doi.org/10.1257/app.3.2.1},
+  year = {2011},
+  month = apr,
+  publisher = {American Economic Association},
+  volume = {3},
+  number = {2},
+  pages = {1--33},
+  author = {Victor Lavy and Analía Schlosser},
+  title = {Mechanisms and Impacts of Gender Peer Effects at School},
+  journal = {American Economic Journal: Applied Economics}
+}
+
+@article{Schneeweis2012,
+  doi = {10.1016/j.econedurev.2011.11.002},
+  url = {https://doi.org/10.1016/j.econedurev.2011.11.002},
+  year = {2012},
+  month = aug,
+  publisher = {Elsevier {BV}},
+  volume = {31},
+  number = {4},
+  pages = {482--500},
+  author = {Nicole Schneeweis and Martina Zweimüller},
+  title = {Girls,  girls,  girls: Gender composition and female school choice},
+  journal = {Economics of Education Review}
+}
+
+@article{Brene2020,
+  doi = {10.1086/706646},
+  url = {https://doi.org/10.1086/706646},
+  year = {2020},
+  month = oct,
+  publisher = {University of Chicago Press},
+  volume = {38},
+  number = {4},
+  pages = {1009--1054},
+  author = {Anne Ardila Brenøe and Ulf Zölitz},
+  title = {Exposure to More Female Peers Widens the Gender Gap in {STEM} Participation},
+  journal = {Journal of Labor Economics}
+}
+
+@phdthesis{Borges2021,
+  doi = {10.11606/t.12.2021.tde-27052021-215611},
+  url = {https://doi.org/10.11606/t.12.2021.tde-27052021-215611},
+  publisher = {Universidade de Sao Paulo,  Agencia {USP} de Gestao da Informacao Academica ({AGUIA})},
+  author = {Bruna Pugialli da Silva Borges},
+  title = {Gender in higher education},
+  year = {2021}
+}
+
+@book{craftresearch,
+ author    = {Wayne C. Booth and Gregory G. Colomb and Joseph M. Williams},
+ title     = {The Craft of Research},
+ publisher = {The University of Chicago Press},
+ year      = 2008,
+}
+
+@book{dissertjourney,
+ author    = {Carol M. Roberts},
+ title     = {The Dissertation Journey},
+ publisher = {Corwin},
+ year      = 2010,
+ edition   = 2,
+ location  = {Thousand Oaks, CA},
+}
+
+@manual{sbctemplate,
+ author  = {Luciana P. Nedel and Rafael H. Bordini and Flávio Rech Wagner and Jomi F. H\"{u}bner},
+ title   = {Instructions for Authors of {SBC} Conferences Papers and Abstracts},
+ year    = 2017,
+ url     = {www.sbc.org.br/documentos-da-sbc/category/169-templates-para-artigos-e-capitulos-de-livros},
+ urldate = {2018-12-13},
+}

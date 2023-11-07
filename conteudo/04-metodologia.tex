@@ -1,0 +1,71 @@
+%!TeX root=../tese.tex
+%("dica" para o editor de texto: este arquivo é parte de um documento maior)
+% para saber mais: https://tex.stackexchange.com/q/78101/183146
+
+\chapter{Metodologia}
+
+Neste capítulo, . As bases de dados utilizadas estão descritas na Seção \ref{sec:bases}. 
+
+\section{Bases de dados}
+\label{sec:bases}
+Nesta seção, descrevemos as bases de dados utilizadas nesta etapa da pesquisa. Para realizar a análise das escolhas de graduação, utilizamos dados educacionais dos estudantes. Uma das fontes é o Exame Nacional do Ensino Médio (ENEM). Através dele, conseguimos obter informações sobre alunos concludentes e que já concluíram o ensino médio, bem como de suas escolas. A outra fonte utilizada é o Sistema de Seleção Unificada (SISU). Com ela, obtemos informações relativas à inscrição dos alunos em cursos de nível superior, além de detalhes das instituições e cursos ofertados. Uma versão resumida dos dicionários de dados, que explicam as variáveis das bases, está disponível no Apêndice A. 
+
+\subsection{ENEM}
+O Exame Nacional do Ensino Médio (ENEM) é um exame realizado pelo Ministério da Educação cujo objetivo é avaliar o desempenho escolar no final da educação básica \autocite{inep:1}. Desde 2009, ele passou a ser utilizado como mecanismo de ingresso à educação superior, cujas notas podem ser aproveitadas no Sistema de Seleção Unificada (SISU) e Programa Universidade para Todos (ProUni). O exame também possibilita o pleito de certificação do ensino médio. Os participantes realizam provas em quatro áreas de conhecimento: linguagens, ciências humanas, ciências da natureza e matemática. Além disso, eles devem desenvolver um texto dissertativo-argumentativo dada uma situação-problema, conhecido como redação.
+
+Os dados do Exame Nacional do Ensino Médio foram obtidos através do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep). Os dados abertos do Inep incluem os microdados do ENEM, que reúnem um conjunto de informações relativas ao exame. Os microdados são definidos como o menor nível de desagregação de dados recolhidos \autocite{inep:2}, sendo disponibilizados dados dos anos de 1998 a 2022. Nesta etapa preliminar da pesquisa, utilizamos os dados do ano de 2016. Além dos microdados relativos às edições anuais, também são disponibilizados outros arquivos relevantes, como dicionário de dados, documentos técnicos, provas, gabaritos e programa para leitura da base.
+
+Com o passar dos anos, os microdados foram se diferenciando à medida que eram incluídas ou retiradas determinadas variáveis, mas pode-se observar uma estrutura comum entre as edições. Em 2016, os dados estão divididos nas categorias:
+
+\begin{itemize}
+  \item Dados do participante; 
+  \item Dados da escola;
+  \item Dados dos pedidos de atendimento especializado;
+  \item Dados dos pedidos de atendimento específico;
+  \item Dados dos pedidos de recursos especializados e específicos para realização das provas;
+  \item Dados dos pedidos de certificação do ensino médio;
+  \item Dados do local de aplicação da prova;
+  \item Dados da prova objetiva;
+  \item Dados da redação;
+  \item Dados do questionário socioeconômico.
+\end{itemize}
+
+Como parte da política adotada pela Lei Geral de Proteção de Dados Pessoais (LGPD), os dados passam por um tratamento antes de serem publicados \autocite{inep:3}. Isso significa que dados cadastrais e sensíveis, como nome, endereço, RG, etc, não são disponibilizados ou passam por uma máscara para anonimizá-lo, como é o caso do número de inscrição. Os arquivos de microdados são disponibilizados no formato .csv (valores separados por vírgulas). Os dados de 2016 constituem-se por apenas um  com uma tabela. Cada linha da tabela representa a inscrição de um candidato de forma individual, bem como as colunas são as variáveis definidas anteriormente, que caracterizam o participante. 
+
+\subsection{SISU}
+O Sistema de Seleção Unificada (SISU) é um sistema eletrônico do Ministério da Educação, no qual instituições públicas de ensino superior de todo o Brasil oferecem vagas para estudantes participantes do Exame Nacional do Ensino Médio \autocite{mec:1}. Durante o período da oferta de vagas, os alunos são ranqueados de acordo com as notas no exame e, aqueles com melhor classificação, são selecionados. Em cada processo seletivo do SISU, que tem duas aberturas anuais, o candidato pode escolher até duas opções de curso. É possível verificar informações sobre as vagas oferecidas, como cursos, instituições e localizações, turnos e modalidade de concorrência.
+
+No ato da inscrição, o sistema recupera as notas da edição mais recente anterior do ENEM. Por exemplo, o SISU 2023 leva em consideração a edição do ENEM 2022. Apenas aqueles que obtiveram nota superior a zero na redação e não têm o status de treineiro no ENEM podem se inscrever. O processo é totalmente digital e gratuito, sendo o estudante o responsável por acompanhar o status da sua inscrição durante o mesmo. Quando não há a aprovação em uma das duas opções selecionadas, conhecido por chamada regular, ainda é possível a disputa por vaga através da lista de espera.
+
+Os dados do Sistema de Seleção Unificada foram obtidos através do \href{https://dadosabertos.mec.gov.br/}{Portal de Dados Abertos do MEC}. O portal é uma plataforma que disponibiliza dados e informações públicas do Ministério da Educação, que podem ser usadas no desenvolvimento de aplicativos e ações. Além do SISU, é possível observar conjuntos de dados de outros programas como FIES, ProUni e PRONATEC. São disponibilizados dados relacionados às inscrições realizadas nos processos seletivos dos anos de 2017 a 2022.  Nesta etapa preliminar da pesquisa, utilizamos os dados do ano de 2017.
+
+São fornecidas informações detalhadas sobre o participante, como dados pessoais e desempenho nas provas do ENEM, a vaga para qual ele se inscreve, além da classificação e aprovação. Diferente do ENEM, não há especificação de categoria dos dados no dicionário fornecido. Também há a aplicação de máscara para anonimizar dados sensíveis, como CPF e número de inscrição. Os arquivos também são disponibilizados no formato .csv. Desta vez, são constituídos por múltiplas tabelas. Cada tabela representa uma etapa do processo de convocação dos candidatos, sendo divididas entre chamada regular e lista de espera. Ocorre duas chamadas regulares ao longo do ano, uma em cada semestre. Já a quantidade de listas de espera varia, conforme o preenchimento de vagas nas etapas anteriores. Nesta etapa, utilizamos apenas os dados das chamadas regulares. Cada linha da tabela representa uma inscrição de um candidato, sendo possível que um candidato tenha múltiplas inscrições por conta das duas aberturas do processo ao longo do ano e por poder se inscrever em mais de um curso.
+
+\subsection{Censo Escolar}
+O Censo Escolar é um levantamento de informações da educação básica brasileira em escolas e instituições de ensino por todo o país. Essa ferramenta demográfica realiza coletas anuais em colaboração entre o Inep e as secretarias estaduais e municipais de educação, contando com a participação de todas as escolas públicas (federais, estaduais e municipais) e privadas da rede de ensino. O Censo abrange diferentes etapas e modalidades de ensino da educação básica e profissional. Ele permite a obtenção de dados individualizados, em diversos aspectos, de estudantes, professores, turmas e escolas. A pesquisa é realizada em duas etapas: a primeira coleta informações sobre os estabelecimentos de ensino, gestores, turmas, alunos e profissionais escolares em sala de aula; a segunda, informações sobre o movimento e o rendimento escolar dos alunos. 
+
+Ele é um importante recurso no planejamento e 
+
+
+\section{Pré-processamento}
+Na etapa da metodologia de pré-processamento, os dados serão tratados a fim de serem melhor processados em termos de poder computacional (tempo de execução, utilização de memória). Com isso, otimizamos as etapas posteriores através de obtenção de um conjunto de dados que seja mais relevante para a pesquisa, facilitando o processo de análise. As técnicas aplicadas estão agrupadas em grupos de acordo com o objetivo em comum entre elas. São elas redução de dados, integração de dados, limpeza de dados e transformação de dados. Nas subseções subsequentes, apresentaremos como essas técnicas foram utilizadas, relacionando seu propósito com as características das fontes de dados. Utilizamos como referência os trabalhos de 
+
+É importante frisar que o processo de ciência de dados não é rígido e estático, mas sim um processo que se flexibiliza à medida que novas necessidades vão surgindo durante o projeto. Assim, as técnicas aplicadas no pré-processamento serão utilizadas além dessa etapa inicial. Para isso, utilizamos a linguagem Python, com as bibliotecas pandas e NumPy para análise e manipulação de dados.
+
+\subsection{Redução de dados}
+Os datasets originais possuem um grande volume de dados, tanto pela quantidade de participantes inscritos, quanto pela quantidade de informações armazenadas sobre eles, expressas pelas colunas (ou features). Uma consequência disso é uma maior utilização de recursos computacionais para processá-los, seja nos processos de leitura e escrita de arquivo quanto no armazenamento. Isso será particularmente importante nas etapas futuras por conta da inclusão de novas fontes de dados, como será abordado na seção Plano de trabalho. Assim, as técnicas de redução de dados visam diminuir a quantidade de dados pouco relevantes para a pesquisa, gerando dados menos volumosos e mais representativos. 
+
+Todos os datasets possuem o mesmo tipo de arquivo, o formato .csv. O csv é muito popular para uso geral por sua compatibilidade com softwares populares de análise e visualização de dados, como Microsoft Excel. Apesar disso, ele nem sempre é o mais adequado para projetos de ciência de dados. Por isso, optamos por adotar o formato Parquet\footnote{https://parquet.apache.org/}. Comparado ao csv, ele oferece vantagens para grandes datasets. A sua abordagem orientada a colunas permite que sejam lidas apenas as features que serão utilizadas na análise, o que melhora questões de performance, além de oferecer uma eficiente compressão e codificação de dados, gerando arquivos menores e mais fáceis de serem armazenados.
+
+Uma particularidade da biblioteca pandas é a utilização de grandes tipos de dados. Por exemplo, uma variável numérica do tipo inteiro pode ser representada pelos tipos 
+
+\subsection{}
+
+\section{Análise exploratória de dados}
+
+
+
+
+
+
+
