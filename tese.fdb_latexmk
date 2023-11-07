@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber tese"] 1699368392 "tese.bcf" "tese.bbl" "tese" 1699368427 0
-  "./bibliografia.bib" 1699361449 20365 dab42eb670045aeadb7adffb704e76aa ""
-  "tese.bcf" 1699368425 110152 a8146a14df2b6f8b366fa5a7656af08f "pdflatex"
+["biber tese"] 1699399197 "tese.bcf" "tese.bbl" "tese" 1699399480 0
+  "./bibliografia.bib" 1699381016 22287 045038a415fa06cdf25fbfe2f814eb96 ""
+  "tese.bcf" 1699399479 110548 415289fe04f458a1b0b8e1283585c7e4 "pdflatex"
   (generated)
   "tese.bbl"
   "tese.blg"
   (rewritten before read)
-["makeindex tese.idx"] 1699361560 "tese.idx" "tese.ind" "tese" 1699368427 0
-  "tese.idx" 1699368425 1132 6c4b55e30c6976ceb81cb7bef5767b3a "pdflatex"
+["makeindex tese.idx"] 1699398881 "tese.idx" "tese.ind" "tese" 1699399480 0
+  "tese.idx" 1699399479 1132 59581e1207aa83b6c144760dcabd8201 "pdflatex"
   (generated)
   "tese.ilg"
   "tese.ind"
   (rewritten before read)
-["pdflatex"] 1699368414 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1699368427 0
+["pdflatex"] 1699399472 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1699399480 0
   "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" 1699361449 17402 c59ae8541fabce350aaee0dc788bfd37 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1699321035 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc" 1699321035 3498 97969c5bc9b87f369104f937c6467737 ""
@@ -44,6 +44,8 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.tfm" 1699321036 19256 68c22c3abd597144cef6aba1b8dd4764 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1--base.tfm" 1699321036 1980 ee4e80868f9293fddd1db5ab8e0a38a6 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1.tfm" 1699321036 19812 ed905cc003c66bd0bebf8de6357fde58 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1--base.tfm" 1699321036 1920 22169a2e7be95a5eda143d153b462fad ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.tfm" 1699321036 14704 37dd52109a3ea33b27e05632d6c1503c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1--base.tfm" 1699321036 1948 dc26ea325226e711f9fa6e5a9ff07346 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.tfm" 1699321036 19720 c359a66af768e3d6a1f8e5462c7c8530 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1--base.tfm" 1699321036 1676 d268f13ae3ae69c0e3c3384bbc803d3a ""
@@ -73,6 +75,7 @@
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Regular-tlf-ts1.vf" 1699321036 544 e3802eaacdf270cecf79a673008376bc ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.vf" 1699321036 1728 321ecc09a691c45108905d51b3e8446a ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1.vf" 1699321036 1732 016f3ece83c76e2d1a9648d6964ddd4b ""
+  "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.vf" 1699321036 1732 66b5eec7b7684e62073c4037aa9de6f6 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.vf" 1699321036 1728 1ad5aff32545af479de85aa70e5d6e82 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1.vf" 1699321036 1732 7f7e0f1c17973da4f410e6fedc410051 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.vf" 1699321036 1728 35c890e6ff1b8a02b61db3e4539525b0 ""
@@ -419,9 +422,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1699325274 8213005 52f3422633f0dafb39dc4069777105de ""
   "c:/texlive/2023/texmf.cnf" 1699325034 713 e69b156964470283e0530f5060668171 ""
   "conteudo/01-introducao.tex" 1699361450 6453 464e7cbc1bede9124b058cfe30c24673 ""
-  "conteudo/02-fundamental-teorico.tex" 1699361450 13493 0a340e9a5d3c73f84dae8a7b5d906ba6 ""
-  "conteudo/03-trabalhos-relacionados.tex" 1699368378 4124 bdfcd3d5b0d32dc700a4045b2f67dbb7 ""
-  "conteudo/04-metodologia.tex" 1699361450 10852 d745c019ae5231b088bfb0dc35f6b781 ""
+  "conteudo/02-fundamental-teorico.tex" 1699379160 13509 2535c2da8945fc98cc602dfb1404b9b8 ""
+  "conteudo/03-trabalhos-relacionados.tex" 1699399471 13032 433092a50143893d0531e0deb82f5843 ""
+  "conteudo/04-metodologia.tex" 1699378234 10877 a523503e7e8a1f9b79f8e47a1b85faf5 ""
   "conteudo/anexo-exemplo-faq.tex" 1699361450 5541 32fca4a534959c72ffd971eab70b84eb ""
   "conteudo/resumoabstract.tex" 1699361450 2626 63ffe811272476ac63a16ac3b980ee29 ""
   "extras/basics.tex" 1699361450 20308 8c2dc636dc80948406b5ecbec43fd6d9 ""
@@ -443,16 +446,16 @@
   "figuras/diagrama-estudos-observacionais.pdf" 1699361451 37977 7598ea17178919b6936c313b7f5cd6ff ""
   "hyperxindy.xdy" 1699361510 301 e1a1e2f569821a37ccf6e0c8ec8620ec ""
   "mkidxhead.ist" 1699361510 80 c56667d514c1ae5929d36d5c24f727ad ""
-  "tese.aux" 1699368425 10057 bdbce7d574db1e59f69449014cfa1f70 "pdflatex"
-  "tese.bbl" 1699368398 53465 08d42927952707312d0497b0cbe45020 "biber tese"
-  "tese.ind" 1699361561 1661 e98b58fa0131fd38d5750ca509509a4b "makeindex tese.idx"
-  "tese.lof" 1699368425 369 908b36a98626c11771f1a7e932834fb0 "pdflatex"
-  "tese.lop" 1699368423 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tese.lot" 1699368425 258 017d40fe79a75c944f58a6713f26fb8d "pdflatex"
-  "tese.out" 1699368425 3007 318757232ae96e9772969a1602ba40ee "pdflatex"
-  "tese.run.xml" 1699368425 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
+  "tese.aux" 1699399479 11497 72e95a00a59d69352e4671e88fdfa956 "pdflatex"
+  "tese.bbl" 1699399200 58018 1c58e0376804ce71a83fa9d58c998f2f "biber tese"
+  "tese.ind" 1699398881 1661 5dde1202cbee82e33ee73ebe298146a2 "makeindex tese.idx"
+  "tese.lof" 1699399479 369 908b36a98626c11771f1a7e932834fb0 "pdflatex"
+  "tese.lop" 1699399477 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tese.lot" 1699399479 538 b5d9618f8b8abecfb9cf36ae3f533204 "pdflatex"
+  "tese.out" 1699399479 3008 a07ecf06becb4e75785f67b6be796cbb "pdflatex"
+  "tese.run.xml" 1699399479 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
   "tese.tex" 1699361449 17402 c59ae8541fabce350aaee0dc788bfd37 ""
-  "tese.toc" 1699368425 2251 b2c4fed20a48a68bee1db54d2cd59623 "pdflatex"
+  "tese.toc" 1699399479 2252 b44cebd3b30ef1796049a1bba8bf8b9a "pdflatex"
   (generated)
   "tese.aux"
   "tese.bcf"

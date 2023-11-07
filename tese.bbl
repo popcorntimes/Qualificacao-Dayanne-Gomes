@@ -739,6 +739,53 @@
       \verb https://doi.org/10.1257/app.3.2.1
       \endverb
     \endentry
+    \entry{Machado2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a6d1b92fa4cff4755865a4c86315798e}{%
+           family={Machado},
+           familyi={M\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=837e3a67dda98544b581732d6a0821bb}{%
+           family={Szerman},
+           familyi={S\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{02a29787ac6efc20c68b8061cf52e251}
+      \strng{fullhash}{02a29787ac6efc20c68b8061cf52e251}
+      \strng{bibnamehash}{02a29787ac6efc20c68b8061cf52e251}
+      \strng{authorbibnamehash}{02a29787ac6efc20c68b8061cf52e251}
+      \strng{authornamehash}{02a29787ac6efc20c68b8061cf52e251}
+      \strng{authorfullhash}{02a29787ac6efc20c68b8061cf52e251}
+      \field{labelalpha}{MS21}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Education markets are increasingly switching to centralized admission systems. However, empirical evidence of the effects of these transitions is scarce. We examine the consequences of introducing centralized admissions in the higher education market in Brazil. Using detailed administrative data, we exploit the staggered adoption of a centralized clearinghouse across institutions to investigate the impacts on student composition. Consistent with lower application frictions and higher competition, we find that centralization is associated with a decline in the share of female students and an increase in the average age of students. We also document that institutions under the centralized assignment attract students from other locations and with higher test scores. We present suggestive evidence that centralization increases stratification of institutions by quality, widening the gap between low and high quality institutions.}
+      \field{issn}{0272-7757}
+      \field{journaltitle}{Economics of Education Review}
+      \field{title}{Centralized college admissions and student composition}
+      \field{volume}{85}
+      \field{year}{2021}
+      \field{pages}{102184}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.econedurev.2021.102184
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S027277572100100X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S027277572100100X
+      \endverb
+      \keyw{Higher education,Centralized matching,Application frictions,College admission,Student composition,Migration,Test scores,Sorting}
+    \endentry
     \entry{Manski1993}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af7d401f5054eb76507756b744b21667}{%
@@ -824,6 +871,49 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/B9780444883780500114
+      \endverb
+    \endentry
+    \entry{Mello2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=410038885c74373930cbb0a93f6747d4}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={Ursula},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{410038885c74373930cbb0a93f6747d4}
+      \strng{fullhash}{410038885c74373930cbb0a93f6747d4}
+      \strng{bibnamehash}{410038885c74373930cbb0a93f6747d4}
+      \strng{authorbibnamehash}{410038885c74373930cbb0a93f6747d4}
+      \strng{authornamehash}{410038885c74373930cbb0a93f6747d4}
+      \strng{authorfullhash}{410038885c74373930cbb0a93f6747d4}
+      \field{labelalpha}{Mel22}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Economic Policy}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Centralized Admissions, Affirmative Action, and Access of Low-Income Students to Higher Education}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{166\bibrangedash 197}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1257/pol.20190639
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1257/pol.20190639
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1257/pol.20190639
       \endverb
     \endentry
     \entry{Sacerdote2014}{article}{}
