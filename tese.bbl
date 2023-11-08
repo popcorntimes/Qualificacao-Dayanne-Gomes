@@ -461,53 +461,6 @@
       \verb https://doi.org/10.2307%2F2112677
       \endverb
     \endentry
-    \entry{inep:2}{online}{}
-      \name{author}{1}{}{%
-        {{hash=fadc13845be9016d06f204354bbf1cff}{%
-           family={Estudos\bibnamedelimb e\bibnamedelimb Pesquisas\bibnamedelimb Educacionais\bibnamedelimb Anísio\bibnamedelima Teixeira},
-           familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Instituto\bibnamedelima Nacional},
-           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-      }
-      \name{shortauthor}{1}{}{%
-        {{un=0,uniquepart=base,hash=37d055a823db76a765603a2cc3124359}{%
-           family={Inep},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{37d055a823db76a765603a2cc3124359}
-      \strng{fullhash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{bibnamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{authorbibnamehash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{authornamehash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{authorfullhash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
-      \field{extraname}{1}
-      \field{labelalpha}{Ine23}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{shortauthor}
-      \field{labeltitlesource}{title}
-      \field{title}{Enem}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-      \endverb
-      \verb{url}
-      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-      \endverb
-    \endentry
     \entry{inep:1}{online}{}
       \name{author}{1}{}{%
         {{hash=fadc13845be9016d06f204354bbf1cff}{%
@@ -532,14 +485,11 @@
       \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
       \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
       \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
-      \field{extraname}{2}
       \field{labelalpha}{Ine23}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{extraalpha}{2}
       \field{labelnamesource}{shortauthor}
       \field{labeltitlesource}{title}
       \field{title}{Exame Nacional do Ensino Médio (Enem)}
@@ -555,51 +505,70 @@
       \verb https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem
       \endverb
     \endentry
-    \entry{inep:3}{online}{}
-      \name{author}{1}{}{%
-        {{hash=fadc13845be9016d06f204354bbf1cff}{%
-           family={Estudos\bibnamedelimb e\bibnamedelimb Pesquisas\bibnamedelimb Educacionais\bibnamedelimb Anísio\bibnamedelima Teixeira},
-           familyi={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Instituto\bibnamedelima Nacional},
-           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
+    \entry{Garcia2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=1691f3ff4356c12149ac4f858ead7e04}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Salvador},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b1b8a368a1c13a9c7902ec48045cf5c}{%
+           family={Ramírez-Gallego},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b961613b7246367ba81e7015db77421}{%
+           family={Luengo},
+           familyi={L\bibinitperiod},
+           given={Julián},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d5088c710c261b098bf406f653b75f7}{%
+           family={Benítez},
+           familyi={B\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f81f46436ba77791311a5db20ff5c25}{%
+           family={Herrera},
+           familyi={H\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
-      \name{shortauthor}{1}{}{%
-        {{un=0,uniquepart=base,hash=37d055a823db76a765603a2cc3124359}{%
-           family={Inep},
-           familyi={I\bibinitperiod}}}%
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
       }
-      \strng{namehash}{37d055a823db76a765603a2cc3124359}
-      \strng{fullhash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{bibnamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{authorbibnamehash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{authornamehash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{authorfullhash}{fadc13845be9016d06f204354bbf1cff}
-      \strng{shortauthorbibnamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{shortauthornamehash}{37d055a823db76a765603a2cc3124359}
-      \strng{shortauthorfullhash}{37d055a823db76a765603a2cc3124359}
-      \field{extraname}{3}
-      \field{labelalpha}{Ine23}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{3}
+      \strng{namehash}{a8b720b488d241f855b46370f269b0b7}
+      \strng{fullhash}{14147c425236008c45c2afa2da44d3c4}
+      \strng{bibnamehash}{14147c425236008c45c2afa2da44d3c4}
+      \strng{authorbibnamehash}{14147c425236008c45c2afa2da44d3c4}
+      \strng{authornamehash}{a8b720b488d241f855b46370f269b0b7}
+      \strng{authorfullhash}{14147c425236008c45c2afa2da44d3c4}
+      \field{labelalpha}{Gar+16}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{extraalpha}{3}
-      \field{labelnamesource}{shortauthor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Tratamento de Dados Pessoais}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
+      \field{journaltitle}{Big Data Analytics}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Big data preprocessing: methods and prospects}
+      \field{volume}{1}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1186/s41044-016-0014-0
+      \endverb
       \verb{urlraw}
-      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais
+      \verb https://doi.org/10.1186/s41044-016-0014-0
       \endverb
       \verb{url}
-      \verb https://www.gov.br/inep/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais
+      \verb https://doi.org/10.1186/s41044-016-0014-0
       \endverb
     \endentry
     \entry{Gati2001}{article}{}
@@ -689,6 +658,41 @@
       \verb{url}
       \verb https://doi.org/10.3386%2Fw7867
       \endverb
+    \endentry
+    \entry{Jafari2022}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ccf302a77070ad39518ea4d159ed6d7}{%
+           family={Jafari},
+           familyi={J\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Birmingham, England}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \strng{fullhash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \strng{bibnamehash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \strng{authorbibnamehash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \strng{authornamehash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \strng{authorfullhash}{4ccf302a77070ad39518ea4d159ed6d7}
+      \field{labelalpha}{Jaf22}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Hands-On Data Preprocessing in Python}
+      \field{year}{2022}
     \endentry
     \entry{Lavy2011}{article}{}
       \name{author}{2}{}{%

@@ -2402,9 +2402,9 @@
     <bcf:citekey order="34" intorder="1">Otero2021</bcf:citekey>
     <bcf:citekey order="35" intorder="1">Borges2021</bcf:citekey>
     <bcf:citekey order="36" intorder="1">inep:1</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">inep:2</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">inep:3</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">mec:1</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">mec:1</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Jafari2022</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">Garcia2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
