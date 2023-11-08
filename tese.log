@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  7 NOV 2023 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  7 NOV 2023 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2193,16 +2193,17 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
 ] (./tese.toc
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
-[9
-
-])
+)
 \tf@toc=\write10
 \openout10 = `tese.toc'.
 
-[10] (./conteudo/01-introducao.tex
+[9
+
+] [10
+
+] (./conteudo/01-introducao.tex
 Cap\'{\i }tulo 1.
 [1
-
 
 ]
 
@@ -2226,17 +2227,14 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
-<figuras/diagrama-estudos-observacionais.pdf, id=219, 392.42609pt x 218.7372pt>
+<figuras/diagrama-estudos-observacionais.pdf, id=214, 392.42609pt x 218.7372pt>
 File: figuras/diagrama-estudos-observacionais.pdf Graphic file (type pdf)
 <use figuras/diagrama-estudos-observacionais.pdf>
 Package pdftex.def Info: figuras/diagrama-estudos-observacionais.pdf  used on input line 8.
 (pdftex.def)             Requested size: 392.42513pt x 218.73665pt.
 [3
 
- <./figuras/diagrama-estudos-observacionais.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[4] [5]
+ <./figuras/diagrama-estudos-observacionais.pdf>] [4] [5]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 57.
 [6]) (./conteudo/03-trabalhos-relacionados.tex [7] [8
@@ -2244,10 +2242,6 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 ]
 Cap\'{\i }tulo 3.
 [9]
-
-LaTeX Warning: Reference `tab:resultados_borges' on page 10 undefined on input line 13.
-
-
 Overfull \hbox (28.42566pt too wide) in paragraph at lines 16--38
  [][] 
  []
@@ -2255,109 +2249,28 @@ Overfull \hbox (28.42566pt too wide) in paragraph at lines 16--38
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/scit' will be
 (Font)              scaled to size 10.95pt on input line 38.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./conteudo/04-metodologia.tex [10] [11] [12
+[10]) (./conteudo/04-metodologia.tex [11] [12
 
 ]
 Cap\'{\i }tulo 4.
 [13] [14] [15]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 59.
-) [16] (./conteudo/anexo-exemplo-faq.tex
-Anexo A.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 24.88pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 20.74pt on input line 7.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 17.28pt on input line 7.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 7.
+) [16]
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on input line 15.
-(c:/texlive/2023/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF.fd
-File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/SourceCodePro-TLF.
-)
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 15.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SourceCodePro-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-LaTeX Warning: Reference `sec:limitations' on page 17 undefined on input line 18.
-
-LaTeX Font Info:    Trying to load font information for TS1+LibertinusSans-TLF on input line 21.
-(c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/TS1LibertinusSans-TLF.fd
-File: TS1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for TS1/LibertinusSans-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 21.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSans-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TS1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 419.
 [17
 
 
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.enc}]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 35.
 
-LaTeX Warning: Reference `chap:tutorial' on page 18 undefined on input line 42.
-
-
-LaTeX Warning: Reference `chap:exemplos' on page 18 undefined on input line 42.
-
-) [18] [19
-
-
-] [20] [21] [22] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+] [18] [19] [20] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [23
+) [21
 
 
 ]
@@ -2370,28 +2283,25 @@ Package imakeidx Warning: Remember to run (pdf)latex again after calling
 LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: A07ECF06BECB4E75785F67B6BE796CBB;3008.
+(rerunfilecheck)             Checksum: 65098EAD2DC2DF9CD96801B16B00B339;2780.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65213 strings out of 474272
- 1468000 string characters out of 5751548
- 2371668 words of memory out of 5000000
- 85500 multiletter control sequences out of 15000+600000
- 808089 words of font info for 578 fonts, out of 8000000 for 9000
+ 64987 strings out of 474272
+ 1461037 string characters out of 5751548
+ 2368721 words of memory out of 5000000
+ 85338 multiletter control sequences out of 15000+600000
+ 781655 words of font info for 518 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 108i,17n,120p,1606b,3199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><c:/texlive/2023/texmf-dist/fonts/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb>
-Output written on tese.pdf (37 pages, 827710 bytes).
+ 108i,17n,120p,1606b,3192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
+Output written on tese.pdf (35 pages, 776061 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 96 named destinations out of 1000 (max. 500000)
- 121518 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 508 compressed objects within 6 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 104614 words of extra memory for PDF output out of 106986 (max. 10000000)
 

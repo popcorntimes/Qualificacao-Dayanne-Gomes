@@ -29,7 +29,6 @@
 \protect \vspace {.8\baselineskip }
 {\protect \large \protect \bfseries \protect \hspace {-1.3em}Anexos\par }
 \protect \@afterheading 
-\contentsline {chapter}{\numberline {A}Perguntas Frequentes sobre o Modelo}{17}{annex.A}%
 \vspace {2\baselineskip plus .5\baselineskip minus .5\baselineskip }
-\contentsline {chapter}{Refer\^encias}{19}{annex*.9}%
-\contentsline {chapter}{\'Indice Remissivo}{23}{section*.10}%
+\contentsline {chapter}{Refer\^encias}{17}{annex*.9}%
+\contentsline {chapter}{\'Indice Remissivo}{21}{section*.10}%
