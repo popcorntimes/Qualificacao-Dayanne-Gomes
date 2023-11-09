@@ -1,55 +1,55 @@
 \begin{theindex}
 {\bfseries C}\nopagebreak
 
-  \item Captions, \hyperindexformat{\see{Legendas}}{ix}
-  \item Código-fonte, \hyperindexformat{\see{Floats}}{ix}
+  \item Captions, \hyperindexformat{\see{Legendas}}{xi}
+  \item Código-fonte, \hyperindexformat{\see{Floats}}{xi}
 
   \indexspace
 {\bfseries E}\nopagebreak
 
-  \item Equações, \hyperindexformat{\see{Modo Matemático}}{ix}
+  \item Equações, \hyperindexformat{\see{Modo Matemático}}{xi}
 
   \indexspace
 {\bfseries F}\nopagebreak
 
-  \item Figuras, \hyperindexformat{\see{Floats}}{ix}
+  \item Figuras, \hyperindexformat{\see{Floats}}{xi}
   \item Floats
-    \subitem Algoritmo, \hyperindexformat{\see{Floats, Ordem}}{ix}
-  \item Fórmulas, \hyperindexformat{\see{Modo Matemático}}{ix}
+    \subitem Algoritmo, \hyperindexformat{\see{Floats, Ordem}}{xi}
+  \item Fórmulas, \hyperindexformat{\see{Modo Matemático}}{xi}
 
   \indexspace
 {\bfseries I}\nopagebreak
 
-  \item Inglês, \hyperindexformat{\see{Língua estrangeira}}{ix}
+  \item Inglês, \hyperindexformat{\see{Língua estrangeira}}{xi}
 
   \indexspace
 {\bfseries P}\nopagebreak
 
   \item Palavras estrangeiras, 
-		\hyperindexformat{\see{Língua estrangeira}}{ix}
+		\hyperindexformat{\see{Língua estrangeira}}{xi}
 
   \indexspace
 {\bfseries R}\nopagebreak
 
-  \item Rodapé, notas, \hyperindexformat{\see{Notas de rodapé}}{ix}
+  \item Rodapé, notas, \hyperindexformat{\see{Notas de rodapé}}{xi}
 
   \indexspace
 {\bfseries S}\nopagebreak
 
-  \item Subcaptions, \hyperindexformat{\see{Subfiguras}}{ix}
-  \item Sublegendas, \hyperindexformat{\see{Subfiguras}}{ix}
+  \item Subcaptions, \hyperindexformat{\see{Subfiguras}}{xi}
+  \item Sublegendas, \hyperindexformat{\see{Subfiguras}}{xi}
 
   \indexspace
 {\bfseries T}\nopagebreak
 
-  \item Tabelas, \hyperindexformat{\see{Floats}}{ix}
+  \item Tabelas, \hyperindexformat{\see{Floats}}{xi}
 
   \indexspace
 {\bfseries V}\nopagebreak
 
   \item Versão corrigida, 
-		\hyperindexformat{\see{Tese/Dissertação, versões}}{ix}
+		\hyperindexformat{\see{Tese/Dissertação, versões}}{xi}
   \item Versão original, 
-		\hyperindexformat{\see{Tese/Dissertação, versões}}{ix}
+		\hyperindexformat{\see{Tese/Dissertação, versões}}{xi}
 
 \end{theindex}

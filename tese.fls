@@ -923,9 +923,9 @@ OUTPUT tese.lot
 INPUT ./tese.lop
 INPUT ./tese.lop
 INPUT tese.lop
-OUTPUT tese.lop
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1--base.tfm
+OUTPUT tese.lop
 INPUT ./tese.toc
 INPUT ./tese.toc
 INPUT tese.toc
@@ -977,6 +977,14 @@ INPUT ./conteudo/04-metodologia.tex
 INPUT conteudo/04-metodologia.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1--base.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.tfm
+INPUT ./conteudo/06-plano-trabalho.tex
+INPUT ./conteudo/06-plano-trabalho.tex
+INPUT ./conteudo/06-plano-trabalho.tex
+INPUT ./conteudo/06-plano-trabalho.tex
+INPUT conteudo/06-plano-trabalho.tex
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1--base.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Regular-tlf-t1--base.tfm
