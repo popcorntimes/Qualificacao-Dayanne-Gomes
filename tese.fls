@@ -1010,11 +1010,11 @@ INPUT ./figuras/distribuicao_ies.pdf
 INPUT ./figuras/distribuicao_ies.pdf
 INPUT ./figuras/distribuicao_ies.pdf
 INPUT ./figuras/distribuicao_ies.pdf
-INPUT ./figuras/distribuicao_residencia.pdf
-INPUT ./figuras/distribuicao_residencia.pdf
-INPUT ./figuras/distribuicao_residencia.pdf
-INPUT ./figuras/distribuicao_residencia.pdf
-INPUT ./figuras/distribuicao_residencia.pdf
+INPUT ./figuras/distribuicao_residencia_candidatos.pdf
+INPUT ./figuras/distribuicao_residencia_candidatos.pdf
+INPUT ./figuras/distribuicao_residencia_candidatos.pdf
+INPUT ./figuras/distribuicao_residencia_candidatos.pdf
+INPUT ./figuras/distribuicao_residencia_candidatos.pdf
 INPUT ./conteudo/06-plano-trabalho.tex
 INPUT ./conteudo/06-plano-trabalho.tex
 INPUT ./conteudo/06-plano-trabalho.tex

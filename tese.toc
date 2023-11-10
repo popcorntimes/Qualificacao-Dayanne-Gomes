@@ -32,5 +32,5 @@
 {\protect \large \protect \bfseries \protect \hspace {-1.3em}Anexos\par }
 \protect \@afterheading 
 \vspace {2\baselineskip plus .5\baselineskip minus .5\baselineskip }
-\contentsline {chapter}{Refer\^encias}{33}{annex*.29}%
-\contentsline {chapter}{\'Indice Remissivo}{37}{section*.30}%
+\contentsline {chapter}{Refer\^encias}{33}{annex*.28}%
+\contentsline {chapter}{\'Indice Remissivo}{37}{section*.29}%

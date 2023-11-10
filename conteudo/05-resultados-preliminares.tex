@@ -145,13 +145,13 @@
             \begin{figure}[h]
                 \centering
             
-                \begin{subfigure}{0.90\textwidth}
+                \begin{subfigure}{\textwidth}
                     \centering
                     \includegraphics[width=\linewidth]{figuras/distribuicao_notas_feminino.pdf}
                     \caption{Feminino}
                 \end{subfigure}
                 \hfill
-                \begin{subfigure}{0.90\textwidth}
+                \begin{subfigure}{\textwidth}
                     \centering
                     \includegraphics[width=\linewidth]{figuras/distribuicao_notas_masculino.pdf}
                     \caption{Masculino}
@@ -164,13 +164,13 @@
             \begin{figure}[h]
                 \centering
             
-                \begin{subfigure}{0.90\textwidth}
+                \begin{subfigure}{\textwidth}
                     \centering
                     \includegraphics[width=\linewidth]{figuras/distribuicao_notas_aprovados.pdf}
                     \caption{Aprovado}
                 \end{subfigure}
                 \hfill
-                \begin{subfigure}{0.90\textwidth}
+                \begin{subfigure}{\textwidth}
                     \centering
                     \includegraphics[width=\linewidth]{figuras/distribuicao_notas_nao_aprovados.pdf}
                     \caption{Não aprovado}
@@ -215,21 +215,25 @@
                     Universidade Tecnológica Federal do Paraná                       & 2,29\%               \\ \hline
                     Universidade Federal de Pernambuco                               & 2,17\%               \\ \hline
                     \end{tabular}
-                    \caption{Top 10 universidades com mais inscrições}
+                    \caption{Distribuição das 10 universidades com mais inscrições}
                     \label{tab:universidade-inscricao}
                     \end{table}
 
                     \begin{figure}[h]
                         \centering
-                        \includegraphics[width=\textwidth]{figuras/distribuicao_ies.pdf} 
-                        \caption{Distribuição das unidades federativas das instituições de ensino}
-                        \label{fig:distribuicao-ies}
-                    \end{figure}
-
                     
-                    \begin{figure}[h]
-                        \centering
-                        \includegraphics[width=\textwidth]{figuras/distribuicao_residencia.pdf} 
-                        \caption{Distribuição das unidades federativas de residência dos alunos por situação de aprovação}
-                        \label{fig:distribuicao-residencia}
+                        \begin{subfigure}{\textwidth}
+                            \centering
+                            \includegraphics[width=\linewidth]{figuras/distribuicao_ies.pdf}
+                            \caption{Inscrições em instituições de ensino}
+                        \end{subfigure}
+                        \hfill
+                        \begin{subfigure}{\textwidth}
+                            \centering
+                            \includegraphics[width=\linewidth]{figuras/distribuicao_residencia_candidatos.pdf}
+                            \caption{Residência dos candidatos}
+                        \end{subfigure}
+                    
+                        \caption{Distribuição das unidades federativas}
+                        \label{fig:distribuicao-uf}
                     \end{figure}
