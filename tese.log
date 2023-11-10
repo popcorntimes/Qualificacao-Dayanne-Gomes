@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  9 NOV 2023 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  10 NOV 2023 13:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2060,92 +2060,19 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}]
 Package hyperref Info: Option `pageanchor' set `true' on input line 207.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 6.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 10.95pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 8.0pt on input line 225.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 6.0pt on input line 225.
 (./conteudo/resumoabstract.tex
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 35.
+(Font)              scaled to size 17.28pt on input line 30.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 30.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 30.
 [1
+
 
 ] [2
 
-]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 35.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/it' will be
-(Font)              scaled to size 10.0pt on input line 35.
-[3] [4
-
-]
-LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 49.
-(c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
-File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 49.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSans-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 5.0pt on input line 49.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 5.0pt on input line 49.
-) [5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [6
+]) [3] [4
 
 ]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
@@ -2154,55 +2081,80 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 266.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
 (Font)              scaled to size 12.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 6.0pt on input line 268.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
 (Font)              scaled to size 12.0pt on input line 268.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 269.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 8.0pt on input line 268.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 6.0pt on input line 268.
 
-Overfull \hbox (59.96442pt too wide) in paragraph at lines 268--278
+Overfull \hbox (11.74254pt too wide) in paragraph at lines 268--277
 [][] 
  []
 
-[7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMI.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMR.enc}] (./tese.lof)
+[5] (./tese.lof)
 \tf@lof=\write7
 \openout7 = `tese.lof'.
 
 (./tese.lot
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 9.
-[8
+[6
 
 ])
 \tf@lot=\write8
 \openout8 = `tese.lot'.
 
-(./tese.lop)
-\tf@lop=\write9
-\openout9 = `tese.lop'.
-
-[9] [10
+[7] [8
 
 ] (./tese.toc
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
-[11])
-\tf@toc=\write10
-\openout10 = `tese.toc'.
+)
+\tf@toc=\write9
+\openout9 = `tese.toc'.
 
-[12] (./conteudo/01-introducao.tex
+[9] [10
+
+] (./conteudo/01-introducao.tex
 Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 3.
 [1
-
 
 ]
 
@@ -2224,22 +2176,23 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
 [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}]
 Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
-<figuras/diagrama-estudos-observacionais.pdf, id=272, 392.42609pt x 218.7372pt>
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 6.
+<figuras/diagrama-estudos-observacionais.pdf, id=254, 392.42609pt x 218.7372pt>
 File: figuras/diagrama-estudos-observacionais.pdf Graphic file (type pdf)
 <use figuras/diagrama-estudos-observacionais.pdf>
 Package pdftex.def Info: figuras/diagrama-estudos-observacionais.pdf  used on input line 8.
 (pdftex.def)             Requested size: 392.42513pt x 218.73665pt.
 [3
 
- <./figuras/diagrama-estudos-observacionais.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[4] [5]
+ <./figuras/diagrama-estudos-observacionais.pdf>] [4] [5]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 57.
-[6]) (./conteudo/03-trabalhos-relacionados.tex [7] [8
+(Font)              scaled to size 6.0pt on input line 58.
+[6{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMI.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMR.enc}]) (./conteudo/03-trabalhos-relacionados.tex [7] [8
 
 ]
 Cap\'{\i }tulo 3.
@@ -2259,11 +2212,30 @@ Overfull \hbox (5.6497pt too wide) in paragraph at lines 85--94
  [][] 
  []
 
-[17] [18] [19] [20]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 231.
+[17] [18] [19]
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 210.
+
+[20]
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 5.0pt on input line 233.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 233.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 [][][]\T1/LibertinusSerif-TLF/m/n/10 (+20) https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-
  []
 
@@ -2277,11 +2249,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[23]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.64597pt too wide) in paragraph at lines 89--104
+Overfull \hbox (6.64597pt too wide) in paragraph at lines 92--107
  [][] 
  []
 
@@ -2293,75 +2266,84 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 127.
+               Default added (so using `htbp') on input line 130.
 
-<figuras/distribuicao_notas_feminino.pdf, id=473, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_feminino.pdf, id=472, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_feminino.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_feminino.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_feminino.pdf  used on input line 150.
+Package pdftex.def Info: figuras/distribuicao_notas_feminino.pdf  used on input line 153.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
-<figuras/distribuicao_notas_masculino.pdf, id=474, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_masculino.pdf, id=473, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_masculino.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_masculino.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_masculino.pdf  used on input line 156.
+Package pdftex.def Info: figuras/distribuicao_notas_masculino.pdf  used on input line 159.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
 
-LaTeX Warning: Float too large for page by 25.2417pt on input line 162.
+LaTeX Warning: Float too large for page by 25.2417pt on input line 165.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/distribuicao_notas_aprovados.pdf, id=475, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_aprovados.pdf, id=474, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_aprovados.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_aprovados.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_aprovados.pdf  used on input line 169.
+Package pdftex.def Info: figuras/distribuicao_notas_aprovados.pdf  used on input line 172.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
-<figuras/distribuicao_notas_nao_aprovados.pdf, id=476, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_nao_aprovados.pdf, id=475, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_nao_aprovados.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_nao_aprovados.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_nao_aprovados.pdf  used on input line 175.
+Package pdftex.def Info: figuras/distribuicao_notas_nao_aprovados.pdf  used on input line 178.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
 
-LaTeX Warning: Float too large for page by 25.2417pt on input line 181.
+LaTeX Warning: Float too large for page by 25.2417pt on input line 184.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 183.
+               Default added (so using `htbp') on input line 186.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 202.
+               Default added (so using `htbp') on input line 205.
 
-<figuras/distribuicao_ies.pdf, id=477, 617.64503pt x 390.49554pt>
+<figuras/distribuicao_ies.pdf, id=476, 617.64503pt x 390.49554pt>
 File: figuras/distribuicao_ies.pdf Graphic file (type pdf)
 <use figuras/distribuicao_ies.pdf>
-Package pdftex.def Info: figuras/distribuicao_ies.pdf  used on input line 227.
+Package pdftex.def Info: figuras/distribuicao_ies.pdf  used on input line 230.
 (pdftex.def)             Requested size: 432.48189pt x 273.43439pt.
-<figuras/distribuicao_residencia_candidatos.pdf, id=478, 617.64503pt x 387.57777pt>
+<figuras/distribuicao_residencia_candidatos.pdf, id=477, 617.64503pt x 387.57777pt>
 File: figuras/distribuicao_residencia_candidatos.pdf Graphic file (type pdf)
 <use figuras/distribuicao_residencia_candidatos.pdf>
-Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on input line 233.
+Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on input line 236.
 (pdftex.def)             Requested size: 432.48189pt x 271.3913pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./conteudo/06-plano-trabalho.tex [23] [24] [25] [26] [27 <./figuras/distribuicao_notas_feminino.pdf> <./figuras/distribuicao_notas_masculino.pdf>] [28 <./figuras/distribuicao_notas_aprovados.pdf> <./figuras/distribuicao_notas_nao_aprovados.pdf>] [29 <./figuras/distribuicao_ies.pdf> <./figuras/distribuicao_residencia_candidatos.pdf>] [30
-
-]
+) (./conteudo/06-plano-trabalho.tex [24] [25] [26] [27 <./figuras/distribuicao_notas_feminino.pdf> <./figuras/distribuicao_notas_masculino.pdf>] [28 <./figuras/distribuicao_notas_aprovados.pdf> <./figuras/distribuicao_notas_nao_aprovados.pdf>] [29] [30 <./figuras/distribuicao_ies.pdf> <./figuras/distribuicao_residencia_candidatos.pdf>]
 Cap\'{\i }tulo 6.
-) [31] [32
 
-]
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 16.
+
+) [31
+
+] [32]
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 420.
+(c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
+File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
+)
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 421.
+(Font)              scaled to size 12.0pt on input line 420.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSans-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 [33
 
 
-
-] [34] [35] [36] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [34] [35] [36] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
@@ -2379,24 +2361,24 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 1A0E198E8060A45E42C206E4EF0E970E;3192.
+(rerunfilecheck)             Checksum: 4EA5D9A8464344384E8B8F956F9C6A1C;3300.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65121 strings out of 474272
- 1464886 string characters out of 5751548
- 2411732 words of memory out of 5000000
- 85433 multiletter control sequences out of 15000+600000
- 781385 words of font info for 514 fonts, out of 8000000 for 9000
+ 65071 strings out of 474272
+ 1463439 string characters out of 5751548
+ 2410905 words of memory out of 5000000
+ 85406 multiletter control sequences out of 15000+600000
+ 770817 words of font info for 494 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 108i,18n,120p,1616b,3192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,18n,120p,1887b,3196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (53 pages, 897113 bytes).
+Output written on tese.pdf (51 pages, 904777 bytes).
 PDF statistics:
- 964 PDF objects out of 1000 (max. 8388607)
+ 962 PDF objects out of 1000 (max. 8388607)
  666 compressed objects within 7 object streams
- 131 named destinations out of 1000 (max. 500000)
- 104660 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 127 named destinations out of 1000 (max. 500000)
+ 98508 words of extra memory for PDF output out of 106986 (max. 10000000)
 

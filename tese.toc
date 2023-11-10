@@ -18,19 +18,8 @@
 \contentsline {section}{\numberline {4.2}Pré-processamento}{15}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Análise exploratória de dados}{17}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Resultados preliminares}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Análise descritiva}{23}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Perfil socioeconômico}{23}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.1}Perfil dos candidatos, instituições de ensino e cursos de graduação}{23}{section.5.1}%
 \contentsline {chapter}{\numberline {6}Plano de trabalho}{31}{chapter.6}%
-{\protect \large \protect \vspace {0pt plus 2\baselineskip minus 0pt}}
-\protect \pagebreak [2]
-\protect \vspace {.8\baselineskip }
-{\protect \large \protect \bfseries \protect \hspace {-1.3em}Apêndices\par }
-\protect \@afterheading 
-{\protect \large \protect \vspace {0pt plus 2\baselineskip minus 0pt}}
-\protect \pagebreak [2]
-\protect \vspace {.8\baselineskip }
-{\protect \large \protect \bfseries \protect \hspace {-1.3em}Anexos\par }
-\protect \@afterheading 
 \vspace {2\baselineskip plus .5\baselineskip minus .5\baselineskip }
-\contentsline {chapter}{Refer\^encias}{33}{annex*.28}%
-\contentsline {chapter}{\'Indice Remissivo}{37}{section*.29}%
+\contentsline {chapter}{Refer\^encias}{33}{chapter*.27}%
+\contentsline {chapter}{\'Indice Remissivo}{37}{section*.28}%

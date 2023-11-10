@@ -1,8 +1,10 @@
 \chapter{Resultados preliminares}
 \label{chap:resultados-preliminares}
+Neste capítulo, apresentaremos os resultados preliminares obtidos através de uma análise descritiva. Os resultados estão segmentados por gênero e situação de aprovação nos cursos inscritos.
 
-\section{Análise descritiva}
-\subsection{Perfil socioeconômico}
+\section{Perfil dos candidatos, instituições de ensino e cursos de graduação}
+Para descrever o perfil dos participantes e cursos de graduação, realizamos um levantamento através de algumas variáveis específicas. No conjunto de dados do ENEM, a análise foi segmentada por gênero, observado na \autoref{tab:estatistica-enem}. As mulheres constituem 58\% do total de candidatos, ao passo que homens constituem 32\%. Escolas públicas de nível estadual concentram a maioria dos estudantes. Em relação à escolaridade, a maior parte das mães possui ensino médio completo, enquanto a maioria dos pais não possui ensino médio completo. A faixa etária com mais estudantes é de 16 a 20 anos, sendo que a idade que possui mais candidatos é a de 17 anos. Quanto à identificação racial, brancos e pardos concentram a maioria do total. Já no SISU, a segmentação é realizada por situação de aprovação, observada na \autoref{tab:estatistica-sisu}. Aprovados são 4,4,4\% do total e reprovados 95,6\%. Cursos de grau bacharelado e licenciatura e de turno integral e noturno são os que possuem mais inscrições. Observamos que homens possuem mais aprovações, ao passo que mulheres são a maioria dos não aprovados. Ações afirmativas beneficiam mais da metade dos participantes, em ambos os segmentos.
+
 \begin{table}[h]
     \begin{tabular}{cccc}
     \hline
@@ -37,8 +39,6 @@
     \label{tab:estatistica-enem}
     \end{table}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
 \begin{table}[h]
     \centering
     \begin{tabular}{cccc}
@@ -62,6 +62,9 @@
     \label{tab:estatistica-sisu}
     \end{table}
 
+Também é levantado o desempenho dos estudantes nas provas do exame. No ENEM, em todas as provas, para ambos os gêneros, o intervalo de notas que possui a maior observação é o de (400, 600]. A observação das notas em intervalos pode ser vista na \autoref{tab:observacao-nota-enem}, e sua distribuição em gráfico de densidade na \autoref{fig:nota-genero}, divididas por gênero. No SISU, aprovados tendem a se concentrar em intervalos com maiores notas, como (600, 800] e (800, 1000] na redação, enquanto não aprovados se concentram em (400, 600]. De forma similar, isso pode ser visto na \autoref{tab:observacao-nota-sisu} e na \autoref{fig:nota-aprovacao}, divididas por situação de aprovação. As estatística descritivas, com cálculo de média, desvio padrão e p-valor resultante da aplicação de teste t, estão disponíveis para o ENEM na \autoref{tab:estatistica-nota-enem} e para o SISU na \autoref{tab:estatistica-nota-sisu}. Homens possuem maiores médias de notas objetivas e mulheres possuem maior média de nota em redação. Aprovados possuem maiores médias em todas as provas. Em ambos os conjuntos, temos os resultados do p-valor zerados, mostrando que a diferença nas médias é estatisticamente significativa.
+
+A \autoref{tab:classificacao-curso-genero} mostra a classificação das áreas dos cursos por gênero. As áreas mais ocupadas por mulheres são Saúde e bem-estar e Ciências sociais, negócios e direito, enquanto as áreas mais ocupadas por homens são Ciência e Ciências sociais, negócios e direito. Com relação à proporção de homens e mulheres por área, homens são maioria nas áreas de Ciência (55,4\%) e Engenharia, manufatura e construção (60,25\%). A \autoref{tab:universidade-inscricao} mostra a distribuição das universidades com mais inscrições. As 3 instituições com mais inscritos são as universidades federais do Maranhão, Rio de Janeiro e Fluminense. A \autoref{fig:distribuicao-uf} mostra a distribuicao das unidades federativas no SISU, divididas pelas inscrições em instituições de ensino e residência dos candidatos. As IES com mais inscrições localizam-se nos estados de Minas Gerais, Rio de Janeiro e Bahia, ao passo que os estados de residência com mais candidatos são Minas Gerais, São Paulo e Rio de Janeiro. 
    
 \begin{table}[h]
     \centering
@@ -184,7 +187,7 @@
                 \centering
                 \begin{tabular}{ccc}
                 \hline
-                Classificação                        & Feminino & Masculino \\ \hline
+                \textbf{Classificação}                        & \textbf{Feminino} & \textbf{Masculino} \\ \hline
                 Educação                             & 6,29\%   & 1,81\%    \\ \hline
                 Humanidades e artes                  & 8,94\%   & 7,69\%    \\ \hline
                 Ciências sociais, negócios e direito & 22,24\%  & 20,85\%   \\ \hline
@@ -215,7 +218,7 @@
                     Universidade Tecnológica Federal do Paraná                       & 2,29\%               \\ \hline
                     Universidade Federal de Pernambuco                               & 2,17\%               \\ \hline
                     \end{tabular}
-                    \caption{Distribuição das 10 universidades com mais inscrições}
+                    \caption{Distribuição das 10 universidades com mais inscrições no SISU}
                     \label{tab:universidade-inscricao}
                     \end{table}
 
@@ -234,6 +237,6 @@
                             \caption{Residência dos candidatos}
                         \end{subfigure}
                     
-                        \caption{Distribuição das unidades federativas}
+                        \caption{Distribuição das unidades federativas no SISU}
                         \label{fig:distribuicao-uf}
                     \end{figure}
