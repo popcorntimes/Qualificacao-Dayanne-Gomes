@@ -967,6 +967,58 @@
       \verb https://siepr.stanford.edu/publications/working-paper/affirmative-action-centralized-college-admission-systems-evidence-brazil
       \endverb
     \endentry
+    \entry{Saavedra2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d721a8eaf3c06b4f93af235ff7efedee}{%
+           family={Saavedra},
+           familyi={S\bibinitperiod},
+           given={Luísa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa2d2ece29cc1e95d334db76a4df278b}{%
+           family={Céu\bibnamedelima Taveira},
+           familyi={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={do},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=1fe1c71c5477a7d448f35aa55353798f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Ana\bibnamedelima Daniela},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ca1e38ca31d5dccbc0c798207545cc8}
+      \strng{fullhash}{c36e14490f31a4ff8be611511cd4dce5}
+      \strng{bibnamehash}{c36e14490f31a4ff8be611511cd4dce5}
+      \strng{authorbibnamehash}{c36e14490f31a4ff8be611511cd4dce5}
+      \strng{authornamehash}{4ca1e38ca31d5dccbc0c798207545cc8}
+      \strng{authorfullhash}{c36e14490f31a4ff8be611511cd4dce5}
+      \field{labelalpha}{SCS10}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1984-7270}
+      \field{journaltitle}{Revista Brasileira de Orientação Profissional}
+      \field{number}{1}
+      \field{title}{A subrepresentatividade das mulheres em áreas tipicamente masculinas: Factores explicativos e pistas para a intervenção}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{pages}{49\bibrangedash 59}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb http://pepsic.bvsalud.org/pdf/rbop/v11n1/v11n1a06.pdf
+      \endverb
+      \verb{url}
+      \verb http://pepsic.bvsalud.org/pdf/rbop/v11n1/v11n1a06.pdf
+      \endverb
+    \endentry
     \entry{Sacerdote2014}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b63a3bb309e0eae784951d5611ff7224}{%

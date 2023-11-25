@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  25 NOV 2023 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  25 NOV 2023 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2167,16 +2167,16 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 [1
 
 ]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 13.
-
 LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 17.
-) (./conteudo/02-fundamental-teorico.tex
+
+Overfull \vbox (1.95314pt too high) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
-[2]
+(Font)              scaled to size 8.0pt on input line 24.
+[2]) (./conteudo/02-fundamental-teorico.tex [3] [4
+
+]
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
@@ -2184,42 +2184,40 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 6.
-<figuras/diagrama-estudos-observacionais.pdf, id=254, 392.42609pt x 218.7372pt>
+<figuras/diagrama-estudos-observacionais.pdf, id=265, 392.42609pt x 218.7372pt>
 File: figuras/diagrama-estudos-observacionais.pdf Graphic file (type pdf)
 <use figuras/diagrama-estudos-observacionais.pdf>
 Package pdftex.def Info: figuras/diagrama-estudos-observacionais.pdf  used on input line 8.
 (pdftex.def)             Requested size: 392.42513pt x 218.73665pt.
-[3
-
- <./figuras/diagrama-estudos-observacionais.pdf>] [4] [5]
+[5 <./figuras/diagrama-estudos-observacionais.pdf>] [6] [7]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 58.
-[6{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMI.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMR.enc}]) (./conteudo/03-trabalhos-relacionados.tex [7] [8
+[8{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMI.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMR.enc}]) (./conteudo/03-trabalhos-relacionados.tex [9] [10
 
 ]
 Cap\'{\i }tulo 3.
-[9]
+[11]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 15.
 
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/scit' will be
 (Font)              scaled to size 10.95pt on input line 29.
-[10]) (./conteudo/04-metodologia.tex [11] [12
+[12]) (./conteudo/04-metodologia.tex [13] [14
 
 ]
 Cap\'{\i }tulo 4.
-[13] [14] [15] [16]
+[15] [16] [17] [18]
 Overfull \hbox (5.6497pt too wide) in paragraph at lines 85--94
  [][] 
  []
 
-[17] [18] [19]
+[19] [20] [21]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 210.
 
-[20]
+[22]
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
 (Font)              scaled to size 5.0pt on input line 233.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
@@ -2241,7 +2239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--233
 [][][]\T1/LibertinusSerif-TLF/m/n/10 (+20) https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-
  []
 
-) (./conteudo/05-resultados-preliminares.tex [21] [22
+) (./conteudo/05-resultados-preliminares.tex [23] [24
 
 ]
 Cap\'{\i }tulo 5.
@@ -2251,7 +2249,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23]
+[25]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2270,12 +2268,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 130.
 
-<figuras/distribuicao_notas_feminino.pdf, id=472, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_feminino.pdf, id=483, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_feminino.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_feminino.pdf>
 Package pdftex.def Info: figuras/distribuicao_notas_feminino.pdf  used on input line 153.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
-<figuras/distribuicao_notas_masculino.pdf, id=473, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_masculino.pdf, id=484, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_masculino.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_masculino.pdf>
 Package pdftex.def Info: figuras/distribuicao_notas_masculino.pdf  used on input line 159.
@@ -2286,12 +2284,12 @@ LaTeX Warning: Float too large for page by 25.2417pt on input line 165.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/distribuicao_notas_aprovados.pdf, id=474, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_aprovados.pdf, id=485, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_aprovados.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_aprovados.pdf>
 Package pdftex.def Info: figuras/distribuicao_notas_aprovados.pdf  used on input line 172.
 (pdftex.def)             Requested size: 432.48189pt x 319.48601pt.
-<figuras/distribuicao_notas_nao_aprovados.pdf, id=475, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_nao_aprovados.pdf, id=486, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_nao_aprovados.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_nao_aprovados.pdf>
 Package pdftex.def Info: figuras/distribuicao_notas_nao_aprovados.pdf  used on input line 178.
@@ -2310,12 +2308,12 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 205.
 
-<figuras/distribuicao_ies.pdf, id=476, 617.64503pt x 390.49554pt>
+<figuras/distribuicao_ies.pdf, id=487, 617.64503pt x 390.49554pt>
 File: figuras/distribuicao_ies.pdf Graphic file (type pdf)
 <use figuras/distribuicao_ies.pdf>
 Package pdftex.def Info: figuras/distribuicao_ies.pdf  used on input line 230.
 (pdftex.def)             Requested size: 432.48189pt x 273.43439pt.
-<figuras/distribuicao_residencia_candidatos.pdf, id=477, 617.64503pt x 387.57777pt>
+<figuras/distribuicao_residencia_candidatos.pdf, id=488, 617.64503pt x 387.57777pt>
 File: figuras/distribuicao_residencia_candidatos.pdf Graphic file (type pdf)
 <use figuras/distribuicao_residencia_candidatos.pdf>
 Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on input line 236.
@@ -2323,15 +2321,15 @@ Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./conteudo/06-plano-trabalho.tex [24] [25] [26] [27 <./figuras/distribuicao_notas_feminino.pdf> <./figuras/distribuicao_notas_masculino.pdf>] [28 <./figuras/distribuicao_notas_aprovados.pdf> <./figuras/distribuicao_notas_nao_aprovados.pdf>] [29] [30 <./figuras/distribuicao_ies.pdf> <./figuras/distribuicao_residencia_candidatos.pdf>]
+) (./conteudo/06-plano-trabalho.tex [26] [27] [28] [29 <./figuras/distribuicao_notas_feminino.pdf> <./figuras/distribuicao_notas_masculino.pdf>] [30 <./figuras/distribuicao_notas_aprovados.pdf> <./figuras/distribuicao_notas_nao_aprovados.pdf>] [31] [32 <./figuras/distribuicao_ies.pdf> <./figuras/distribuicao_residencia_candidatos.pdf>]
 Cap\'{\i }tulo 6.
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htbp') on input line 16.
 
-) [31
+) [33
 
-] [32]
+] [34]
 LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 420.
 (c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
 File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
@@ -2342,14 +2340,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSans-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[33
+[35
 
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [34] [35] [36] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [36] [37] [38] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [37
+) [39
 
 
 ]
@@ -2363,24 +2361,24 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 4EA5D9A8464344384E8B8F956F9C6A1C;3300.
+(rerunfilecheck)             Checksum: 13BAC729FC5541209DE745B82A31C046;3295.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65091 strings out of 474272
- 1463969 string characters out of 5751548
- 2412219 words of memory out of 5000000
- 85417 multiletter control sequences out of 15000+600000
- 771661 words of font info for 500 fonts, out of 8000000 for 9000
+ 65104 strings out of 474272
+ 1464346 string characters out of 5751548
+ 2412283 words of memory out of 5000000
+ 85421 multiletter control sequences out of 15000+600000
+ 772225 words of font info for 504 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 108i,18n,120p,2294b,3198s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,18n,120p,2297b,3198s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (51 pages, 906114 bytes).
+Output written on tese.pdf (53 pages, 909686 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 678 compressed objects within 7 object streams
+ 130 named destinations out of 1000 (max. 500000)
  102604 words of extra memory for PDF output out of 106986 (max. 10000000)
 
