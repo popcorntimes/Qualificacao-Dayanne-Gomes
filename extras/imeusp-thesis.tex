@@ -24,6 +24,7 @@
 \providecommand\committeename{} % Examining committee / Comissão julgadora
 \providecommand\advisorname{} % Advisor / Orientador(a)
 \providecommand\coadvisorname{} % Co-advisor / Coorientador(a)
+\providecommand\contributorname{} % Contributor / Colaborador(a)
 \providecommand\workname{} % Report, Thesis / Tese, Dissertação, Monografia
 \providecommand\degreename{} % Masters, Doctorate, Bachelor / Mestrado, Doutorado, Bacharelado
 \providecommand\titlename{} % Master, Doctor, Bachelor / Mestre(a), Doutor(a), Bacharel
@@ -65,6 +66,17 @@
         {Orientadora}%
     }%
   }%
+  \renewcommand\contributorname{%
+  \iftoggle{@tcc}{%
+    \ifdefstring{\@contributorGender}{masc}
+      {Supervisor}
+      {Supervisora}%
+  }{%
+    \ifdefstring{\@contributorGender}{masc}
+      {Colaborador}
+      {Colaboradora}%
+  }%
+}%
   \renewcommand\coadvisorname[1]{%
     \iftoggle{@tcc}{%
       \ifcsstring{@coadvisor#1Gender}{masc}
@@ -73,7 +85,7 @@
     }{%
       \ifcsstring{@coadvisor#1Gender}{masc}
         {Coorientador}
-        {Coorientadora}%
+        {Colaboradora}%
     }%
   }%
   \renewcommand\workname{%
@@ -170,6 +182,9 @@
   \renewcommand\advisorname{%
     \iftoggle{@tcc}{Supervisor}{Advisor}%
   }%
+  \renewcommand\advisorname{%
+  \iftoggle{@tcc}{Supervisor}{Advisor}%
+}%
   \renewcommand\coadvisorname[1]{%
     \iftoggle{@tcc}{Co-supervisor}{Coadvisor}%
   }%
@@ -291,6 +306,11 @@
 \NewDocumentCommand{\orientador}{O{masc} m}{
   \gdef\@advisor{#2}
   \gdef\@advisorGender{#1}
+}
+
+\NewDocumentCommand{\colaborador}{O{masc} m}{
+  \gdef\@contributor{#2}
+  \gdef\@contributorGender{#1}
 }
 
 % Mais de um coorientador é raro, mas acontece

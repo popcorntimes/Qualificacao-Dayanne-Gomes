@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  10 NOV 2023 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  25 NOV 2023 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2045,11 +2045,21 @@ LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
 (Font)              scaled to size 10.0pt on input line 207.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
 (Font)              scaled to size 7.0pt on input line 207.
+LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TLF on input line 207.
+(c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/TS1LibertinusSerif-TLF.fd
+File: TS1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for TS1/LibertinusSerif-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 207.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSerif-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 [1
 
 
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_sfissr.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_opzo24.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}] [2
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_sfissr.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_opzo24.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}] [2
 
 ] [3]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
@@ -2161,20 +2171,12 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 13.
 
-LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TLF on input line 17.
-(c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/TS1LibertinusSerif-TLF.fd
-File: TS1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for TS1/LibertinusSerif-TLF.
-)
 LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 17.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSerif-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 ) (./conteudo/02-fundamental-teorico.tex
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
-[2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}]
+[2]
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 6.
@@ -2367,18 +2369,18 @@ Package logreq Info: Writing requests to 'tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65071 strings out of 474272
- 1463439 string characters out of 5751548
- 2410905 words of memory out of 5000000
- 85406 multiletter control sequences out of 15000+600000
- 770817 words of font info for 494 fonts, out of 8000000 for 9000
+ 65091 strings out of 474272
+ 1463969 string characters out of 5751548
+ 2412219 words of memory out of 5000000
+ 85417 multiletter control sequences out of 15000+600000
+ 771661 words of font info for 500 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 108i,18n,120p,1887b,3196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,18n,120p,2294b,3198s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (51 pages, 904777 bytes).
+Output written on tese.pdf (51 pages, 906114 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  666 compressed objects within 7 object streams
  127 named destinations out of 1000 (max. 500000)
- 98508 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 102604 words of extra memory for PDF output out of 106986 (max. 10000000)
 
