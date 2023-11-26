@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  26 NOV 2023 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  26 NOV 2023 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2215,41 +2215,49 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/scit' will be
 Cap\'{\i }tulo 4.
 [15
 
-] [16] [17] [18]
+] [16] [17]
+Overfull \vbox (2.55304pt too high) has occurred while \output is active []
+
+[18]
 Overfull \hbox (5.6497pt too wide) in paragraph at lines 85--94
  [][] 
  []
 
-[19] [20] [21]
+[19] [20]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 210.
+               Default added (so using `htbp') on input line 208.
 
 [22]
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 5.0pt on input line 233.
+(Font)              scaled to size 5.0pt on input line 231.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 233.
+(Font)              scaled to size 7.0pt on input line 231.
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 [][][]\T1/LibertinusSerif-TLF/m/n/10 (+20) https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-
  []
 
-) (./conteudo/05-resultados-preliminares.tex [23] [24
-
-]
+) (./conteudo/05-resultados-preliminares.tex [23] [24]
 Cap\'{\i }tulo 5.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2257,7 +2265,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25]
+[25
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2369,21 +2379,21 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 13BAC729FC5541209DE745B82A31C046;3295.
+(rerunfilecheck)             Checksum: C3349C5DBD965523A23DDC0D787A486E;3450.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65140 strings out of 474272
- 1465714 string characters out of 5751548
- 2412508 words of memory out of 5000000
+ 65146 strings out of 474272
+ 1465912 string characters out of 5751548
+ 2412537 words of memory out of 5000000
  85433 multiletter control sequences out of 15000+600000
- 774144 words of font info for 519 fonts, out of 8000000 for 9000
+ 774898 words of font info for 523 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  108i,18n,120p,2297b,3199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (53 pages, 914893 bytes).
+Output written on tese.pdf (53 pages, 915498 bytes).
 PDF statistics:
  991 PDF objects out of 1000 (max. 8388607)
  693 compressed objects within 7 object streams

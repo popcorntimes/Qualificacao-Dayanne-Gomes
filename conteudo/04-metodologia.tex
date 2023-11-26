@@ -2,14 +2,14 @@
 %("dica" para o editor de texto: este arquivo é parte de um documento maior)
 % para saber mais: https://tex.stackexchange.com/q/78101/183146
 
-\chapter{Metodologia}
+\chapter{Metodologia do trabalho já desenvolvido}
 \label{chap:metodologia}
 
-Neste capítulo, definimos a metodolofia empregada para responder as questões levantada na pesquisa. As bases de dados utilizadas estão descritas na \autoref{sec:bases}. Já as etapas do processo de ciência de dados, que explora os dados obtidos, estão descritas na seções subsequentes. O pré-processamento está descrito na \autoref{sec:pre-processamento} e a análise exploratória de dados está descrita na \autoref{sec:eda}.
+Neste capítulo, definimos a metodologia empregada para responder as questões levantada na pesquisa. As bases de dados utilizadas estão descritas na \autoref{sec:bases}. Já as etapas do processo de ciência de dados, que explora os dados obtidos, estão descritas na seções subsequentes. O pré-processamento está descrito na \autoref{sec:pre-processamento} e a análise exploratória de dados está descrita na \autoref{sec:eda}.
 
 \section{Bases de dados}
 \label{sec:bases}
-Nesta seção, descrevemos as bases de dados utilizadas nesta etapa da pesquisa. Para realizar a análise das escolhas de graduação, utilizamos dados educacionais dos estudantes. Uma das fontes é o Exame Nacional do Ensino Médio (ENEM). Através dele, conseguimos obter informações sobre alunos concludentes e que já concluíram o ensino médio, bem como de suas escolas. A outra fonte utilizada é o Sistema de Seleção Unificada (SISU). Com ela, obtemos informações relativas à inscrição dos alunos em cursos de nível superior, além de detalhes das instituições e cursos ofertados. Uma versão resumida dos dicionários de dados, que explicam as variáveis das bases, está disponível no Apêndice A. 
+Nesta seção, descrevemos as bases de dados utilizadas nesta etapa da pesquisa. Para realizar a análise das escolhas de graduação, utilizamos dados educacionais dos estudantes. Uma das fontes é o Exame Nacional do Ensino Médio (ENEM). Através dele, conseguimos obter informações sobre alunos concludentes e que já concluíram o ensino médio, bem como de suas escolas. A outra fonte utilizada é o Sistema de Seleção Unificada (SISU). Com ela, obtemos informações relativas à inscrição dos alunos em cursos de nível superior, além de detalhes das instituições e cursos ofertados.
 
 \subsection{ENEM}
 O Exame Nacional do Ensino Médio (ENEM) é um exame realizado pelo Ministério da Educação cujo objetivo é avaliar o desempenho escolar no final da educação básica. Desde 2009, ele passou a ser utilizado como mecanismo de ingresso à educação superior, cujas notas podem ser aproveitadas no Sistema de Seleção Unificada (SISU) e Programa Universidade para Todos (ProUni). O exame também possibilita o pleito de certificação do ensino médio. Os participantes realizam provas em quatro áreas de conhecimento: linguagens, ciências humanas, ciências da natureza e matemática. Além disso, eles devem desenvolver um texto dissertativo-argumentativo dada uma situação-problema, conhecido como redação \autocite{inep:1}.
@@ -31,7 +31,7 @@ Com o passar dos anos, os microdados foram se diferenciando à medida que eram i
   \item Dados do questionário socioeconômico.
 \end{itemize}
 
-Como parte da política adotada pela Lei Geral de Proteção de Dados Pessoais (LGPD), os dados passam por um tratamento antes de serem publicados. Isso significa que dados cadastrais e sensíveis, como nome, endereço, RG, etc, não são disponibilizados ou passam por uma máscara para anonimizá-lo, como é o caso do número de inscrição. Os arquivos de microdados são disponibilizados no formato .csv (valores separados por vírgulas). Os dados de 2016 constituem-se por apenas um arquivo, com uma tabela. Cada linha da tabela representa a inscrição de um candidato de forma individual, bem como as colunas são as variáveis definidas anteriormente, que caracterizam o participante. 
+Como parte da política adotada pela Lei Geral de Proteção de Dados Pessoais (LGPD), os dados passam por um tratamento antes de serem publicados. Isso significa que dados cadastrais e sensíveis, como nome, endereço, RG, etc, não são disponibilizados ou passam por uma máscara para anonimizá-lo, como é o caso do número de inscrição. Os arquivos de microdados são disponibilizados no formato .csv (valores separados por vírgulas). Os dados de 2016 estão contidos em apenas um arquivo, com uma tabela. Cada linha da tabela representa a inscrição de um candidato de forma individual, bem como as colunas são as variáveis definidas anteriormente, que caracterizam o participante. 
 
 \subsection{SISU}
 O Sistema de Seleção Unificada (SISU) é um sistema eletrônico do Ministério da Educação, no qual instituições públicas de ensino superior de todo o Brasil oferecem vagas para estudantes participantes do Exame Nacional do Ensino Médio. Durante o período da oferta de vagas, os alunos são ranqueados de acordo com as notas no exame e, aqueles com melhor classificação, são selecionados. Em cada processo seletivo do SISU, que tem duas aberturas anuais, o candidato pode escolher até duas opções de curso. É possível verificar informações sobre as vagas oferecidas, como cursos, instituições e localizações, turnos e modalidade de concorrência \autocite{mec:1}.
@@ -79,39 +79,39 @@ Visando solucionar essa questão, criamos novas classes de valores para represen
 \label{sec:eda}
 A partir da obtenção dos conjuntos de dados pré-processados, pudemos realizar uma análise exploratória de dados. Nesta etapa, iremos utilizar técnicas de manipulação de dados e ferramentas estatísticas para investigar os dados. Nela, conseguimos ter um entendimento melhor do cenário geral a ser explorado, como os dados estão distribuídos, quais são as variáveis, como elas se relacionam entre si e como podemos utilizá-las para responder as questões de pesquisa.
 
-Por definição, o \textit{dataset} do ENEM possui os dados do exame de estudantes de todo o país, que totalizam 8627367 registros. Cada registro corresponde a inscrição de um único estudante. No ato de realização do exame, esses participantes estão em diferentes situações em relação ao ensino médio, podendo já ter concluído, estar cursando ou não ter concluído e não estar cursando. Essa informação está expressa em duas variáveis: TP\_ST\_CONCLUSAO, Situação de conclusão do Ensino Médio, e Q046, que é a resposta do questionário socioeconômico à pergunta "Você já concluiu ou está concluindo o Ensino Médio?", visualizadas na \autoref{tab:situacao-em}. Em ambas, mais da metade dos estudantes já concluíu o ensino médio, seguidos daqueles que estão cursando e irão concluir em 2016.
+Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de estudantes de todo o país, que totalizam 8.627.367 registros. Cada registro corresponde a inscrição de um único estudante. No ato de realização do exame, esses participantes estão em diferentes situações em relação ao ensino médio, podendo já ter concluído, estar cursando ou não ter concluído e não estar cursando. Essa informação está expressa em duas variáveis: TP\_ST\_CONCLUSAO, Situação de conclusão do Ensino Médio, e Q046, que é a resposta do questionário socioeconômico à pergunta "Você já concluiu ou está concluindo o Ensino Médio?", visualizadas na \autoref{tab:situacao-em}. Em ambas, mais da metade dos estudantes já concluíu o ensino médio, seguidos daqueles que estão cursando e irão concluir em 2016.
 
 \begin{table}[h]
   \begin{tabular}{lcccc}
   \hline
   \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Situação}}}                                         & \multicolumn{2}{c}{\textbf{TP\_ST\_CONCLUSAO}} & \multicolumn{2}{c}{\textbf{Q046}}         \\ \cline{2-5} 
   \multicolumn{1}{c}{}                                                                           & \textbf{Quantidade}    & \textbf{Percentual}   & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
-  Já concluí o Ensino Médio                                                                      & 4928251                & 57,12\%               & 4947935             & 57,35\%             \\ \hline
-  \begin{tabular}[c]{@{}l@{}}Estou cursando e concluirei\\ o Ensino Médio em 2016\end{tabular}   & 1882278                & 21,82\%               & 1872570             & 21,70\%             \\ \hline
-  \begin{tabular}[c]{@{}l@{}}Estou cursando e concluirei\\ o Ensino Médio após 2016\end{tabular} & 1344085                & 15,58\%               & 1331073             & 15,43\%             \\ \hline
-  \begin{tabular}[c]{@{}l@{}}Não concluí e não estou\\ cursando o Ensino Médio\end{tabular}      & 472753                 & 5,48\%                & 475785              & 5,51\%              \\ \hline
+  Já concluí o Ensino Médio                                                                      & 4.928.251                & 57,12\%               & 4.947.935             & 57,35\%             \\ \hline
+  \begin{tabular}[c]{@{}l@{}}Estou cursando e concluirei\\ o Ensino Médio em 2016\end{tabular}   & 1.882.278                & 21,82\%               & 1.872.570             & 21,70\%             \\ \hline
+  \begin{tabular}[c]{@{}l@{}}Estou cursando e concluirei\\ o Ensino Médio após 2016\end{tabular} & 1.344.085                & 15,58\%               & 1.331.073             & 15,43\%             \\ \hline
+  \begin{tabular}[c]{@{}l@{}}Não concluí e não estou\\ cursando o Ensino Médio\end{tabular}      & 472.753                 & 5,48\%                & 475.785              & 5,51\%              \\ \hline
   \end{tabular}
   \caption{Situação de conclusão do ensino médio dos candidatos do ENEM}
   \label{tab:situacao-em}
   \end{table}
 
-  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluíu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluíntes não terem um ano de conclusão especificado. A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), além de que aqueles que concluíram em ensino regular constituírem a maioria (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira unificada a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código.
+  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluíu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluíntes não terem um ano de conclusão especificado. A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), além de que aqueles que concluíram em ensino regular constituírem a maioria (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira única a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código no conjunto de dados de 2016.
 
   \begin{table}[h]
-    \begin{tabular}{lcc}
+    \begin{tabular}{ccc}
     \hline
     \multicolumn{1}{c}{\textbf{Ano}} & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
-    2015                             & 966842              & 11,21\%             \\ \hline
-    2014                             & 699987              & 8,11\%              \\ \hline
-    2013                             & 527310              & 6,11\%              \\ \hline
-    2012                             & 416454              & 4,83\%              \\ \hline
-    2011                             & 317364              & 3,68\%              \\ \hline
-    2010                             & 294214              & 3,41\%              \\ \hline
-    2009                             & 244461              & 2,83\%              \\ \hline
-    2008                             & 199619              & 2,31\%              \\ \hline
-    2007                             & 178091              & 2,06\%              \\ \hline
-    Anterior a 2007                  & 1083909             & 12,56\%             \\ \hline
-    Não informado                    & 3699116             & 42,88\%             \\ \hline
+    2015                             & 966.842              & 11,21\%             \\ \hline
+    2014                             & 699.987              & 8,11\%              \\ \hline
+    2013                             & 527.310              & 6,11\%              \\ \hline
+    2012                             & 416.454              & 4,83\%              \\ \hline
+    2011                             & 317.364              & 3,68\%              \\ \hline
+    2010                             & 294.214              & 3,41\%              \\ \hline
+    2009                             & 244.461              & 2,83\%              \\ \hline
+    2008                             & 199.619              & 2,31\%              \\ \hline
+    2007                             & 178.091              & 2,06\%              \\ \hline
+    Anterior a 2007                  & 1.083.909             & 12,56\%             \\ \hline
+    Não informado                    & 3.699.116             & 42,88\%             \\ \hline
     \end{tabular}
     \caption{Ano de conclusão de ensino médio dos candidatos do ENEM}
     \label{tab:ano-conclusao}
@@ -121,15 +121,15 @@ Por definição, o \textit{dataset} do ENEM possui os dados do exame de estudant
       \begin{tabular}{lcc}
       \hline
       \multicolumn{1}{c}{\textbf{Tipo de ensino}} & \multicolumn{1}{c}{\textbf{Quantidade}} & \multicolumn{1}{c}{\textbf{Percentual}} \\ \hline
-      Ensino Regular                              & 1652485                                 & 19,15\%                                 \\ \hline
-      Educação Especial - Modalidade Substitutiva & 10295                                   & 0,12\%                                  \\ \hline
-      Educação de Jovens e Adultos                & 218532                                  & 2,53\%                                  \\ \hline
+      Ensino Regular                              & 1.652.485                                 & 19,15\%                                 \\ \hline
+      Educação Especial - Modalidade Substitutiva & 10.295                                   & 0,12\%                                  \\ \hline
+      Educação de Jovens e Adultos                & 218.532                                  & 2,53\%                                  \\ \hline
       \end{tabular}
       \caption{Tipo de ensino da escola dos candidatos do ENEM}
       \label{tab:tipo-ensino}
       \end{table}
 
-Como nem todos os registros presentes no conjunto são relevantes para a pesquisa, estabelecemos alguns critérios para a aplicação de filtros.
+Como nem todos os registros presentes no conjunto contêm todos os dados necessários para a pesquisa, estabelecemos alguns critérios para a aplicação de filtros. Dessa forma, apenas os seguintes registros foram mantidos em nossa base de trabalho:
 \begin{itemize}
   \item Registros que possuam informação de gênero, já que sem ela não podemos analisar o efeito da composição de gênero;
   \item Registros de estudantes que já concluíram o ensino médio ou que irão concluir em 2016, excluíndo aqueles que concluirão após 2016 ou não estão cursando e não concluíram; 
@@ -137,38 +137,38 @@ Como nem todos os registros presentes no conjunto são relevantes para a pesquis
   \item Registros de estudantes que realizaram ensino médio no Brasil, excluindo aqueles que estudaram no exterior por não haver informação dessas escolas;
   \item Registros de estudantes que não estão realizando o exame como treineiros, já que treineiros não estão aptos a utilizar a nota do ENEM para ingresso em universidade;
   \item Registros que possuam informação da escola de ensino médio, já que sem ela não é possível identificar a escola em outra base;
-  \item Registros que possuam informação de todas as notas.
+  \item Registros que possuam informação de todas as notas obtidas no ENEM.
 \end{itemize}
 
-A \autoref{tab:filtros-enem} descreve as observações durante a aplicação dos filtros. Cada filtro foi aplicado sequencialmente, sendo que os valores mostrados correspondem ao total do conjunto original subtraindo os total de registros excluídos até o momento. Após a aplicação de todos os filtros, restaram-se 1388044 registros, que correspondem a 16,09\% do conjunto original. Esse subconjunto de dados filtrados do original é o que passa a ser utilizado nas análises subsequentes.
+A \autoref{tab:filtros-enem} descreve as observações durante a aplicação dos filtros. Cada filtro foi aplicado sequencialmente, sendo que os valores mostrados correspondem ao total do conjunto original subtraindo os total de registros excluídos até o momento. Após a aplicação de todos os filtros, restaram-se 1.388.044 registros, que correspondem a 16,09\% do conjunto original. Esse subconjunto de dados filtrados do original é o que passa a ser utilizado nas análises subsequentes.
 
 \begin{table}[h]
   \begin{tabular}{lcc}
   \hline
   \multicolumn{1}{c}{\textbf{Filtro}}     & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
-  Conjunto original                       & 8627367             & 100,00\%            \\ \hline
-  Com informação de gênero                & 8627367             & 100,00\%            \\ \hline
-  Já concluíram ou concluirão EM em 2016  & 6810529             & 78,94\%             \\ \hline
-  Concluíram após 2007                    & 5726620             & 66,38\%             \\ \hline
-  Concluíram EM no Brasil                 & 5725635             & 66,37\%             \\ \hline
-  Concluíram EM no ensino regular         & 5496816             & 63,71\%             \\ \hline
-  Não são treineiros                      & 5496816             & 63,71\%             \\ \hline
-  Com informação presente da escola de EM & 1652471             & 19,15\%             \\ \hline
-  Com informação presente de notas        & 1388044             & 16,09\%             \\ \hline
+  Conjunto original                       & 8.627.367             & 100,00\%            \\ \hline
+  Com informação de gênero                & 8.627.367             & 100,00\%            \\ \hline
+  Já concluíram ou concluirão EM em 2016  & 6.810.529             & 78,94\%             \\ \hline
+  Concluíram após 2007                    & 5.726.620             & 66,38\%             \\ \hline
+  Concluíram EM no Brasil                 & 5.725.635             & 66,37\%             \\ \hline
+  Concluíram EM no ensino regular         & 5.496.816             & 63,71\%             \\ \hline
+  Não são treineiros                      & 5.496.816             & 63,71\%             \\ \hline
+  Com informação presente da escola de EM & 1.652.471             & 19,15\%             \\ \hline
+  Com informação presente de notas        & 1.388.044             & 16,09\%             \\ \hline
   \end{tabular}
   \caption{Filtros aplicados no conjunto de dados do ENEM}
   \label{tab:filtros-enem}
   \end{table}
 
-Já no \textit{dataset} do SISU, os dados estão estruturados de forma diferente, com uma listagem (ou abertura) por semestre na realização do processo seletivo. Cada registro corresponde a uma inscrição de um estudante em um curso, totalizando 6665892 registros. Na \autoref{tab:inscricoes-inscritos-sisu}, podemos observar a quantidade de inscrições e participantes inscritos, divididos por listagem. Em ambos os casos, a primeira listagem concentra a maioria dos registros.
+Já no \textit{dataset} do SISU 2017, os dados estão estruturados de forma diferente, com uma listagem (ou abertura) por semestre na realização do processo seletivo. Cada registro corresponde a uma inscrição de um estudante em um curso, totalizando 6665892 registros. Na \autoref{tab:inscricoes-inscritos-sisu}, podemos observar a quantidade de inscrições e participantes inscritos, divididos por listagem. Em ambos os casos, a primeira listagem concentra a maioria dos registros.
 
 \begin{table}[h]
   \begin{tabular}{ccc}
   \hline
   \multicolumn{1}{c}{\textbf{Listagem}} & \textbf{Inscrições} & \textbf{Inscritos} \\ \hline
-  1                                     & 4868545                           & 2494173                          \\ \hline
-  2                                     & 1797347                           & 935538                           \\ \hline
-  Total                                 & 6665892                           & 3429711                          \\ \hline
+  1                                     & 4.868.545                           & 2.494.173                          \\ \hline
+  2                                     & 1.797.347                           & 935.538                           \\ \hline
+  Total                                 & 6.665.892                           & 3.429.711                          \\ \hline
   \end{tabular}
   \caption{Inscrições e inscritos no SISU, divididos por listagem}
   \label{tab:inscricoes-inscritos-sisu}
@@ -177,29 +177,27 @@ Já no \textit{dataset} do SISU, os dados estão estruturados de forma diferente
 Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que pode ser de apenas 1 ou 2 cursos, pode-se perceber que 94,3\% dos participantes opta por se inscrever nas duas opções disponíveis, como mostra a \autoref{tab:quantidade-cursos-sisu}.
 
   \begin{table}[h]
-    \begin{tabular}{lc}
+    \begin{tabular}{cc}
     \hline
     \textbf{Opção de curso} & \textbf{Inscritos} \\ \hline
-    Apenas 1 curso          & 193530                           \\ \hline
-    2 cursos                & 3236181                          \\ \hline
-    Total                   & 3429711                          \\ \hline
+    Apenas 1 curso          & 193.530                           \\ \hline
+    2 cursos                & 3.236.181                          \\ \hline
+    Total                   & 3.429.711                          \\ \hline
     \end{tabular}
     \caption{Quantidade de inscritos por cursos optados no SISU}
     \label{tab:quantidade-cursos-sisu}
     \end{table}
 
-\pagebreak
-
 É possível que um candidato realize inscrição em somente uma das aberturas ou em ambas, observado na \autoref{tab:caso-inscricao-sisu}. Mais da metade (64,4\%) optou por se inscrever apenas na primeira abertura.
 
 \begin{table}[h]
-  \begin{tabular}{lc}
+  \begin{tabular}{cc}
   \hline
   \multicolumn{1}{c}{\textbf{Caso de inscrição}}        & \textbf{Inscritos} \\ \hline
-  Apenas na listagem 1  & 1689691                          \\ \hline
-  Apenas na listagem 2  & 131056                           \\ \hline
-  Ambas as listagens & 804482                           \\ \hline
-  \multicolumn{1}{c}{Total}                & 2625229                          \\ \hline
+  Apenas na listagem 1  & 1.689.691                          \\ \hline
+  Apenas na listagem 2  & 131.056                           \\ \hline
+  Ambas as listagens & 804.482                           \\ \hline
+  \multicolumn{1}{c}{Total}                & 2.625.229                          \\ \hline
   \end{tabular}
   \caption{Quantidade de inscritos por caso de inscrição em listagem no SISU}
   \label{tab:caso-inscricao-sisu}
@@ -212,17 +210,17 @@ Também é possível que o candidato tenha até 4 inscrições em cursos ao long
   \begin{tabular}{cc}
   \hline
   \textbf{Total de inscrições} & \textbf{Inscritos} \\ \hline
-  1                   & 116802    \\ \hline
-  2                   & 1708599   \\ \hline
-  3                   & 67420     \\ \hline
-  4                   & 732408    \\ \hline
-  Total               & 2625229   \\ \hline
+  1                   & 116.802    \\ \hline
+  2                   & 1.708.599   \\ \hline
+  3                   & 67.420     \\ \hline
+  4                   & 732.408    \\ \hline
+  Total               & 2.625.229   \\ \hline
   \end{tabular}
   \caption{Quantidade de inscritos pelo total de inscrições no SISU}
   \label{tab:total-inscricoes-inscritos-sisu}
   \end{table}
 
-De forma semelhante ao caso do ENEM, foram realizados alguns filtros no \textit{dataset} do SISU, sendo eles a exclusão de registros que não possuam informação de gênero e de registros que não possuam a informação de todas as notas. Não houve retirada de nenhum registro após a aplicação dos filtros, já que essas informações estavam disponíveis em todos eles. Também foi aplicada uma técnica de transformação de dados, de modo a agrupar todas as inscrições de um candidato em um único registro. Assim, houve uma redução de 60.62\% no \textit{dataset}, passando de 6665892 a 2625230 registros. Agora, o registro deixa de ser a inscrição de um candidato em um único curso para ser a inscrição no SISU como um todo.
+De forma semelhante ao caso do ENEM, foram realizados alguns filtros no \textit{dataset} do SISU, sendo eles a exclusão de registros que não possuam informação de gênero e de registros que não possuam a informação de todas as notas. Não houve retirada de nenhum registro após a aplicação dos filtros, já que essas informações estavam disponíveis em todos eles. Também foi aplicada uma técnica de transformação de dados, de modo a agrupar todas as inscrições de um candidato em um único registro. Assim, houve uma redução de 60,62\% no \textit{dataset}, passando de 6.665.892 a 2.625.230 registros. Agora, o registro deixa de ser a inscrição de um candidato em um único curso para ser a inscrição no SISU como um todo.
 
 Para identificar cada participante unicamente nas bases de dados, é necessário atribuir um campo como chave identificadora. Boas chaves candidatas para esse propósito seriam o CPF ou número de inscrição. Diferente de outros estudos da literatura, estamos lidando com dados disponibilizados publicamente. Isso significa que informações sensíveis, tais como essas chaves, não foram fornecidas. Assim, foi necessário desenvolver uma nova chave a partir dos campos existentes. 
 Para isso, realizamos uma investigação nas notas das provas, que foram agrupadas 
