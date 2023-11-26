@@ -412,6 +412,63 @@
       \verb https://jtd.amegroups.org/article/view/5822
       \endverb
     \endentry
+    \entry{Carvalhaes2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b58472f78d3eecd98f5897cb978473fe}{%
+           family={Carvalhaes},
+           familyi={C\bibinitperiod},
+           given={Flavio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a77f6cbfb6d8661e81d0e1287c67bcd1}{%
+           family={Senkevics},
+           familyi={S\bibinitperiod},
+           given={Adriano\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a216a380f73f9c847d928c0c3925f563}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Carlos\bibnamedelimb A.\bibnamedelimi Costa},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{762aee2d7fa16423e54a11a57d486365}
+      \strng{fullhash}{7671338f53e7633c943f8e8bcccfeca2}
+      \strng{bibnamehash}{7671338f53e7633c943f8e8bcccfeca2}
+      \strng{authorbibnamehash}{7671338f53e7633c943f8e8bcccfeca2}
+      \strng{authornamehash}{762aee2d7fa16423e54a11a57d486365}
+      \strng{authorfullhash}{7671338f53e7633c943f8e8bcccfeca2}
+      \field{labelalpha}{CSR22}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-174X}
+      \field{journaltitle}{Higher Education}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{The intersection of family income, race, and academic performance in access to higher education in Brazil}
+      \field{volume}{86}
+      \field{year}{2022}
+      \field{pages}{591\bibrangedash 616}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10734-022-00916-7
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10734-022-00916-7
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10734-022-00916-7
+      \endverb
+    \endentry
     \entry{Ensminger1992}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=df4307352f788a0fe7cee5eb1b2fa0e7}{%

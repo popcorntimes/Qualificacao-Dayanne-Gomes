@@ -942,13 +942,13 @@ INPUT ./conteudo/03-trabalhos-relacionados.tex
 INPUT ./conteudo/03-trabalhos-relacionados.tex
 INPUT conteudo/03-trabalhos-relacionados.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1--base.tfm
 INPUT ./conteudo/04-metodologia.tex
 INPUT ./conteudo/04-metodologia.tex
 INPUT ./conteudo/04-metodologia.tex
 INPUT ./conteudo/04-metodologia.tex
 INPUT conteudo/04-metodologia.tex
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1--base.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinust1math/libertinust1-mathrm.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinust1math/libertinust1-mathit.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinust1math/libertinust1-mathsym.tfm
