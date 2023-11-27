@@ -998,9 +998,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSan
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Regular-tlf-t1--base.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc
-INPUT ./tese.ind
-INPUT ./tese.ind
-INPUT tese.ind
 INPUT c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 INPUT c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 INPUT c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def

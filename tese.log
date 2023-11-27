@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  26 NOV 2023 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  26 NOV 2023 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2184,7 +2184,7 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 
 
 pdfTeX warning: pdflatex.exe (file ./figuras/Diagrama tipos de estudos observacionais.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/Diagrama tipos de estudos observacionais.pdf, id=269, 453.61469pt x 222.8325pt>
+<figuras/Diagrama tipos de estudos observacionais.pdf, id=264, 453.61469pt x 222.8325pt>
 File: figuras/Diagrama tipos de estudos observacionais.pdf Graphic file (type pdf)
 <use figuras/Diagrama tipos de estudos observacionais.pdf>
 Package pdftex.def Info: figuras/Diagrama tipos de estudos observacionais.pdf  used on input line 11.
@@ -2268,7 +2268,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [25
 
 ] [26]
-Overfull \hbox (6.64597pt too wide) in paragraph at lines 93--108
+Overfull \hbox (6.64597pt too wide) in paragraph at lines 95--110
  [][] 
  []
 
@@ -2277,45 +2277,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 112.
+               Default added (so using `htbp') on input line 114.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 130.
+               Default added (so using `htbp') on input line 132.
 
-<figuras/distribuicao_notas_enem.pdf, id=492, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_enem.pdf, id=487, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_enem.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_enem.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_enem.pdf  used on input line 152.
+Package pdftex.def Info: figuras/distribuicao_notas_enem.pdf  used on input line 154.
 (pdftex.def)             Requested size: 422.39389pt x 312.02068pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/distribuicao_notas_sisu.pdf, id=493, 422.39493pt x 312.02145pt>
+<figuras/distribuicao_notas_sisu.pdf, id=488, 422.39493pt x 312.02145pt>
 File: figuras/distribuicao_notas_sisu.pdf Graphic file (type pdf)
 <use figuras/distribuicao_notas_sisu.pdf>
-Package pdftex.def Info: figuras/distribuicao_notas_sisu.pdf  used on input line 159.
+Package pdftex.def Info: figuras/distribuicao_notas_sisu.pdf  used on input line 161.
 (pdftex.def)             Requested size: 422.39389pt x 312.02068pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 163.
+               Default added (so using `htbp') on input line 165.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 182.
+               Default added (so using `htbp') on input line 184.
 
-<figuras/distribuicao_ies.pdf, id=494, 617.64503pt x 390.49554pt>
+<figuras/distribuicao_ies.pdf, id=489, 617.64503pt x 390.49554pt>
 File: figuras/distribuicao_ies.pdf Graphic file (type pdf)
 <use figuras/distribuicao_ies.pdf>
-Package pdftex.def Info: figuras/distribuicao_ies.pdf  used on input line 207.
+Package pdftex.def Info: figuras/distribuicao_ies.pdf  used on input line 209.
 (pdftex.def)             Requested size: 432.48189pt x 273.43439pt.
-<figuras/distribuicao_residencia_candidatos.pdf, id=495, 617.64503pt x 387.57777pt>
+<figuras/distribuicao_residencia_candidatos.pdf, id=490, 617.64503pt x 387.57777pt>
 File: figuras/distribuicao_residencia_candidatos.pdf Graphic file (type pdf)
 <use figuras/distribuicao_residencia_candidatos.pdf>
-Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on input line 213.
+Package pdftex.def Info: figuras/distribuicao_residencia_candidatos.pdf  used on input line 215.
 (pdftex.def)             Requested size: 432.48189pt x 271.3913pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2342,42 +2342,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 [35
 
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [36] [37] [38] (./tese.ind) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}] [36] [37] (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (c:/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [39
-
-
-]
-
-Package imakeidx Warning: Remember to run (pdf)latex again after calling
-(imakeidx)                `makeindex -s mkidxhead.ist -l -c tese.idx'.
-
-(./tese.aux)
+) [38] (./tese.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: C3349C5DBD965523A23DDC0D787A486E;3450.
+(rerunfilecheck)             Checksum: 5077CC9932531058B44410BD372788DD;3319.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65132 strings out of 474272
- 1465117 string characters out of 5751548
- 2398537 words of memory out of 5000000
- 85419 multiletter control sequences out of 15000+600000
+ 65117 strings out of 474272
+ 1464866 string characters out of 5751548
+ 2399536 words of memory out of 5000000
+ 85410 multiletter control sequences out of 15000+600000
  774898 words of font info for 523 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  108i,18n,120p,2297b,3199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (53 pages, 891426 bytes).
+Output written on tese.pdf (52 pages, 890551 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 683 compressed objects within 7 object streams
- 132 named destinations out of 1000 (max. 500000)
- 102594 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 102586 words of extra memory for PDF output out of 106986 (max. 10000000)
 
