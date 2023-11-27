@@ -1,23 +1,23 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'tese.blg'
-[160] biber-MSWIN64:340> INFO - === 
-[203] Biber.pm:419> INFO - Reading 'tese.bcf'
-[403] Biber.pm:979> INFO - Found 35 citekeys in bib section 0
-[424] Biber.pm:4419> INFO - Processing section 0
-[439] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[498] bibtex.pm:1713> INFO - LaTeX decoding ...
-[628] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[894] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[894] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[894] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
-[894] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
-[960] bbl.pm:660> INFO - Writing 'tese.bbl' with encoding 'UTF-8'
-[987] bbl.pm:763> INFO - Output to tese.bbl
-[987] Biber.pm:131> WARN - Duplicate entry key: 'mec:1' in file 'bibliografia.bib', skipping ...
-[987] Biber.pm:131> WARN - Duplicate entry key: 'Garcia2016' in file 'bibliografia.bib', skipping ...
-[987] Biber.pm:131> WARN - legacy month field 'dec' in entry 'Song2010' is not an integer - this will probably not sort properly.
-[988] Biber.pm:131> WARN - legacy month field 'nov' in entry 'Zangirolami-Raimundo2018' is not an integer - this will probably not sort properly.
-[988] Biber.pm:131> WARN - legacy month field 'apr' in entry 'Ensminger1992' is not an integer - this will probably not sort properly.
-[988] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Hoxby-2000' is not an integer - this will probably not sort properly.
-[988] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Dayanne\AppData\Local\Temp\biber_tmp_1TVe\499af1e6906591d6961f19d66c065a09_8084.utf8, line 688, warning: undefined macro "jan-jun"
-[988] Biber.pm:133> INFO - WARNINGS: 7
+[179] biber-MSWIN64:340> INFO - === 
+[229] Biber.pm:419> INFO - Reading 'tese.bcf'
+[394] Biber.pm:979> INFO - Found 35 citekeys in bib section 0
+[416] Biber.pm:4419> INFO - Processing section 0
+[430] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[506] bibtex.pm:1713> INFO - LaTeX decoding ...
+[729] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[1052] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1052] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1052] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
+[1052] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
+[1113] bbl.pm:660> INFO - Writing 'tese.bbl' with encoding 'UTF-8'
+[1146] bbl.pm:763> INFO - Output to tese.bbl
+[1146] Biber.pm:131> WARN - Duplicate entry key: 'mec:1' in file 'bibliografia.bib', skipping ...
+[1146] Biber.pm:131> WARN - Duplicate entry key: 'Garcia2016' in file 'bibliografia.bib', skipping ...
+[1147] Biber.pm:131> WARN - legacy month field 'dec' in entry 'Song2010' is not an integer - this will probably not sort properly.
+[1147] Biber.pm:131> WARN - legacy month field 'nov' in entry 'Zangirolami-Raimundo2018' is not an integer - this will probably not sort properly.
+[1147] Biber.pm:131> WARN - legacy month field 'apr' in entry 'Ensminger1992' is not an integer - this will probably not sort properly.
+[1147] Biber.pm:131> WARN - legacy month field 'aug' in entry 'Hoxby-2000' is not an integer - this will probably not sort properly.
+[1147] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Dayanne\AppData\Local\Temp\biber_tmp_CeHR\499af1e6906591d6961f19d66c065a09_19640.utf8, line 688, warning: undefined macro "jan-jun"
+[1147] Biber.pm:133> INFO - WARNINGS: 7

@@ -3,7 +3,7 @@
 Neste capítulo, apresentaremos os resultados preliminares obtidos através de uma análise descritiva. Os resultados estão segmentados por gênero e situação de aprovação nos cursos inscritos.
 
 \section{Perfil dos candidatos, instituições de ensino e cursos de graduação}
-Para descrever o perfil dos participantes e cursos de graduação, realizamos um levantamento através de algumas variáveis específicas. No conjunto de dados do ENEM, a análise foi segmentada por gênero, observado na \autoref{tab:estatistica-enem}. As mulheres constituem 58\% do total de candidatos, ao passo que homens constituem 32\%. Escolas públicas de nível estadual concentram a maioria dos estudantes. Em relação à escolaridade, a maior parte das mães possui ensino médio completo, enquanto a maioria dos pais não possui ensino médio completo. A faixa etária com mais estudantes é de 16 a 20 anos, sendo que a idade que possui mais candidatos é a de 17 anos. Quanto à identificação racial, brancos e pardos concentram a maioria do total. Já no SISU, a segmentação é realizada por situação de aprovação, observada na \autoref{tab:estatistica-sisu}. Aprovados são 4,4,4\% do total e reprovados 95,6\%. Cursos de grau bacharelado e licenciatura e de turno integral e noturno são os que possuem mais inscrições. Observamos que homens possuem mais aprovações, ao passo que mulheres são a maioria dos não aprovados. Ações afirmativas beneficiam mais da metade dos participantes, em ambos os segmentos.
+Para descrever o perfil dos participantes e cursos de graduação, realizamos um levantamento através de algumas variáveis específicas. No conjunto de dados do ENEM, a análise foi segmentada por gênero, observado na \autoref{tab:estatistica-enem}. As mulheres constituem 58\% do total de candidatos, ao passo que homens constituem 42\%. Escolas públicas de nível estadual concentram a maioria dos estudantes. Em relação à escolaridade, a maior parte das mães dos candidatos possui ensino médio completo, enquanto a maioria dos pais não possui ensino médio completo. A faixa etária com mais estudantes é de 16 a 20 anos, sendo que a idade que possui mais candidatos é a de 17 anos. Quanto à identificação racial, brancos e pardos concentram a maioria do total. Já no SISU, a segmentação é realizada por situação de aprovação, observada na \autoref{tab:estatistica-sisu}. Aprovados são 4,4\% do total e reprovados 95,6\%. Cursos de grau bacharelado e licenciatura e de turno integral e noturno são os que possuem mais inscrições. Observamos que homens possuem mais aprovações, ao passo que mulheres são a maioria dos não aprovados. Ações afirmativas beneficiam mais da metade dos participantes, em ambos os segmentos.
 
 \begin{table}[h]
     \begin{tabular}{cccc}
@@ -19,14 +19,15 @@ Para descrever o perfil dos participantes e cursos de graduação, realizamos um
     \multirow{2}{*}{Escolaridade pai}           & Com EM completo & 39,01\%           & 44,72\%            \\ \cline{2-4} 
                                                 & Sem EM completo & 60,99\%           & 55,28\%            \\ \hline
     \multirow{9}{*}{Idade}                      & 15 anos ou menos          & 0,16\%            & 0,11\%             \\ \cline{2-4} 
-                                                & 16 a 20 anos              & 97,15\%           & 96,97\%            \\ \cline{2-4} 
-                                                & 21 a 25 anos              & 1,78\%            & 2,38\%             \\ \cline{2-4} 
-                                                & 26 a 30 anos              & 0,39\%            & 0,28\%             \\ \cline{2-4} 
-                                                & 31 a 35 anos              & 0,23\%            & 0,11\%             \\ \cline{2-4} 
-                                                & 36 a 40 anos              & 0,14\%            & 0,06\%             \\ \cline{2-4} 
-                                                & 41 a 45 anos              & 0,08\%            & 0,04\%             \\ \cline{2-4} 
-                                                & 46 a 50 anos              & 0,04\%            & 0,02\%             \\ \cline{2-4} 
-                                                & 50 anos ou mais           & 0,03\%            & 0,02\%             \\ \hline
+    & 16 anos              & 4,81\%           & 3,65\%            \\ \cline{2-4} 
+    & 17 anos              & 53,82\%            & 49,28\%             \\ \cline{2-4} 
+    & 18 anos              & 28,93\%            & 31,04\%             \\ \cline{2-4} 
+    & 19 anos              & 7,33\%            & 9,68\%             \\ \cline{2-4} 
+    & 20 anos              & 2,25\%            & 3,33\%             \\ \cline{2-4} 
+    & 21 a 30 anos              & 2,18\%            & 2,66\%             \\ \cline{2-4} 
+    & 31 a 40 anos              & 0,37\%            & 0,17\%             \\ \cline{2-4}
+    & 41 a 50 anos              & 0,12\%            & 0,06\%             \\ \cline{2-4} 
+    & 50 anos ou mais           & 0,03\%            & 0,02\%             \\ \hline
     \multirow{7}{*}{Raça}                       & Amarela                   & 2,45\%            & 1,86\%             \\ \cline{2-4} 
                                                 & Branca                    & 40,53\%           & 41,57\%            \\ \cline{2-4} 
                                                 & Indígena                  & 0,54\%            & 0,61\%             \\ \cline{2-4} 
@@ -62,9 +63,9 @@ Para descrever o perfil dos participantes e cursos de graduação, realizamos um
     \label{tab:estatistica-sisu}
     \end{table}
 
-Também é levantado o desempenho dos estudantes nas provas do exame. No ENEM, em todas as provas, para ambos os gêneros, o intervalo de notas que possui a maior observação é o de (400, 600]. A observação das notas em intervalos pode ser vista na \autoref{tab:observacao-nota-enem}, e sua distribuição em gráfico de densidade na \autoref{fig:nota-genero}, divididas por gênero. No SISU, aprovados tendem a se concentrar em intervalos com maiores notas, como (600, 800] e (800, 1000] na redação, enquanto não aprovados se concentram em (400, 600]. De forma similar, isso pode ser visto na \autoref{tab:observacao-nota-sisu} e na \autoref{fig:nota-aprovacao}, divididas por situação de aprovação. As estatística descritivas, com cálculo de média, desvio padrão e p-valor resultante da aplicação de teste t, estão disponíveis para o ENEM na \autoref{tab:estatistica-nota-enem} e para o SISU na \autoref{tab:estatistica-nota-sisu}. Homens possuem maiores médias de notas objetivas e mulheres possuem maior média de nota em redação. Aprovados possuem maiores médias em todas as provas. Em ambos os conjuntos, temos os resultados do p-valor zerados, mostrando que a diferença nas médias é estatisticamente significativa.
+Também é levantado o desempenho dos estudantes nas provas do exame. No ENEM, em todas as provas, para ambos os gêneros, o intervalo de notas que possui a maior observação é o de (400, 600]. A observação das notas em intervalos pode ser vista na \autoref{tab:observacao-nota-enem}, e sua distribuição em gráfico de densidade na \autoref{fig:nota-genero}, divididas por gênero. No SISU, aprovados tendem a se concentrar em intervalos com maiores notas, como (600, 800] e (800, 1000] na redação, enquanto não aprovados se concentram em (400, 600]. De forma similar, isso pode ser visto na \autoref{tab:observacao-nota-sisu} e na \autoref{fig:nota-aprovacao}, divididas por situação de aprovação. As estatística descritivas de notas e idades do ENEM estão disponíveis na \autoref{tab:estatistica-nota-enem} e do SISU na \autoref{tab:estatistica-nota-sisu}. Homens possuem maiores médias de notas objetivas e mulheres possuem maior média de nota em redação. Aprovados possuem maiores médias em todas as provas. Para ambos os conjuntos, realizamos um teste-t bicaudal para comparar as médias de homens e mulheres e aprovados e não aprovados. Considerando um $\alpha$ de 0,01, para todas as variáveis, o valor-p foi menor que o nível de significância (p < 0,01), rejeitando a hipótese nula de que as médias são iguais e sugerindo que a diferença nas médias é estatisticamente significativa.
 
-A \autoref{tab:classificacao-curso-genero} mostra a classificação das áreas dos cursos por gênero. As áreas mais ocupadas por mulheres são Saúde e bem-estar e Ciências sociais, negócios e direito, enquanto as áreas mais ocupadas por homens são Ciência e Ciências sociais, negócios e direito. Com relação à proporção de homens e mulheres por área, homens são maioria nas áreas de Ciência (55,4\%) e Engenharia, manufatura e construção (60,25\%). A \autoref{tab:universidade-inscricao} mostra a distribuição das universidades com mais inscrições. As 3 instituições com mais inscritos são as universidades federais do Maranhão, Rio de Janeiro e Fluminense. A \autoref{fig:distribuicao-uf} mostra a distribuicao das unidades federativas no SISU, divididas pelas inscrições em instituições de ensino e residência dos candidatos. As IES com mais inscrições localizam-se nos estados de Minas Gerais, Rio de Janeiro e Bahia, ao passo que os estados de residência com mais candidatos são Minas Gerais, São Paulo e Rio de Janeiro. 
+A \autoref{tab:classificacao-curso-genero} mostra a classificação das áreas dos cursos por gênero. As áreas mais ocupadas por mulheres são Saúde e bem-estar e Ciências sociais, negócios e direito, enquanto as áreas mais ocupadas por homens são Ciência e Ciências sociais, negócios e direito. Com relação à proporção de homens e mulheres por área, homens são maioria nas áreas de Ciência (55,4\%) e Engenharia, manufatura e construção (60,25\%). A \autoref{tab:universidade-inscricao} mostra a distribuição das universidades com mais inscrições. As 3 instituições com mais inscritos são as universidades federais do Maranhão, Rio de Janeiro e Fluminense. A \autoref{fig:distribuicao-uf} mostra a distribuição das unidades federativas no SISU, divididas pelas inscrições em instituições de ensino e residência dos candidatos. Os estados que mais possuem inscrições em IES são Minas Gerais, Rio de Janeiro e Bahia, ao passo que os estados de residência com mais candidatos são Minas Gerais, São Paulo e Rio de Janeiro. 
    
 \begin{table}[h]
     \centering
@@ -108,80 +109,56 @@ A \autoref{tab:classificacao-curso-genero} mostra a classificação das áreas d
 \label{tab:observacao-nota-sisu}
 \end{table}
 
-    \begin{table}[h]
+\begin{table}[]
+    \centering
+    \begin{tabular}{ccccc}
+    \hline
+    \textbf{Gênero}                                                     & \multicolumn{2}{c}{Feminino}                                     & \multicolumn{2}{c}{Masculino}                                    \\ \hline
+    \textbf{Estatística}                                                & Média  & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & Média  & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} \\ \hline
+    \textbf{Variável}                                                   &        &                                                         &        &                                                         \\ \hline
+    Idade                                                               & 17,69  & 1,96                                                    & 17,77  & 1,64                                                    \\ \hline
+    \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ Humanas\end{tabular}     & 532,12 & 72,75                                                   & 544,01 & 76,72                                                   \\ \hline
+    \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ da Natureza\end{tabular} & 474,44 & 71,18                                                   & 495,02 & 78,94                                                   \\ \hline
+    Nota Linguagens                                                     & 522,25 & 68,01                                                   & 524,28 & 71,02                                                   \\ \hline
+    Nota Matemática                                                     & 476,82 & 96,86                                                   & 518,36 & 115,32                                                  \\ \hline
+    Nota Redação                                                        & 559,52 & 150,15                                                  & 531,96 & 155,58                                                  \\ \hline
+    \end{tabular}
+    \caption{Estatísticas descritivas das notas e idade do ENEM por gênero}
+    \label{tab:estatistica-nota-enem}
+    \end{table}
+
+    \begin{table}[]
         \centering
-        \begin{tabular}{ccccccc}
+        \begin{tabular}{ccccc}
         \hline
-        \textbf{Gênero}                                                     & \multicolumn{3}{c}{Feminino}                                                  & \multicolumn{3}{c}{Masculino}                                                 \\ \hline
-        \textbf{Estatística}                                                & Média     & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & p-valor & Média     & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & p-valor \\ \hline
-        \textbf{Variável}                                                   & \textbf{} & \textbf{}                                               &         & \textbf{} & \textbf{}                                               &         \\ \hline
-        Idade                                                               & 17,69     & 1,96                                                    & 0,0     & 17,77     & 1,64                                                    & 0,0     \\ \hline
-        \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ Humanas\end{tabular}     & 532,12    & 72,75                                                   & 0,0     & 544,01    & 76,72                                                   & 0,0     \\ \hline
-        \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ da Natureza\end{tabular} & 474,44    & 71,18                                                   & 0,0     & 495,02    & 78,94                                                   & 0,0     \\ \hline
-        Nota Linguagens                                                     & 522,25    & 68,01                                                   & 0,0     & 524,28    & 71,02                                                   & 0,0     \\ \hline
-        Nota Matemática                                                     & 476,82    & 96,86                                                   & 0,0     & 518,36    & 115,32                                                  & 0,0     \\ \hline
-        Nota Redação                                                        & 559,52    & 150,15                                                  & 0,0     & 531,96    & 155,58                                                  & 0,0     \\ \hline
+        \textbf{Gênero}                                                     & \multicolumn{2}{c}{Feminino}                                     & \multicolumn{2}{c}{Masculino}                                    \\ \hline
+        \textbf{Estatística}                                                & Média  & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & Média  & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} \\ \hline
+        \textbf{Variável}                                                   &        &                                                         &        &                                                         \\ \hline
+        Idade                                                               & 20,73  & 5,77                                                    & 22,38  & 7,11                                                    \\ \hline
+        \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ Humanas\end{tabular}     & 638,67 & 50,47                                                   & 557,41 & 72,75                                                   \\ \hline
+        \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ da Natureza\end{tabular} & 593,83 & 69,85                                                   & 497,64 & 78,74                                                   \\ \hline
+        Nota Linguagens                                                     & 605,11 & 48,45                                                   & 538,94 & 65,55                                                   \\ \hline
+        Nota Matemática                                                     & 646,52 & 114,98                                                  & 513,66 & 110,82                                                  \\ \hline
+        Nota Redação                                                        & 746,67 & 120,40                                                  & 585,07 & 133,80                                                  \\ \hline
         \end{tabular}
-        \caption{Estatísticas descritivas das notas e idade do ENEM por gênero}
-        \label{tab:estatistica-nota-enem}
+        \caption{Estatísticas descritivas das notas e idade do SISU por situação de aprovação}
+        \label{tab:estatistica-nota-sisu}
         \end{table}
 
 
-        \begin{table}[]
-            \centering
-            \begin{tabular}{ccccccc}
-            \hline
-            \textbf{Situação}                                                   & \multicolumn{3}{c}{Aprovado}                                                    & \multicolumn{3}{c}{Não aprovado}                                              \\ \hline
-            \textbf{Estatística}                                                & Média     & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & p-valor   & Média     & \begin{tabular}[c]{@{}c@{}}Desvio\\ padrão\end{tabular} & p-valor \\ \hline
-            \textbf{Variável}                                                   & \textbf{} & \textbf{}                                               & \textbf{} & \textbf{} & \textbf{}                                               &         \\ \hline
-            Idade                                                               & 20.73     & 5.77                                                    & 0,0       & 22.38     & 7.11                                                    & 0,0     \\ \hline
-            \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ Humanas\end{tabular}     & 638.67    & 50.47                                                   & 0,0       & 557.41    & 72.75                                                   & 0,0     \\ \hline
-            \begin{tabular}[c]{@{}c@{}}Nota Ciências\\ da Natureza\end{tabular} & 593.83    & 69.85                                                   & 0,0       & 497.64    & 78.74                                                   & 0,0     \\ \hline
-            Nota Linguagens                                                     & 605.11    & 48.45                                                   & 0,0       & 538.94    & 65.55                                                   & 0,0     \\ \hline
-            Nota Matemática                                                     & 646.52    & 114.98                                                  & 0,0       & 513.66    & 110.82                                                  & 0,0     \\ \hline
-            Nota Redação                                                        & 746.67    & 120.40                                                  & 0,0       & 585.07    & 133.80                                                  & 0,0     \\ \hline
-            \end{tabular}
-            \caption{Estatísticas descritivas das notas e idade do SISU por situação de aprovação}
-            \label{tab:estatistica-nota-sisu}
-            \end{table}
 
-            \begin{figure}[h]
-                \centering
+\begin{figure}[h]
+    \centering
+    \includegraphics{figuras/distribuicao_notas_enem.pdf}
+    \caption{Distribuição das notas do ENEM por gênero}
+    \label{fig:nota-genero}
+\end{figure}
             
-                \begin{subfigure}{\textwidth}
-                    \centering
-                    \includegraphics[width=\linewidth]{figuras/distribuicao_notas_feminino.pdf}
-                    \caption{Feminino}
-                \end{subfigure}
-                \hfill
-                \begin{subfigure}{\textwidth}
-                    \centering
-                    \includegraphics[width=\linewidth]{figuras/distribuicao_notas_masculino.pdf}
-                    \caption{Masculino}
-                \end{subfigure}
-            
-                \caption{Distribuição das notas do ENEM por gênero}
-                \label{fig:nota-genero}
-            \end{figure}
-            
-            \begin{figure}[h]
-                \centering
-            
-                \begin{subfigure}{\textwidth}
-                    \centering
-                    \includegraphics[width=\linewidth]{figuras/distribuicao_notas_aprovados.pdf}
-                    \caption{Aprovado}
-                \end{subfigure}
-                \hfill
-                \begin{subfigure}{\textwidth}
-                    \centering
-                    \includegraphics[width=\linewidth]{figuras/distribuicao_notas_nao_aprovados.pdf}
-                    \caption{Não aprovado}
-                \end{subfigure}
-            
-                \caption{Distribuição das notas do SISU por situação de aprovação}
-                \label{fig:nota-aprovacao}
-            \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics{figuras/distribuicao_notas_sisu.pdf}\caption{Distribuição das notas do SISU por situação de aprovação}
+    \label{fig:nota-aprovacao}
+\end{figure}
     
             \begin{table}[]
                 \centering
