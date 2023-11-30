@@ -989,6 +989,11 @@ INPUT ./conteudo/06-plano-trabalho.tex
 INPUT ./conteudo/06-plano-trabalho.tex
 INPUT ./conteudo/06-plano-trabalho.tex
 INPUT conteudo/06-plano-trabalho.tex
+INPUT ./conteudo/apendice-cursos.tex
+INPUT ./conteudo/apendice-cursos.tex
+INPUT ./conteudo/apendice-cursos.tex
+INPUT ./conteudo/apendice-cursos.tex
+INPUT conteudo/apendice-cursos.tex
 INPUT c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd

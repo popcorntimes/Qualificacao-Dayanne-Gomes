@@ -70,7 +70,7 @@
 % \texten{blah} -> o texto "blah" é em inglês
 % \textbr{blah} -> o texto "blah" é em português
 \babeltags{br = brazilian, en = english}
-
+\usepackage{longtable}
 % Bibliografia
 \usepackage[
   style=extras/plainnat-ime, % variante de autor-data, similar a plainnat
@@ -376,16 +376,16 @@
 %\if@openright\cleardoublepage\else\clearpage\fi
 %\makeatother
 
-%\pagestyle{appendix}
+\pagestyle{appendix}
 
-%\appendix
+\appendix
 
 % \addappheadtotoc acrescenta a palavra "Apêndice" ao sumário; se
 % só há apêndices, sem anexos, provavelmente não é necessário.
 %\addappheadtotoc
 
-%\input{conteudo/apendice-exemplo-pseudocodigo}
-%\par
+\input{conteudo/apendice-cursos}
+\par
 
 %%%% Anexos %%%%
 

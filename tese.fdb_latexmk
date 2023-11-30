@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber tese"] 1701304920 "tese.bcf" "tese.bbl" "tese" 1701309514 0
+["biber tese"] 1701351384 "tese.bcf" "tese.bbl" "tese" 1701353288 0
   "./bibliografia.bib" 1701289769 25867 76be493f0cd543048550b6295b231609 ""
-  "tese.bcf" 1701309513 110433 99d91cdbdf42eb04b5eb044b4dc8d0ae "pdflatex"
+  "tese.bcf" 1701353287 110433 99d91cdbdf42eb04b5eb044b4dc8d0ae "pdflatex"
   (generated)
   "tese.bbl"
   "tese.blg"
   (rewritten before read)
-["makeindex tese.idx"] 1701304937 "tese.idx" "tese.ind" "tese" 1701309514 0
-  "tese.idx" 1701309513 970 0227713bbbfcf04d5918a1f095876067 "pdflatex"
+["makeindex tese.idx"] 1701351401 "tese.idx" "tese.ind" "tese" 1701353288 0
+  "tese.idx" 1701353287 970 0227713bbbfcf04d5918a1f095876067 "pdflatex"
   (generated)
   "tese.ilg"
   "tese.ind"
   (rewritten before read)
-["pdflatex"] 1701309502 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1701309514 0
-  "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" 1701050938 17314 72286589b46a17718e593c7ed2407f7c ""
+["pdflatex"] 1701353275 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1701353288 0
+  "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" 1701351471 17318 cf1fd412bdd8e43d8adafec26dc62e5e ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1699321035 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc" 1699321035 3498 97969c5bc9b87f369104f937c6467737 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc" 1699321035 3039 b94e5746763ffece6312a6e9abac298f ""
@@ -412,10 +412,11 @@
   "conteudo/01-introducao.tex" 1701290540 7558 8af6ae24ab5789df9f953824e1091a38 ""
   "conteudo/02-fundamental-teorico.tex" 1701298057 12546 22fc61cad8c0da40bc77df16ee1c72f8 ""
   "conteudo/03-trabalhos-relacionados.tex" 1701300085 8877 475770b9c9fed38e7012e55ca23b7c8c ""
-  "conteudo/04-metodologia.tex" 1701305973 30337 3c3d5a6252cf50728ec3367eecf73873 ""
-  "conteudo/05-resultados-preliminares.tex" 1701309332 25156 7b24cc8e91877f6c759168030cbdf936 ""
+  "conteudo/04-metodologia.tex" 1701353274 30339 7a585665a5ae2017b7e8a9434a8fae15 ""
+  "conteudo/05-resultados-preliminares.tex" 1701352154 25232 33108094b05a4b141e12801d8c23c9b3 ""
   "conteudo/06-plano-trabalho.tex" 1701309501 3609 2bcdd1e746ee66af3f6d8480c449af23 ""
-  "conteudo/resumoabstract.tex" 1701288581 5195 121ee14b3c5fd742d51c3cc9564dbcab ""
+  "conteudo/apendice-cursos.tex" 1701352307 19108 5f64823715f0a5a22fe0aba27d69023d ""
+  "conteudo/resumoabstract.tex" 1701352500 5194 f4cfc5f4b25c6b57e49737708d2604eb ""
   "extras/basics.tex" 1699361450 20308 8c2dc636dc80948406b5ecbec43fd6d9 ""
   "extras/bibconfig.tex" 1699361450 4113 4d8dba9b9b4a53d2d65b5bc6d046cb43 ""
   "extras/floats.tex" 1699361450 15187 242a5fcc63c81f3fa9e8888b24657efa ""
@@ -439,15 +440,15 @@
   "figuras/distribuicao_residencia_candidatos.pdf" 1699584357 15033 11953da42f941376e0068b7e12eaf235 ""
   "hyperxindy.xdy" 1699361510 301 e1a1e2f569821a37ccf6e0c8ec8620ec ""
   "mkidxhead.ist" 1699361510 80 c56667d514c1ae5929d36d5c24f727ad ""
-  "tese.aux" 1701309513 17333 49ec750a12a9a03ce59cb03d39d6c630 "pdflatex"
-  "tese.bbl" 1701304924 70045 2cd121160e570f41a360534744a2585c "biber tese"
-  "tese.ind" 1701304938 1346 e5f08648c6301d5dce54bd1267361ae0 "makeindex tese.idx"
-  "tese.lof" 1701309513 788 b232df9efd4958720e73518da14ceb48 "pdflatex"
-  "tese.lot" 1701309513 2688 a6abf7c9c057b0f9807e2a8d744253ac "pdflatex"
-  "tese.out" 1701309513 3319 5c8288f9314ab0330f6de664c7de3140 "pdflatex"
-  "tese.run.xml" 1701309513 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
-  "tese.tex" 1701050938 17314 72286589b46a17718e593c7ed2407f7c ""
-  "tese.toc" 1701309513 1785 35fbf506f8d4260dc059e08a4b0796a5 "pdflatex"
+  "tese.aux" 1701353287 17964 4a534d9c91a0d6a0512ba961c0b84cc5 "pdflatex"
+  "tese.bbl" 1701351388 70045 2cd121160e570f41a360534744a2585c "biber tese"
+  "tese.ind" 1701351402 1346 e5f08648c6301d5dce54bd1267361ae0 "makeindex tese.idx"
+  "tese.lof" 1701353287 808 ec708492b1a95a4ffb51f41f5cfe929e "pdflatex"
+  "tese.lot" 1701353287 2806 f7f4c3fa48d710ba76164bdfb530410b "pdflatex"
+  "tese.out" 1701353287 3491 0a3753fedf9b3d2a2bf250be2285e998 "pdflatex"
+  "tese.run.xml" 1701353287 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
+  "tese.tex" 1701351471 17318 cf1fd412bdd8e43d8adafec26dc62e5e ""
+  "tese.toc" 1701353287 1869 ba371692eb4f825f4ce8cc2a803c56ad "pdflatex"
   (generated)
   "tese.aux"
   "tese.bcf"

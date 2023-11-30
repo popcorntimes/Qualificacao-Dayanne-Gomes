@@ -20,5 +20,6 @@
 \contentsline {chapter}{\numberline {5}Resultados preliminares}{25}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Perfil dos candidatos, instituições de ensino e cursos de graduação}{25}{section.5.1}%
 \contentsline {chapter}{\numberline {6}Plano de trabalho}{33}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Classificação de cursos}{35}{appendix.A}%
 \vspace {2\baselineskip plus .5\baselineskip minus .5\baselineskip }
-\contentsline {chapter}{Refer\^encias}{35}{chapter*.26}%
+\contentsline {chapter}{Refer\^encias}{41}{appendix*.26}%

@@ -95,7 +95,7 @@ Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de est
   \label{tab:situacao-em}
   \end{table}
 
-  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluiu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluíntes não terem um ano de conclusão especificado (ainda a concluir). A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), e, dentre os que informaram, a maior parte que concluiu no ensino regular (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira única a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código no conjunto de dados de 2016.
+  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluiu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluintes não terem um ano de conclusão especificado (ainda a concluir). A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), e que, dentre os que informaram, a maior parte concluiu no ensino regular (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira única a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código no conjunto de dados de 2016.
 
   \begin{table}[h]
     \begin{tabular}{ccc}
@@ -177,7 +177,7 @@ Já no \textit{dataset} do SISU 2017, os dados estão estruturados de forma dife
   \label{tab:inscricoes-inscritos-sisu}
   \end{table}
 
-Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que pode ser de apenas 1 ou 2 cursos, pode-se perceber que 94,3\% dos participantes opta por se inscrever nas duas opções disponíveis, como mostra a \autoref{tab:quantidade-cursos-sisu}.
+Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que pode ser de apenas 1 ou 2 cursos, pode-se perceber que 94,35\% dos participantes opta por se inscrever nas duas opções disponíveis, como mostra a \autoref{tab:quantidade-cursos-sisu}.
 
   \begin{table}[h]
     \begin{tabular}{ccc}
@@ -191,7 +191,7 @@ Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que
     \label{tab:quantidade-cursos-sisu}
     \end{table}
 
-É possível que um candidato realize inscrição em somente uma das aberturas ou em ambas, observado na \autoref{tab:caso-inscricao-sisu}. Mais da metade (64,4\%) optou por se inscrever apenas na primeira abertura.
+É possível que um candidato realize inscrição em somente uma das aberturas ou em ambas, observado na \autoref{tab:caso-inscricao-sisu}. Mais da metade (64,36\%) optou por se inscrever apenas na primeira abertura.
 
 \begin{table}[h]
   \begin{tabular}{ccc}
@@ -206,7 +206,7 @@ Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que
   \label{tab:caso-inscricao-sisu}
   \end{table}
 
-Também é possível que o candidato tenha até 4 inscrições em cursos ao longo do ano, com o máximo de 2 por semestre. A \autoref{tab:total-inscricoes-inscritos-sisu} mostra a quantidade de inscritos pelo total de inscrições. A maior parte dos estudantes realizou 2 inscrições (65,08\%), com o segundo maior total sendo de 4 inscrições (27.90\%). 
+Também é possível que o candidato tenha até 4 inscrições em cursos ao longo do ano, com o máximo de 2 por semestre. A \autoref{tab:total-inscricoes-inscritos-sisu} mostra a quantidade de inscritos pelo total de inscrições. A maior parte dos estudantes realizou 2 inscrições (65,09\%), com o segundo maior total sendo de 4 inscrições (27,90\%). 
 
 \begin{table}[]
   \centering
@@ -234,4 +234,4 @@ No \textit{dataset} do ENEM, as notas agrupadas foram suficientes para identific
 Através do identificador criado, foi realizada a combinação das bases de dados. O resultado foi uma base única que associa todas as informações dos candidatos presentes nos \textit{datasets} do ENEM e SISU. Nessa base, são encontrados 712.526 registros, que representam participantes encontrados tanto no SISU, quanto no ENEM. 27,14\% dos participantes do ENEM foram encontrados no SISU, ao passo que 51,33\% dos participantes do SISU foram encontrados no ENEM. Vale notar que, para se inscrever no SISU, é obrigatório a realização do ENEM, mas nesse estudo, estamos utilizando apenas uma parte dos dados do exame, por isso a correspondência de participantes do SISU no ENEM não é de 100\%.
 
 O conjunto de dados obtido será utilizado na combinação com uma terceira fonte, a do Censo Escolar. Através do Censo, poderemos caracterizar as escolas de ensino médio nas quais os estudantes se formaram. Os dados dessa fonte passarão por pré-processamento e análise exploratória, semelhante ao já realizado. Também com esses dados, realizaremos a aplicação da metodologia de variações idiossincráticas na composição de gênero através das coortes escolares \footnote{Para variável indicadora de curso, os cursos de graduação foram agrupados de acordo com a área do conhecimento, utilizando a classificação 
-\href{https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf}{ISCED}. As áreas do conhecimento foram organizadas nos seguintes grupos: Educação; Humanidades e Artes, Ciências sociais, Negócios e Direito; Engenharia, Manufatura e construção; Ciência; Agricultura; Saúde e bem-estar; Serviços; Não informado.}. Isso será realizado em etapas futuras da pesquisa, que serão descritas no \autoref{cap:plano-trabalho}. O próximo capítulo apresentará os resultados da análise descritiva dos dados levantados até então. Essa análise está segmentada por gênero e por aprovação nos cursos.
+\href{https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf}{ISCED}. As áreas do conhecimento foram organizadas nos seguintes grupos: Educação; Humanidades e Artes, Ciências sociais, Negócios e Direito; Engenharia, Manufatura e construção; Ciência; Agricultura; Saúde e bem-estar; Serviços e Não informado.}. Isso será realizado em etapas futuras da pesquisa, que serão descritas no \autoref{cap:plano-trabalho}. O próximo capítulo apresentará os resultados da análise descritiva dos dados levantados até então. Essa análise está segmentada por gênero e por aprovação nos cursos.
