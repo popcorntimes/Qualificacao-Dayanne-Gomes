@@ -1271,6 +1271,44 @@
       \verb https://doi.org/10.1007/s00181-019-01697-2
       \endverb
     \endentry
+    \entry{Senkevics2021}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69607a29f71666e6a668eac647567bfe}{%
+           family={Senkevics},
+           familyi={S\bibinitperiod},
+           given={Adriano\bibnamedelima Souza},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo, Programa de Pós-Graduação em Educação e Ciências Sociais: Desigualdades e Diferenças}%
+      }
+      \strng{namehash}{69607a29f71666e6a668eac647567bfe}
+      \strng{fullhash}{69607a29f71666e6a668eac647567bfe}
+      \strng{bibnamehash}{69607a29f71666e6a668eac647567bfe}
+      \strng{authorbibnamehash}{69607a29f71666e6a668eac647567bfe}
+      \strng{authornamehash}{69607a29f71666e6a668eac647567bfe}
+      \strng{authorfullhash}{69607a29f71666e6a668eac647567bfe}
+      \field{labelalpha}{Sen21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O acesso, ao inverso: desigualdades à sombra da expansão do ensino superior brasileiro, 1991-2020}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.11606/t.48.2021.tde-11012022-103758
+      \endverb
+      \verb{urlraw}
+      \verb https://www.teses.usp.br/teses/disponiveis/48/48137/tde-11012022-103758/pt-br.php
+      \endverb
+      \verb{url}
+      \verb https://www.teses.usp.br/teses/disponiveis/48/48137/tde-11012022-103758/pt-br.php
+      \endverb
+    \endentry
     \entry{Kazi2017}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9edd56de5e4ed8f7648a6aab7f35f3fa}{%

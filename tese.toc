@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {1.1}Motivação e Objetivos}{2}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Fundamental teórico}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Estudo de coorte}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Estratégias empíricas: Variações idiossincráticas na composição de gênero}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Estratégias empíricas: Variações idiossincráticas na composição de gênero}{6}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Efeitos de gênero em escolhas de graduação}{8}{subsection.2.2.1}%
 \contentsline {chapter}{\numberline {3}Trabalhos relacionados}{11}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Metodologia do trabalho já desenvolvido}{15}{chapter.4}%
@@ -21,4 +21,4 @@
 \contentsline {section}{\numberline {5.1}Perfil dos candidatos, instituições de ensino e cursos de graduação}{25}{section.5.1}%
 \contentsline {chapter}{\numberline {6}Plano de trabalho}{33}{chapter.6}%
 \vspace {2\baselineskip plus .5\baselineskip minus .5\baselineskip }
-\contentsline {chapter}{Refer\^encias}{35}{chapter*.27}%
+\contentsline {chapter}{Refer\^encias}{35}{chapter*.26}%

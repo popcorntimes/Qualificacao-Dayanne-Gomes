@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber tese"] 1701047378 "tese.bcf" "tese.bbl" "tese" 1701050965 0
-  "./bibliografia.bib" 1701028464 25295 bcd977ce1c770509a678691901151890 ""
-  "tese.bcf" 1701050964 110892 b4cec211561e8a33ec3f88b318ed050c "pdflatex"
+["biber tese"] 1701304920 "tese.bcf" "tese.bbl" "tese" 1701305653 0
+  "./bibliografia.bib" 1701289769 25867 76be493f0cd543048550b6295b231609 ""
+  "tese.bcf" 1701305652 110433 99d91cdbdf42eb04b5eb044b4dc8d0ae "pdflatex"
   (generated)
   "tese.bbl"
   "tese.blg"
   (rewritten before read)
-["makeindex tese.idx"] 1701047377 "tese.idx" "tese.ind" "tese" 1701050965 0
-  "tese.idx" 1701050964 970 0227713bbbfcf04d5918a1f095876067 "pdflatex"
+["makeindex tese.idx"] 1701304937 "tese.idx" "tese.ind" "tese" 1701305653 0
+  "tese.idx" 1701305652 970 0227713bbbfcf04d5918a1f095876067 "pdflatex"
   (generated)
   "tese.ilg"
   "tese.ind"
   (rewritten before read)
-["pdflatex"] 1701050952 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1701050965 0
+["pdflatex"] 1701305640 "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" "tese.pdf" "tese" 1701305653 0
   "c:/Users/Dayanne/Downloads/Qualificação - Dayanne Gomes/tese.tex" 1701050938 17314 72286589b46a17718e593c7ed2407f7c ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1699321035 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc" 1699321035 3498 97969c5bc9b87f369104f937c6467737 ""
@@ -23,6 +23,7 @@
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_sfissr.enc" 1699321035 3016 daaaaf7d4b79d855ad91d510973da2be ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMI.enc" 1699321040 2466 b4c444f17020acc82bb4a3da32916aa7 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusMR.enc" 1699321040 3940 bb01245c239dcb8d912830d7c39aa264 ""
+  "c:/texlive/2023/texmf-dist/fonts/enc/dvips/libertinust1math/libusSYM.enc" 1699321040 4342 fc783f37409c0a6dcd3fcf5ad3caaf58 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1699318462 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1699317442 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1699317442 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -39,8 +40,6 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.tfm" 1699321036 19256 68c22c3abd597144cef6aba1b8dd4764 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1--base.tfm" 1699321036 1980 ee4e80868f9293fddd1db5ab8e0a38a6 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1.tfm" 1699321036 19812 ed905cc003c66bd0bebf8de6357fde58 ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1--base.tfm" 1699321036 1920 22169a2e7be95a5eda143d153b462fad ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.tfm" 1699321036 14704 37dd52109a3ea33b27e05632d6c1503c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1--base.tfm" 1699321036 1948 dc26ea325226e711f9fa6e5a9ff07346 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.tfm" 1699321036 19720 c359a66af768e3d6a1f8e5462c7c8530 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1--base.tfm" 1699321036 1676 d268f13ae3ae69c0e3c3384bbc803d3a ""
@@ -67,7 +66,6 @@
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.vf" 1699321036 1704 7e1e5f00dd1efc113726634f72c6ddbd ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.vf" 1699321036 1728 321ecc09a691c45108905d51b3e8446a ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-BoldItalic-tlf-t1.vf" 1699321036 1732 016f3ece83c76e2d1a9648d6964ddd4b ""
-  "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-sc-t1.vf" 1699321036 1732 66b5eec7b7684e62073c4037aa9de6f6 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.vf" 1699321036 1728 1ad5aff32545af479de85aa70e5d6e82 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-sc-t1.vf" 1699321036 1732 7f7e0f1c17973da4f410e6fedc410051 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.vf" 1699321036 1728 35c890e6ff1b8a02b61db3e4539525b0 ""
@@ -411,13 +409,13 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1699325063 4753603 383a31e199d96e9d74a6cf2558b44381 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1699325274 8213005 52f3422633f0dafb39dc4069777105de ""
   "c:/texlive/2023/texmf.cnf" 1699325034 713 e69b156964470283e0530f5060668171 ""
-  "conteudo/01-introducao.tex" 1701005359 7128 c2aff1c6aa2947a8a17372db260487a7 ""
-  "conteudo/02-fundamental-teorico.tex" 1701012311 14212 a4f9056304fbda10740c1eefa6144ce8 ""
-  "conteudo/03-trabalhos-relacionados.tex" 1701030311 13135 8879b8590a19987ee295679cd2278ff4 ""
-  "conteudo/04-metodologia.tex" 1701035207 30141 0827120e70e066a287e3aba89bf734d7 ""
-  "conteudo/05-resultados-preliminares.tex" 1701050099 23901 a9e83924c44ce349654275fe6d5bc198 ""
+  "conteudo/01-introducao.tex" 1701290540 7558 8af6ae24ab5789df9f953824e1091a38 ""
+  "conteudo/02-fundamental-teorico.tex" 1701298057 12546 22fc61cad8c0da40bc77df16ee1c72f8 ""
+  "conteudo/03-trabalhos-relacionados.tex" 1701300085 8877 475770b9c9fed38e7012e55ca23b7c8c ""
+  "conteudo/04-metodologia.tex" 1701305638 30353 90336272b9e790a7d069e8414cf54044 ""
+  "conteudo/05-resultados-preliminares.tex" 1701086326 23899 a17df9ad5e86d663d07e85fed71eb54a ""
   "conteudo/06-plano-trabalho.tex" 1701050749 3614 5184d851eaa5152d1d45434f733fcc73 ""
-  "conteudo/resumoabstract.tex" 1700945260 5090 727468fce85cd76f0e8d1a9b00ee3473 ""
+  "conteudo/resumoabstract.tex" 1701288581 5195 121ee14b3c5fd742d51c3cc9564dbcab ""
   "extras/basics.tex" 1699361450 20308 8c2dc636dc80948406b5ecbec43fd6d9 ""
   "extras/bibconfig.tex" 1699361450 4113 4d8dba9b9b4a53d2d65b5bc6d046cb43 ""
   "extras/floats.tex" 1699361450 15187 242a5fcc63c81f3fa9e8888b24657efa ""
@@ -441,15 +439,15 @@
   "figuras/distribuicao_residencia_candidatos.pdf" 1699584357 15033 11953da42f941376e0068b7e12eaf235 ""
   "hyperxindy.xdy" 1699361510 301 e1a1e2f569821a37ccf6e0c8ec8620ec ""
   "mkidxhead.ist" 1699361510 80 c56667d514c1ae5929d36d5c24f727ad ""
-  "tese.aux" 1701050964 18515 3d186e0950b7287fc5f121e1ec635be2 "pdflatex"
-  "tese.bbl" 1701047381 68327 2f5462a225516fc4c11ac14c8b5f06bc "biber tese"
-  "tese.ind" 1701047378 1346 e5f08648c6301d5dce54bd1267361ae0 "makeindex tese.idx"
-  "tese.lof" 1701050964 788 0f3c929548de2b069e3abdf8a72d2573 "pdflatex"
-  "tese.lot" 1701050964 2965 d7d3489ef53f515b79d24fd29eb2ce3e "pdflatex"
-  "tese.out" 1701050964 3319 5077cc9932531058b44410bd372788dd "pdflatex"
-  "tese.run.xml" 1701050964 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
+  "tese.aux" 1701305652 17333 22d2c8c8ada7a990b0c89d567c8c3456 "pdflatex"
+  "tese.bbl" 1701304924 70045 2cd121160e570f41a360534744a2585c "biber tese"
+  "tese.ind" 1701304938 1346 e5f08648c6301d5dce54bd1267361ae0 "makeindex tese.idx"
+  "tese.lof" 1701305652 788 b2cfaedee5316f6e08ddeb9bf0b1a86d "pdflatex"
+  "tese.lot" 1701305652 2688 2aacfa20882aeb90800b95d77bd1e821 "pdflatex"
+  "tese.out" 1701305652 3319 5c8288f9314ab0330f6de664c7de3140 "pdflatex"
+  "tese.run.xml" 1701305652 2466 3ee5bd278abc846af94930ead8952602 "pdflatex"
   "tese.tex" 1701050938 17314 72286589b46a17718e593c7ed2407f7c ""
-  "tese.toc" 1701050964 1785 37245bc643e4b2ff668c7c7a3ba6e7b4 "pdflatex"
+  "tese.toc" 1701305652 1785 35fbf506f8d4260dc059e08a4b0796a5 "pdflatex"
   (generated)
   "tese.aux"
   "tese.bcf"

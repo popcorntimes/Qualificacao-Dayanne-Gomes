@@ -36,7 +36,7 @@ Como parte da política adotada pela Lei Geral de Proteção de Dados Pessoais (
 \subsection{SISU}
 O Sistema de Seleção Unificada (SISU) é um sistema eletrônico do Ministério da Educação, no qual instituições públicas de ensino superior de todo o Brasil oferecem vagas para estudantes participantes do Exame Nacional do Ensino Médio. Durante o período da oferta de vagas, os alunos são ranqueados de acordo com as notas no exame e, aqueles com melhor classificação, são selecionados. Em cada processo seletivo do SISU, que tem duas aberturas anuais, o candidato pode escolher até duas opções de curso. É possível verificar informações sobre as vagas oferecidas, como cursos, instituições e localizações, turnos e modalidade de concorrência \autocite{mec:1}.
 
-No ato da inscrição, o sistema recupera as notas da edição mais recente anterior do ENEM. Por exemplo, o SISU 2023 leva em consideração a edição do ENEM 2022. Apenas aqueles que obtiveram nota superior a zero na redação e não têm o status de treineiro no ENEM podem se inscrever. O processo é totalmente digital e gratuito, sendo o estudante o responsável por acompanhar o status da sua inscrição durante o mesmo. Quando não há a aprovação em uma das duas opções selecionadas, conhecido por chamada regular, ainda é possível a disputa por vaga através da lista de espera.
+No ato da inscrição, o sistema recupera as notas da edição mais recente anterior do ENEM. Por exemplo, o SISU 2023 leva em consideração a edição do ENEM 2022. Apenas aqueles que obtiveram nota superior a zero na redação e não têm o status de treineiro no ENEM podem se inscrever. O processo é totalmente digital e gratuito, sendo o estudante o responsável por acompanhar o status da sua inscrição. Quando não há a aprovação em uma das duas opções selecionadas, conhecido por chamada regular, ainda é possível a disputa por vaga através da lista de espera.
 
 Os dados do Sistema de Seleção Unificada foram obtidos através do Portal de Dados Abertos do MEC. O portal é uma plataforma que disponibiliza dados e informações públicas do Ministério da Educação, que podem ser usadas no desenvolvimento de aplicativos e ações. Além do SISU, é possível observar conjuntos de dados de outros programas como FIES, ProUni e PRONATEC. São disponibilizados dados relacionados às inscrições realizadas nos processos seletivos dos anos de 2017 a 2022.  Nesta etapa preliminar da pesquisa, utilizamos os dados do ano de 2017.
 
@@ -71,7 +71,7 @@ como manipulação de \textit{strings} e realização de cálculos matemáticos.
 para tipos de dados mais precisos, que pudessem melhorar os resultados da análise.
 
 Outra característica dos \textit{datasets} é que eles são imperfeitos. Apesar da presença de documentação auxiliar que define como os dados se comportam, na prática, os dados têm um estado diferente, incompletos e com "sujeiras". Como a qualidade dos dados interfere nos resultados obtidos, foi necessário observar características dos dados para definir uma abordagem adequada.
-Um dos problemas notados foi a ausência de valores em alguns campos. Por exemplo, foram encontrados registros de inscrições do SISU que não possuíam o curso de graduação do candidato. Optamos por não descartar esses registros que tivessem valores faltando, já que poderia causar uma perda de acurácia e um viés de auto-seleção, bem como a desconsideração de algumas \textit{features} mais importantes que outras. 
+Um dos problemas notados foi a ausência de valores em alguns campos. Por exemplo, foram encontrados registros de inscrições do SISU que não possuíam o curso de graduação do candidato. Optamos por não descartar esses registros que tivessem valores faltando, já que poderia gerar uma escolha não-aleatória e a inserção de potenciais viéses. 
 
 Visando solucionar essa questão, criamos novas classes de valores para representar uma instância de informação ausente e, quando possível, utilizamos funções de probabilidade para inserir valores inferidos. Também tornamos os dados consistentes entre si, já que para a combinação das bases de dados, é necessário que os valores sejam do mesmo tipo e estejam uniformes em cada uma elas. Ao realizarmos uma análise de anomalias para detectar valores problemáticos, observamos uma situação particular na qualidade dos dados do SISU. Por conter mais de um \textit{dataset} da chamada regular, era necessário agrupá-los para obter o cenário do ano como um todo, mas um deles estava parcialmente corrompido. A utilização inadvertida de dados não-estruturados pode levar a interpretações incorretas e falsas conclusões no processo de análise. Assim, realizamos um filtro dessas anomalias, relacionadas aos nomes das instituições de ensino, seus campi e cursos de graduação, que foram identificadas e tratadas para refletir o comportamento esperado. 
 
@@ -79,7 +79,7 @@ Visando solucionar essa questão, criamos novas classes de valores para represen
 \label{sec:eda}
 A partir da obtenção dos conjuntos de dados pré-processados, pudemos realizar uma análise exploratória de dados. Nesta etapa, iremos utilizar técnicas de manipulação de dados e ferramentas estatísticas para investigar os dados. Nela, conseguimos ter um entendimento melhor do cenário geral a ser explorado, como os dados estão distribuídos, quais são as variáveis, como elas se relacionam entre si e como podemos utilizá-las para responder as questões de pesquisa.
 
-Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de estudantes de todo o país, que totalizam 8.627.367 registros. Cada registro corresponde a inscrição de um único estudante. No ato de realização do exame, esses participantes estão em diferentes situações em relação ao ensino médio, podendo já ter concluído, estar cursando ou não ter concluído e não estar cursando. Essa informação está expressa em duas variáveis: TP\_ST\_CONCLUSAO, Situação de conclusão do Ensino Médio, e Q046, que é a resposta do questionário socioeconômico à pergunta "Você já concluiu ou está concluindo o Ensino Médio?", visualizadas na \autoref{tab:situacao-em}. Em ambas, mais da metade dos estudantes já concluíu o ensino médio, seguidos daqueles que estão cursando e irão concluir em 2016.
+Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de estudantes de todo o país, que totalizam 8.627.367 registros. Cada registro corresponde à inscrição de um único estudante. No ato de realização do exame, esses participantes estão em diferentes situações em relação ao ensino médio, podendo já ter concluído, estar cursando ou não ter concluído e não estar cursando. Essa informação está expressa em duas variáveis: TP\_ST\_CONCLUSAO, Situação de conclusão do Ensino Médio, e Q046, que é a resposta do questionário socioeconômico à pergunta "Você já concluiu ou está concluindo o Ensino Médio?", visualizadas na \autoref{tab:situacao-em}. Em ambas, mais da metade dos estudantes já concluíu o ensino médio, seguidos daqueles que estão cursando e irão concluir em 2016.
 
 \begin{table}[h]
   \begin{tabular}{lcccc}
@@ -95,7 +95,7 @@ Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de est
   \label{tab:situacao-em}
   \end{table}
 
-  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluíu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluíntes não terem um ano de conclusão especificado. A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), além de que aqueles que concluíram em ensino regular constituírem a maioria (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira única a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código no conjunto de dados de 2016.
+  Outros dados relevantes são o ano e o tipo de ensino em que o participante concluiu o ensino médio. A primeira informação está expressa na variável TP\_ANO\_CONCLUIU, que explicita dos anos anteriores ao exame até 2007, agrupando o restante em anterior a 2007 ou não informado, que pode ser visualizado na \autoref{tab:ano-conclusao}. No caso de anos não informados, isso acontece tanto por haver valores ausentes da fonte, quanto pelos alunos concluíntes não terem um ano de conclusão especificado (ainda a concluir). A segunda está expressa em TP\_ENSINO, que descreve o tipo de ensino da instituição na qual o aluno concluiu o ensino médio, que pode ser visualizada na \autoref{tab:tipo-ensino}; nem todos os alunos possuem essa informação. Pode-se observar que um valor significativo dos estudantes não têm o ano de conclusão informado (42,88\%), e, dentre os que informaram, a maior parte que concluiu no ensino regular (19,15\%). Uma variável importante para essa análise da composição das turmas de ensino médio é CO\_ESCOLA. Ela representa um código que identifica de maneira única a instituição junto ao Ministério da Educação. É através dela que poderemos associar a qual escola esse estudante pertence dentro da base do Censo Escolar. De todos os estudantes, apenas 21.81\% possuem esse código no conjunto de dados de 2016.
 
   \begin{table}[h]
     \begin{tabular}{ccc}
@@ -124,6 +124,7 @@ Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de est
       Ensino Regular                              & 1.652.485                                 & 19,15\%                                 \\ \hline
       Educação Especial - Modalidade Substitutiva & 10.295                                   & 0,12\%                                  \\ \hline
       Educação de Jovens e Adultos                & 218.532                                  & 2,53\%                                  \\ \hline
+      Não informado                & 6.746.055                                  & 78,20\%                                  \\ \hline
       \end{tabular}
       \caption{Tipo de ensino da escola dos candidatos do ENEM}
       \label{tab:tipo-ensino}
@@ -131,8 +132,8 @@ Por definição, o \textit{dataset} do ENEM 2016 possui os dados do exame de est
 
 Como nem todos os registros presentes no conjunto contêm todos os dados necessários para a pesquisa, estabelecemos alguns critérios para a aplicação de filtros. Dessa forma, apenas os seguintes registros foram mantidos em nossa base de trabalho:
 \begin{itemize}
-  \item Registros que possuam informação de gênero, já que sem ela não podemos analisar o efeito da composição de gênero;
-  \item Registros de estudantes que já concluíram o ensino médio ou que irão concluir em 2016, excluíndo aqueles que concluirão após 2016 ou não estão cursando e não concluíram; 
+  \item Registros que possuam informação de gênero, já que sem ela não podemos analisar o efeito diferenciado para homens e mulheres;
+  \item Registros de estudantes que já concluíram o ensino médio ou que irão concluir em 2016, excluindo aqueles que concluirão após 2016 ou não estão cursando e não concluíram; 
   \item Registros de estudantes que tenham concluído o ensino médio após 2007, já que não há especificação do ano anterior a 2007;
   \item Registros de estudantes que realizaram ensino médio no Brasil, excluindo aqueles que estudaram no exterior por não haver informação dessas escolas;
   \item Registros de estudantes que não estão realizando o exame como treineiros, já que treineiros não estão aptos a utilizar a nota do ENEM para ingresso em universidade;
@@ -140,7 +141,7 @@ Como nem todos os registros presentes no conjunto contêm todos os dados necess�
   \item Registros que possuam informação de todas as notas obtidas no ENEM.
 \end{itemize}
 
-A \autoref{tab:filtros-enem} descreve as observações durante a aplicação dos filtros. Cada filtro foi aplicado sequencialmente, sendo que os valores mostrados correspondem ao total do conjunto original subtraindo os total de registros excluídos até o momento. Após a aplicação de todos os filtros, restaram-se 1.388.044 registros, que correspondem a 16,09\% do conjunto original. Esse subconjunto de dados filtrados do original é o que passa a ser utilizado nas análises subsequentes.
+A \autoref{tab:filtros-enem} descreve as observações durante a aplicação dos filtros. Cada filtro foi aplicado sequencialmente, sendo que os valores mostrados correspondem ao total do conjunto original subtraindo os total de registros excluídos até o momento. A queda no percentual entre o sétimo e oitavo filtros ocorreu por conta de apenas aqueles que concluirão em 2016 possuem informação da escola de ensino médio. Após a aplicação de todos os filtros, restaram-se 1.388.044 registros, que correspondem a 16,09\% do conjunto original. Esse subconjunto de dados filtrados do original é o que passa a ser utilizado nas análises subsequentes.
 
 \begin{table}[h]
   \begin{tabular}{lcc}
@@ -160,15 +161,17 @@ A \autoref{tab:filtros-enem} descreve as observações durante a aplicação dos
   \label{tab:filtros-enem}
   \end{table}
 
-Já no \textit{dataset} do SISU 2017, os dados estão estruturados de forma diferente, com uma listagem (ou abertura) por semestre na realização do processo seletivo. Cada registro corresponde a uma inscrição de um estudante em um curso, totalizando 6665892 registros. Na \autoref{tab:inscricoes-inscritos-sisu}, podemos observar a quantidade de inscrições e participantes inscritos, divididos por listagem. Em ambos os casos, a primeira listagem concentra a maioria dos registros.
+Já no \textit{dataset} do SISU 2017, os dados estão estruturados de forma diferente, com uma listagem (ou abertura) por semestre na realização do processo seletivo. Cada registro corresponde a uma inscrição de um estudante em um curso, totalizando 6.665.892 registros. Na \autoref{tab:inscricoes-inscritos-sisu}, podemos observar a quantidade de inscrições e participantes inscritos, divididos por listagem. Em ambos os casos, a primeira listagem concentra a maioria dos registros.
 
 \begin{table}[h]
-  \begin{tabular}{ccc}
+  \centering
+  \begin{tabular}{ccccc}
   \hline
-  \multicolumn{1}{c}{\textbf{Listagem}} & \textbf{Inscrições} & \textbf{Inscritos} \\ \hline
-  1                                     & 4.868.545                           & 2.494.173                          \\ \hline
-  2                                     & 1.797.347                           & 935.538                           \\ \hline
-  Total                                 & 6.665.892                           & 3.429.711                          \\ \hline
+  \textbf{Listagem} & \multicolumn{2}{c}{\textbf{Inscrições}} & \multicolumn{2}{c}{\textbf{Inscritos}} \\ \hline
+           & \textbf{Quantidade}     & \textbf{Percentual}    & \textbf{Quantidade}    & \textbf{Percentual}    \\ \hline
+  1        & 4.868.545      & 73,03\%       & 2.494.173     & 72,72\%       \\ \hline
+  2        & 1.797.347      & 26,97\%       & 935.538       & 27,28\%       \\ \hline
+  Total    & 6.665.892      & 100\%         & 3.429.711     & 100\%         \\ \hline
   \end{tabular}
   \caption{Inscrições e inscritos no SISU, divididos por listagem}
   \label{tab:inscricoes-inscritos-sisu}
@@ -177,12 +180,12 @@ Já no \textit{dataset} do SISU 2017, os dados estão estruturados de forma dife
 Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que pode ser de apenas 1 ou 2 cursos, pode-se perceber que 94,3\% dos participantes opta por se inscrever nas duas opções disponíveis, como mostra a \autoref{tab:quantidade-cursos-sisu}.
 
   \begin{table}[h]
-    \begin{tabular}{cc}
+    \begin{tabular}{ccc}
     \hline
-    \textbf{Opção de curso} & \textbf{Inscritos} \\ \hline
-    Apenas 1 curso          & 193.530                           \\ \hline
-    2 cursos                & 3.236.181                          \\ \hline
-    Total                   & 3.429.711                          \\ \hline
+    \textbf{Opção de curso} & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
+    Apenas 1 curso          & 193.530  &  5,65\%                        \\ \hline
+    2 cursos                & 3.236.181 &  94,35\%                       \\ \hline
+    Total                   & 3.429.711  & 100\%                        \\ \hline
     \end{tabular}
     \caption{Quantidade de inscritos por cursos optados no SISU}
     \label{tab:quantidade-cursos-sisu}
@@ -191,13 +194,13 @@ Quando segmentado pela opção de cursos nos quais o candidato se inscreveu, que
 É possível que um candidato realize inscrição em somente uma das aberturas ou em ambas, observado na \autoref{tab:caso-inscricao-sisu}. Mais da metade (64,4\%) optou por se inscrever apenas na primeira abertura.
 
 \begin{table}[h]
-  \begin{tabular}{cc}
+  \begin{tabular}{ccc}
   \hline
-  \multicolumn{1}{c}{\textbf{Caso de inscrição}}        & \textbf{Inscritos} \\ \hline
-  Apenas na listagem 1  & 1.689.691                          \\ \hline
-  Apenas na listagem 2  & 131.056                           \\ \hline
-  Ambas as listagens & 804.482                           \\ \hline
-  \multicolumn{1}{c}{Total}                & 2.625.229                          \\ \hline
+  \textbf{Caso de inscrição} & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
+  Apenas na listagem 1  & 1.689.691  &  64,36\%                      \\ \hline
+  Apenas na listagem 2  & 131.056  &   5\%                        \\ \hline
+  Ambas as listagens & 804.482  &    30,64\%                     \\ \hline
+  Total  & 2.625.229  &  100\%                        \\ \hline
   \end{tabular}
   \caption{Quantidade de inscritos por caso de inscrição em listagem no SISU}
   \label{tab:caso-inscricao-sisu}
@@ -207,14 +210,14 @@ Também é possível que o candidato tenha até 4 inscrições em cursos ao long
 
 \begin{table}[]
   \centering
-  \begin{tabular}{cc}
+  \begin{tabular}{ccc}
   \hline
-  \textbf{Total de inscrições} & \textbf{Inscritos} \\ \hline
-  1                   & 116.802    \\ \hline
-  2                   & 1.708.599   \\ \hline
-  3                   & 67.420     \\ \hline
-  4                   & 732.408    \\ \hline
-  Total               & 2.625.229   \\ \hline
+  \textbf{Total de inscrições} & \textbf{Quantidade} & \textbf{Percentual} \\ \hline
+  1                   & 116.802  &  4,45\%  \\ \hline
+  2                   & 1.708.599  &  65,09\%  \\ \hline
+  3                   & 67.420  &  2,56\%  \\ \hline
+  4                   & 732.408  & 27,90\%  \\ \hline
+  Total               & 2.625.229  &  100\%  \\ \hline
   \end{tabular}
   \caption{Quantidade de inscritos pelo total de inscrições no SISU}
   \label{tab:total-inscricoes-inscritos-sisu}
@@ -228,20 +231,11 @@ para observar se é possível utilizá-las como identificador único.
 
 No \textit{dataset} do ENEM, as notas agrupadas foram suficientes para identificar cada um dos alunos. Isso porque não há valores duplicados para essas notas, ou seja, cada aluno possui notas únicas. No SISU, isso não foi possível de ser observado, já que 22 notas estão repetidas. Essas notas pertencem a 75 inscritos. As notas repetidas se enquadram em dois casos: 4 notas objetivas zeradas, com exceção da redação (ex.: 0 - 0 - 0 - 0 - 520) ou todas as notas maiores que zero (ex.: 570,4 - 619,6 - 433,5 - 546,1 - 520). Não há caso de candidatos com todas as notas iguais a zero, pois o SISU impede a inscrição quando a nota da redação é zerada. Então, utilizamos outros campos para compor o identificador. O identificador final constitui-se das notas agrupadas, idade, unidade federativa de residência e gênero. Como esses campos estão disponíveis em ambas as bases, é possível identificar o mesmo candidato nas bases com a mesma chave identificadora.
 
-Os cursos de graduação foram agrupados de acordo com a área do conhecimento, utilizando a classificação documentada pelo International Standard Classification of Education\footnote{https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf}, realizada pela UNESCO. Nessa classificação, 25 áreas do conhecimento, e seus respectivos cursos, estão organizadas em 9 grupos: 
+Os cursos de graduação foram agrupados de acordo com a área do conhecimento, utilizando a classificação documentada pelo 
+\href{https://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf}{International Standard Classification of Education}
+As áreas do conhecimento foram organizadas nos seguintes grupos: Educação; Humanidades e Artes, Ciências sociais, Negócios e Direito; Engenharia, Manufatura e construção; Ciência; Agricultura; Saúde e bem-estar; Serviços; Não informado.
 
-\begin{itemize}
-  \item Educação;
-  \item Humanidades e artes;
-  \item Ciências sociais, negócios e direito;
-  \item Ciência;
-  \item Engenharia, manufatura e construção;
-  \item Agricultura;
-  \item Saúde e bem-estar;
-  \item Serviços;
-  \item Não informado.
-\end{itemize}
 
-Através do identificador criado, foi realizada a combinação das bases de dados. O resultado foi uma base única que associa todas as informações dos candidatos presentes nos \textit{datasets} do ENEM e SISU. Nessa base, são encontrados 712526 registros, que representam participantes encontrados tanto no SISU, quanto no ENEM. 27,14\% dos participantes do ENEM foram encontrados no SISU, ao passo que 51,33\% dos participantes do SISU foram encontrados no ENEM. Vale notar que, para se inscrever no SISU, é obrigatório a realização do ENEM, mas nesse estudo, estamos utilizando apenas uma parte dos dados do exame, por isso a correspondência de participantes do SISU no ENEM não é de 100\%.
+Através do identificador criado, foi realizada a combinação das bases de dados. O resultado foi uma base única que associa todas as informações dos candidatos presentes nos \textit{datasets} do ENEM e SISU. Nessa base, são encontrados 712.526 registros, que representam participantes encontrados tanto no SISU, quanto no ENEM. 27,14\% dos participantes do ENEM foram encontrados no SISU, ao passo que 51,33\% dos participantes do SISU foram encontrados no ENEM. Vale notar que, para se inscrever no SISU, é obrigatório a realização do ENEM, mas nesse estudo, estamos utilizando apenas uma parte dos dados do exame, por isso a correspondência de participantes do SISU no ENEM não é de 100\%.
 
 O conjunto de dados obtido será utilizado na combinação com uma terceira fonte, a do Censo Escolar. Através do Censo, poderemos caracterizar as escolas de ensino médio nas quais os estudantes se formaram. Os dados dessa fonte passarão por pré-processamento e análise exploratória, semelhante ao já realizado. Também com esses dados, realizaremos a aplicação da metodologia de variações idiossincráticas na composição de gênero através das coortes escolares. Isso será realizado em etapas futuras da pesquisa, que serão descritas no \autoref{cap:plano-trabalho}. O próximo capítulo apresentará os resultados da análise descritiva dos dados levantados até então. Essa análise está segmentada por gênero e por aprovação nos cursos.
