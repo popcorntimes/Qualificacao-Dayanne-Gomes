@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  30 NOV 2023 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  1 DEC 2023 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2346,21 +2346,21 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 0A3753FEDF9B3D2A2BF250BE2285E998;3491.
+(rerunfilecheck)             Checksum: 6107AB26CE45084A0A2348E8118C839C;3491.
 Package logreq Info: Writing requests to 'tese.run.xml'.
 \openout1 = `tese.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65155 strings out of 474272
- 1465810 string characters out of 5751548
+ 65152 strings out of 474272
+ 1465708 string characters out of 5751548
  2397501 words of memory out of 5000000
  85424 multiletter control sequences out of 15000+600000
- 771697 words of font info for 531 fonts, out of 8000000 for 9000
+ 771320 words of font info for 529 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  108i,18n,120p,2386b,2879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb>
-Output written on tese.pdf (58 pages, 893419 bytes).
+Output written on tese.pdf (58 pages, 893413 bytes).
 PDF statistics:
  929 PDF objects out of 1000 (max. 8388607)
  695 compressed objects within 7 object streams
