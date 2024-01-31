@@ -53,6 +53,10 @@ Pais e alunos podem escolher suas turmas potenciais, o que pode ser um problema 
 y_{iect} = \gamma_0 + \beta_1 \textit{Feminino}_i + \beta_2 \textit{Prop\_FemEM}_{iec} + \\ \beta_3 \textit{Feminino}_i \times \textit{Prop\_FemEM}_{iec} + \alpha_e + \alpha_t + X_i \omega + Z_{ec} \delta + \gamma_{et} + \epsilon_{iect}
 \end{gather*}
 
+\begin{gather*}
+  y_{iect} = \gamma_0 + \beta_1 \textit{Female}_i + \beta_2 \textit{Prop\_FemHS}_{iec} + \\ \beta_3 \textit{Female}_i \times \textit{Prop\_FemHS}_{iec} + \alpha_e + \alpha_t + X_i \omega + Z_{ec} \delta + \gamma_{et} + \epsilon_{iect}
+  \end{gather*}
+
 A equação é composta por:
 
 \begin{itemize}
@@ -61,7 +65,7 @@ A equação é composta por:
   \item $\alpha_e$, efeitos fixos da escola;
   \item $\alpha_t$, efeitos fixos do ano do ENEM;
   \item $X_i$, vetor de características individuais do aluno;
-  \item $Z_{ec}$, variáveis da coorte escolar: tamanho da turma, proporção de alunos que frequentam aulas diurnas, idade média dos colegas;
+  \item $Z_{ec}$, variáveis da coorte escolar;
   \item $\gamma_{ec}$, tendência linear de tempo específica da escola;
   \item $\beta_1$, coeficiente de diferenças de gênero nas variáveis de resultados;
   \item $\beta_2$, coeficiente de efeitos de pares de gênero aplicáveis tanto a homens quanto a mulheres;
